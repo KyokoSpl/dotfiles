@@ -2131,3 +2131,10 @@ git push -u origin main
 : 1718278366:0;cp ~/.config/hypr .config
 : 1718278371:0;cp ~/.config/waybar .config
 : 1718278377:0;addall
+: 1718278386:0;commit "added hypr config"
+: 1718278388:0;push
+: 1718278394:0;stow --adopt .
+: 1718278481:0;rm .config/waybar/config
+: 1718278484:0;stow --adopt .
+: 1718278492:0;git status
+: 1718278496:0;addall

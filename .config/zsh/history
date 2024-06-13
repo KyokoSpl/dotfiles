@@ -2092,3 +2092,37 @@ git push -u origin main
 : 1718257395:0;stow .
 : 1718257413:0;stow --adopt .
 : 1718257426:0;addall
+: 1718257440:0;commit "added tmux config"
+: 1718257447:0;push
+: 1718257515:0;cp ~/.config/BetterDiscord .config
+: 1718257521:0;cp ~/.config/eww .config
+: 1718257526:0;cp ~/.config/chadwm .config
+: 1718257535:0;cp ~/.config/st .config
+: 1718257542:0;cp ~/.config/nvim .config
+: 1718257556:0;cp ~/.config/xmonad .config
+: 1718257562:0;cp ~/.config/xmobar .config
+: 1718257572:0;cp ~/.config/hypr .config
+: 1718257578:0;cp ~/.config/foot .config
+: 1718257608:0;cp ~/.config/easyeffects .config
+: 1718257635:0;cp ~/.config/conky .config
+: 1718257647:0;cp ~/.config/dmscripts .config
+: 1718257659:0;cp ~/.config/dunst .config
+: 1718257692:0;cp ~/.config/kitty .config
+: 1718257740:0;cp ~/.config/picom .config
+: 1718257760:0;cp ~/.config/polybar .config
+: 1718257769:0;cp ~/.config/bspwm .config
+: 1718257803:0;cp ~/.config/rofi .config
+: 1718257808:0;stow --adopt .
+: 1718257839:0;rm .config/rofi/.current_wallpaper
+: 1718257841:0;stow --adopt .
+: 1718257848:0;addall
+: 1718257875:0;git rm --cached -f .config/chadwm
+: 1718257881:0;git status
+: 1718257886:0;addall
+: 1718257899:0;git rm --cached -f .config/chadwm
+: 1718257904:0;cd .config/chadwm
+: 1718257916:0;sudo rm .git .gitignore
+: 1718257923:0;sudo rm -r .git .gitignore
+: 1718257935:0;sudo rm LICENSE
+: 1718257940:0;..
+: 1718257946:0;addall

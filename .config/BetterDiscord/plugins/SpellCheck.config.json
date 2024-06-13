@@ -1,0 +1,14 @@
+{
+	"all": {
+		"amounts": {
+			"maxSimilarAmount": "6"
+		},
+		"choices": {
+			"dictionaryLanguage": "en",
+			"secondaryLanguage": "de"
+		},
+		"general": {
+			"downloadDictionary": false
+		}
+	}
+}

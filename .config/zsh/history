@@ -2138,3 +2138,32 @@ git push -u origin main
 : 1718278484:0;stow --adopt .
 : 1718278492:0;git status
 : 1718278496:0;addall
+: 1718278523:0;stow --adopt .
+: 1718278533:0;commit "fixed waybar issue"
+: 1718278539:0;push
+: 1718278544:0;clear
+: 1718278571:0;cd
+: 1718278575:0;cd .config/kitty
+: 1718278585:0;vi kitty.conf
+: 1718278599:0;cd
+: 1718278601:0;cd dotfiles
+: 1718278605:0;git status
+: 1718278611:0;diff
+: 1718278615:0;git diff
+: 1718278624:0;cd
+: 1718278627:0;cd .config/kitty
+: 1718278635:0;vi kitty.conf
+: 1718278639:0;clear
+: 1718278639:0;cd
+: 1718278649:0;cd dotfiles
+: 1718278686:0;cp ~/startpage startpage
+: 1718278688:0;clear
+: 1718278693:0;stow --adopt .
+: 1718278697:0;addall
+: 1718278707:0;git rm --cached -f startpage
+: 1718278710:0;cd startpage
+: 1718278716:0;sudo rm -r .git .gitignore
+: 1718278721:0;clear
+: 1718278722:0;..
+: 1718278725:0;git status
+: 1718278729:0;addall

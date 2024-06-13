@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>~/startpage 🏠</title>
+  <link rel="stylesheet" type="text/css" href="../src/style.css">
+  <link rel="stylesheet" type="text/css" href="colors.css">
+  <link rel="icon"
+    href="https://code.toofishes.net/cgit/dan/archweb.git/plain/public/static/logos/archlinux-logo-only.svg"
+</head>
+
+<body>
+  <div class="image" id="imageDiv">
+    <img alt="cover-image" id="image" src="../src/images/image1.jpg">
+  </div>
+  <link-grid class="slide-in">
+    <greeting>No Smile, only compile!</greeting>
+    <date id="date"></date>
+    <url-list>
+      <li>~/general </li>
+      <li><a href="https://search.brave.com/">BraveSearch</a></li>
+      <li><a href="https://youtube.com">YouTube</a></li>
+      <li><a href="https://web.whatsapp.com">WhatsApp</a></li>
+      <li><a href="https://huggingface.co/chat/">Huggingchat(ai)</a></li>
+    </url-list>
+    <url-list>
+      <li>~/dev </li>
+      <li><a href="http://10.100.100.249:8006">Proxmox</a></li>
+      <li><a href="https://scm.sks-kinkel.de/">Gitlab</a></li>
+      <li><a href="https://github.com/">github</a></li>
+      <li><a href="http://10.100.100.242:5000">Wireguard</a></li>
+    </url-list>
+    <url-list>
+      <li>~/school 拾</li>
+      <li><a href="https://www.schulcampus-rlp.de/login">Campus</a></li>
+      <li><a href="https://sdui.app/timetable/users/3691775">Sdui</a><li>
+      <li><a href="https://www.netacad.com/portal/learning">Cisco netacad</a></li>
+    </url-list>
+    <url-list>
+      <li>~/work stuff 🖫</li>
+      <li><a href="https://outlook.office.com/mail/">Outlook</a></li>
+      <li><a href="https://zeiterfassung.sks-kinkel.de/Home/Login">Timecard</a></li>
+      <li><a href="https://pwsafe.sks-kinkel.de/#/lock">Bitwarden</a></li>
+      <li><a href="https://agenda-personal-portal.de/login">Perso-protal</a></li>
+    </url-list>
+  </link-grid>
+  <script type="text/javascript" src="./localStorageHelper.js"></script>
+  <script type="text/javascript" src="../src/dateHelper.js"></script>
+  <script type="text/javascript" src="../src/colorHelper.js"></script>
+</body>
+
+</html>

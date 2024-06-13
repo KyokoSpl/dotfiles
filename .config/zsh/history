@@ -2072,3 +2072,13 @@ git remote add origin git@github.com:KyokoSpl/dotfiles.git\
 git push -u origin main
 : 1718256929:0;git status
 : 1718256935:0;addall
+: 1718256944:0;commit "added first files"
+: 1718256947:0;push
+: 1718256953:0;status
+: 1718256956:0;git status
+: 1718256982:0;vi .gitignore
+: 1718256999:0;ls
+: 1718257004:0;cd .config/zsh
+: 1718257005:0;ls
+: 1718257027:0;git status
+: 1718257032:0;addall

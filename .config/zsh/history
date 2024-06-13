@@ -2126,3 +2126,8 @@ git push -u origin main
 : 1718257935:0;sudo rm LICENSE
 : 1718257940:0;..
 : 1718257946:0;addall
+: 1718257958:0;commit "added all configs"
+: 1718257961:0;push
+: 1718278366:0;cp ~/.config/hypr .config
+: 1718278371:0;cp ~/.config/waybar .config
+: 1718278377:0;addall

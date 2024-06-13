@@ -2082,3 +2082,13 @@ git push -u origin main
 : 1718257005:0;ls
 : 1718257027:0;git status
 : 1718257032:0;addall
+: 1718257051:0;commit "fixed zsh history issue"
+: 1718257057:0;push
+: 1718257149:0;ls
+: 1718257156:0;git status
+: 1718257166:0;vi .gitignore
+: 1718257292:0;clear
+: 1718257371:0;cp ~/.config/tmux .config
+: 1718257395:0;stow .
+: 1718257413:0;stow --adopt .
+: 1718257426:0;addall

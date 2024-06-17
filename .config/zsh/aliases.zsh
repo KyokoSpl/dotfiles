@@ -10,14 +10,13 @@ alias trim_all="sudo fstrim -va"
 alias mkgrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias mtar='tar -zcvf' # mtar <archive_compress>
 alias utar='tar -zxvf' # utar <archive_decompress> <file_list>
-alias z='zip -r' # z <archive_compress> <file_list>
 alias uz='unzip' # uz <archive_decompress> -d <dir>
 alias sr='source ~/.config/zsh/env.zsh'
-alias ..="cd .."
-alias ...='cd ../..'
-alias .3='cd ../../..'
-alias .4='cd ../../../..'
-alias .5='cd ../../../../..'
+alias ..="z .."
+alias ...='z ../..'
+alias .3='z ../../..'
+alias .4='z ../../../..'
+alias .5='z ../../../../..'
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 alias mkdir="mkdir -p"
 alias pacs='sudo pacman -S'
@@ -68,12 +67,12 @@ alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pac
 # adding flags
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
-
+alias cd='z'
 
 # dwm
 alias dwm-recomp="rm config.h && sudo make install"
 
 # todos
 alias todo="bat ~/Documents/rust_todo.json"
-
+alias st="st -w '' tmux"
 # vim:ft=zsh.

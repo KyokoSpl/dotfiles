@@ -8,6 +8,7 @@
 while read file
 do 
   source "$ZDOTDIR/$file.zsh"
+  source "$HOME/.config/zsh/fzf-git.sh"
 done <<-EOF
 theme
 env

@@ -231,7 +231,6 @@ cmake --build build
 : 1707891287:0;whereis cargo
 : 1707891292:0;whereis rustup
 : 1707891295:0;whereis rust
-: 1707891493:0;rustup default stable
 : 1707891527:0;curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash
 : 1707891769:0;vi variables/variables1.rs
 : 1707891807:0;vi variables1.rs
@@ -319,7 +318,6 @@ cmake --build build
 : 1708336249:0;tar -xvf Geekbench-6.2.2-Linux.tar.gz
 : 1708336256:0;cd Geekbench-6.2.2-Linux
 : 1708336264:0;./geekbench6
-: 1708342078:0;cd dotfiles
 : 1708342105:0;cd dots
 : 1708342110:0;cd configs
 : 1708342137:0;cd dotfiles-2.0
@@ -1022,7 +1020,6 @@ vi -u NONE -c "helptags fugitive/doc" -c q
 : 1712649188:0;cd Deutsch
 : 1712649192:0;cd Fachbuchvorstellung-Projekt
 : 1712649203:0;onlyoffice-desktopeditors Kap\ 5.5\ Python\ stuff\ zusammenfassung.odt
-: 1712658820:0;vi gitclone/dbm-intern-ranking/api/src/main.rs
 : 1712658842:0;vi .config/kitty/kitty.conf
 : 1712722580:0;pacs maui-shell-git
 : 1712722595:0;paru maui-shell-git
@@ -1205,12 +1202,10 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1713946822:0;vi sftp.rs
 : 1713946841:0;vi example
 : 1713946870:0;,,
-: 1713946979:0;status
 : 1713947125:0;clone https://scm.sks-kinkel.de/products/ip/postbox/click-and-collect
 : 1713947160:0;clone git@scm.sks-kinkel.de:products/ip/postbox/click-and-collect.git
 : 1713947244:0;vi wait-for-db.sh
 : 1713947774:0;vi api
-: 1713947811:0;vi dbm-intern-ranking-gui/src/main.rs
 : 1713947932:0;cd click-and-collect
 : 1713948176:0;rustc --print feature\
  | grep proc_macro_span_shrink
@@ -1292,7 +1287,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1714225581:0;cargo +nightly run
 : 1714238628:0;paru -S zed
 : 1714299989:0;rm -r .idea
-: 1714300128:0;vi .gitignore
 : 1714300152:0;commit "changed .gitignore"
 : 1714300179:0;vi Rocket.toml
 : 1714300362:0;cd gitclone/nameplate-updater
@@ -1315,7 +1309,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1714386693:0;spicetify apply
 : 1714459999:0;commit "added database connection"
 : 1714511234:0;pacs libreoffice
-: 1714512045:0;vi aliases.zsh
 : 1714512072:0;vi env.zsh
 : 1714581379:0;journalctl -u splat3-netlog
 : 1714622135:0;cd startpage/fazzi
@@ -1437,11 +1430,9 @@ git checkout 7-add-personality-to-gui
 : 1715833316:0;ping 212.132.108.197
 : 1715833869:0;sudo rm -r dbm-intern-ranking
 : 1715833895:0;clone git@github.com:KyokoSpl/dbm-intern-ranking.git
-: 1715833918:0;cd dbm-intern-ranking
 : 1715844193:0;openvpn --config vpn.ovpn --data-ciphers AES-256-CBC
 : 1715844205:0;whereis vpn.ovpn
 : 1715844216:0;sudo find / -iname vpn.ovpn
-: 1715844247:0;vi .zshrc
 : 1715945020:0;cd actix-api
 : 1715946533:0;cd dbm-intern-ranking-gui
 : 1715946553:0;sudo cp target/debug/dbm-intern-ranking-gui /bin/
@@ -1780,12 +1771,10 @@ sudo make install
 : 1717570181:0;cd cpp_test
 : 1717570187:0;cd hello
 : 1717570812:0;ssh root@212.132.108.197
-: 1717574521:0;cd Documents
 : 1717574531:0;vi Health/monitoring.txt
 : 1717577149:0;vi MAJG.txt
 : 1717577199:0;ranger
 : 1717580453:0;clone git@scm.sks-kinkel.de:products/ip/health-monitoring-clients.git
-: 1717580468:0;checkout 1-feature-my-sks-test
 : 1717580879:0;lxappearance
 : 1717582278:0;cd todo_app
 : 1717582927:0;cargo install tldr
@@ -1793,7 +1782,6 @@ sudo make install
 : 1717583163:0;bat src/main.rs
 : 1717583422:0;v
 : 1717586606:0;cargo install rsftch
-: 1717593424:0;vi kitty.conf
 : 1717593436:0;cd kitty
 : 1717593439:0;v kitty.conf
 : 1717593472:0;v decay.ini
@@ -1819,7 +1807,6 @@ sudo make install
 : 1717654570:0;cd TuxMC-rust
 : 1717665513:0;cd/
 : 1717665534:0;cd dot
-: 1717665537:0;cd config
 : 1717665544:0;vi brave-beta-flags.conf
 : 1717665555:0;vi brave-flags.conf
 : 1717665563:0;vi starship.toml
@@ -1834,37 +1821,25 @@ sudo make install
 : 1717667144:0;pacs slock
 : 1717738228:0;mkdir system-healt-monitoring
 : 1717738234:0;mv health-monitoring-clients system-healt-monitoring
-: 1717738244:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
 : 1717738263:0;git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
 : 1717738268:0;git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.gitgit@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
-: 1717739355:0;fzf
 : 1717739502:0;cd chadwm
 : 1717739737:0;slock
 : 1717740022:0;clone git@github.com:KyokoSpl/my-dots.git
-: 1717740030:0;cd my-dots
 : 1717740489:0;git rm --cached .config/chadwm
-: 1717740510:0;git rm --cached -f .config/chadwm
-: 1717740518:0;git status
 : 1717740541:0;sudo rm .gitignore
-: 1717740547:0;sudo rm LICENSE
 : 1717740552:0;sudo rm README.md
 : 1717740568:0;commit "added dots"
 : 1717740647:0;git rm --cached -f .config/tabbed
-: 1717740665:0;sudo rm -r .git
 : 1717740684:0;rm LICENSE README
 : 1717740698:0;commit "added tabbed"
 : 1717740720:0;vi README.md
-: 1717740775:0;addall
 : 1717740785:0;commit "added  README.md"
-: 1717740786:0;push
 : 1717741245:0;paru -S proton
 : 1717741272:0;paru -S protonmail-desktop
 : 1717745055:0;sudo vpn
-: 1717745117:0;vpn
 : 1717746633:0;vi scripts/run.sh
 : 1717748508:0;cd gti
-: 1717748510:0;cd gitclone
-: 1717748519:0;cd system-healt-monitoring
 : 1717748540:0;git checkout 1-feature-init-system-health-monitoring-agent
 : 1717748852:0;unzip lsw-0.3.tar.gz
 : 1717748865:0;tar -xvf lsw-0.3.tar.gz
@@ -1906,13 +1881,11 @@ sudo make install
 : 1718006806:0;cd api-client
 : 1718006813:0;cd python
 : 1718006817:0;cd pytest-example
-: 1718006843:0;vi .config/zsh/aliases.zsh
 : 1718007257:0;todo_app
 : 1718007288:0;todo
 : 1718007336:0;cd .config/hypr/
 : 1718007341:0;vi hyprland.conf
 : 1718007361:0;vi hyprland
-: 1718084912:0;vi Cargo.toml
 : 1718085131:0;spicetify restore backup applz
 : 1718085135:0;spicetify restore backup apply
 : 1718085142:0;spicetify backup apply
@@ -1920,7 +1893,6 @@ sudo make install
 : 1718085993:0;via
 : 1718086061:0;sudo via
 : 1718086078:0;sudo via --no-sandbox
-: 1718086541:0;cargo build
 : 1718086981:0;su
 : 1718095667:0;Zed .
 : 1718096608:0;vi .config/nvim/lua/plugins/user.lua
@@ -1939,14 +1911,11 @@ sudo make install
 : 1718170651:0;cd Applications
 : 1718171240:0;lsw
 : 1718171910:0;cd gitclone/system-healt-monitoring
-: 1718171914:0;vi .
 : 1718172261:0;cd .confg
 : 1718172278:0;vi xmonad/xmonad.hs
-: 1718172812:0;cd .config/chadwm
 : 1718172871:0;vi run.sh
 : 1718172886:0;vi bar.sh
 : 1718172937:0;vi rofi
-: 1718172952:0;cd .config
 : 1718172966:0;mv rofi rofi-back/
 : 1718172984:0;mv chadwm/rofi rofi/
 : 1718173002:0;rm -r rofi
@@ -1956,13 +1925,10 @@ sudo make install
 : 1718174698:0;vi sks-device-id.env
 : 1718174738:0;sudo nvim sks-device-id.env
 : 1718180836:0;wethr
-: 1718184828:0;cd gitclone/system-healt-monitoring/system-health-monitoring-agent
 : 1718184835:0;cargo clean
-: 1718186041:0;pull
 : 1718186048:0;cd Customer-Device-Mapper
 : 1718186194:0;ssh root@my-sks-test.de
 : 1718186317:0;cd database
-: 1718186325:0;code .
 : 1718186397:0;vi config.ini
 : 1718186517:0;vi CustomerDeviceMapper.py
 : 1718186838:0;...
@@ -1973,16 +1939,8 @@ sudo make install
 : 1718187000:0;paru -S illogical-impulse-fonts-themes
 : 1718187010:0;rm -r .config/fish
 : 1718187306:0;paru -Syyu
-: 1718192758:0;cd health-monitoring-clients
-: 1718193415:0;cd system-health-monitoring-agent
 : 1718193528:0;cd gitclone/system-healt-monitoring/health-monitoring-clients
-: 1718193532:0;cd scripts
-: 1718193598:0;vi sys_info.sh
-: 1718193626:0;bash sys_info.sh
-: 1718193637:0;cargo run
-: 1718194227:0;vi src/main.rs
 : 1718194387:0;cd .config/st
-: 1718194449:0;cd zsh
 : 1718194452:0;vi keybinds.zsh
 : 1718194518:0;killall tmux
 : 1718194568:0;sudo pacman -S tmux
@@ -1998,11 +1956,6 @@ sudo make install
 : 1718195302:0;killall tabbed
 : 1718195347:0;tabbed -r 2 st -w '' tmux
 : 1718195505:0;kitty
-: 1718195517:0;\
-\
-\
-\
-
 : 1718195733:0;tabbed -r 2 kitty -w '' tmux
 : 1718195742:0;tabbed -r 2 kitty '' tmux
 : 1718195760:0;tmux kitty
@@ -2017,21 +1970,17 @@ sudo make install
 : 1718196036:0;.
 : 1718196074:0;tmux splitw
 : 1718196087:0;tmux kill-pane
-: 1718198126:0;ls
 : 1718198172:0;rm tmux.conf
 : 1718198181:0;tmux --version
 : 1718198185:0;tmux -v
 : 1718198190:0;man tmux
 : 1718198203:0;tmux -V
 : 1718198227:0;cd plugins
-: 1718198233:0;..
 : 1718198267:0;cd .tmux
-: 1718198301:0;cd
 : 1718198304:0;cd .config/tmux
 : 1718198312:0;vi tmux.conf
 : 1718198897:0;nvim
 : 1718199235:0;tmux neww
-: 1718199258:0;clear
 : 1718199382:0;tmux source .config/tmux/tmux.conf
 : 1718199440:0;st -w '' tmux
 : 1718199449:0;vi .config/chadwm/chadwm/config.def.h
@@ -2045,24 +1994,15 @@ sudo make install
 : 1718199990:0;bat .config/zsh/aliases.zsh
 : 1718201710:0;cmatrix
 : 1718201802:0;tmux kill-session
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1718286920:0;
 : 1718256264:0;cd my-dots
 : 1718256277:0;mkdir dotfiles
-: 1718256287:0;cd dotfiles
 : 1718256320:0;vi ~/.zshenv
 : 1718256332:0;cp ~/.zshenv .
 : 1718256343:0;mkdir .config
 : 1718256384:0;cp ~/.config/zsh .config
-: 1718256479:0;clear
 : 1718256483:24;pacs stow
-: 1718256594:0;stow .
 : 1718256701:0;git init .
-: 1718256709:0;ls
-: 1718256725:0;stow .
 : 1718256905:0;echo "# dotfiles" >> README.md\
 git init\
 git add README.md\
@@ -2070,30 +2010,13 @@ git commit -m "first commit"\
 git branch -M main\
 git remote add origin git@github.com:KyokoSpl/dotfiles.git\
 git push -u origin main
-: 1718256929:0;git status
-: 1718256935:0;addall
 : 1718256944:0;commit "added first files"
-: 1718256947:0;push
 : 1718256953:0;status
-: 1718256956:0;git status
-: 1718256982:0;vi .gitignore
-: 1718256999:0;ls
-: 1718257004:0;cd .config/zsh
-: 1718257005:0;ls
-: 1718257027:0;git status
-: 1718257032:0;addall
 : 1718257051:0;commit "fixed zsh history issue"
-: 1718257057:0;push
-: 1718257149:0;ls
-: 1718257156:0;git status
 : 1718257166:0;vi .gitignore
-: 1718257292:0;clear
 : 1718257371:0;cp ~/.config/tmux .config
 : 1718257395:0;stow .
-: 1718257413:0;stow --adopt .
-: 1718257426:0;addall
 : 1718257440:0;commit "added tmux config"
-: 1718257447:0;push
 : 1718257515:0;cp ~/.config/BetterDiscord .config
 : 1718257521:0;cp ~/.config/eww .config
 : 1718257526:0;cp ~/.config/chadwm .config
@@ -2101,7 +2024,6 @@ git push -u origin main
 : 1718257542:0;cp ~/.config/nvim .config
 : 1718257556:0;cp ~/.config/xmonad .config
 : 1718257562:0;cp ~/.config/xmobar .config
-: 1718257572:0;cp ~/.config/hypr .config
 : 1718257578:0;cp ~/.config/foot .config
 : 1718257608:0;cp ~/.config/easyeffects .config
 : 1718257635:0;cp ~/.config/conky .config
@@ -2112,58 +2034,161 @@ git push -u origin main
 : 1718257760:0;cp ~/.config/polybar .config
 : 1718257769:0;cp ~/.config/bspwm .config
 : 1718257803:0;cp ~/.config/rofi .config
-: 1718257808:0;stow --adopt .
 : 1718257839:0;rm .config/rofi/.current_wallpaper
-: 1718257841:0;stow --adopt .
-: 1718257848:0;addall
-: 1718257875:0;git rm --cached -f .config/chadwm
-: 1718257881:0;git status
-: 1718257886:0;addall
 : 1718257899:0;git rm --cached -f .config/chadwm
 : 1718257904:0;cd .config/chadwm
 : 1718257916:0;sudo rm .git .gitignore
-: 1718257923:0;sudo rm -r .git .gitignore
 : 1718257935:0;sudo rm LICENSE
-: 1718257940:0;..
-: 1718257946:0;addall
 : 1718257958:0;commit "added all configs"
-: 1718257961:0;push
 : 1718278366:0;cp ~/.config/hypr .config
 : 1718278371:0;cp ~/.config/waybar .config
-: 1718278377:0;addall
 : 1718278386:0;commit "added hypr config"
-: 1718278388:0;push
-: 1718278394:0;stow --adopt .
 : 1718278481:0;rm .config/waybar/config
-: 1718278484:0;stow --adopt .
-: 1718278492:0;git status
-: 1718278496:0;addall
-: 1718278523:0;stow --adopt .
 : 1718278533:0;commit "fixed waybar issue"
-: 1718278539:0;push
-: 1718278544:0;clear
-: 1718278571:0;cd
-: 1718278575:0;cd .config/kitty
-: 1718278585:0;vi kitty.conf
-: 1718278599:0;cd
-: 1718278601:0;cd dotfiles
-: 1718278605:0;git status
 : 1718278611:0;diff
-: 1718278615:0;git diff
-: 1718278624:0;cd
 : 1718278627:0;cd .config/kitty
 : 1718278635:0;vi kitty.conf
-: 1718278639:0;clear
-: 1718278639:0;cd
 : 1718278649:0;cd dotfiles
 : 1718278686:0;cp ~/startpage startpage
-: 1718278688:0;clear
 : 1718278693:0;stow --adopt .
-: 1718278697:0;addall
 : 1718278707:0;git rm --cached -f startpage
 : 1718278710:0;cd startpage
 : 1718278716:0;sudo rm -r .git .gitignore
-: 1718278721:0;clear
-: 1718278722:0;..
-: 1718278725:0;git status
 : 1718278729:0;addall
+: 1718278737:0;commit "added startpage"
+: 1718278741:0;push
+: 1718284319:0;mosquitto_sub -h localhost -p -1883 -t sks/by-device/v1/#
+: 1718284341:0;mosquitto_pub -h localhost -p 1883 -t sks/by-device/v1/# -m dldld
+: 1718284356:0;mosquitto_pub -h localhost -p 1883 -t sks/by-device/v1/test -m dldld
+: 1718284362:0;mosquitto_pub -h localhost -p 1883 -t sks/by-device/v1/test2 -m dld
+: 1718284421:0;sudo nvim /data/sks-device-id.env
+: 1718284481:0;sudo rm /data/sks-device-id.env
+: 1718284552:0;cd scripts
+: 1718284562:0;vi sys_info.sh
+: 1718284608:0;bash sys_info.sh
+: 1718286030:0;killall cargo
+: 1718286033:0;cargo build
+: 1718292808:0;pacs bspwm
+: 1718292840:0;whereis bspwm
+: 1718292944:0;cd .config
+: 1718292948:0;cd hypr
+: 1718292958:0;cd hyprland
+: 1718292986:0;vi keybinds.conf
+: 1718293014:0;vi general.conf
+: 1718293097:0;vi .config/zsh/aliases.zsh
+: 1718293439:0;vi gitclone/dbm-intern-ranking/api/src/main.rs
+: 1718293446:0;cd dbm-intern-ranking
+: 1718293449:0;vi dbm-intern-ranking-gui/src/main.rs
+: 1718293514:0;git status
+: 1718293522:0;git diff
+: 1718293557:0;cd .config/hypr/hyprland
+: 1718294366:0;whereis awesome
+: 1718294374:0;vi rc.lua
+: 1718294425:0;cd .config/awesome
+: 1718294437:0;sudo rm awesome
+: 1718294445:0;sudo rm -r awesome
+: 1718294460:0;sudo find / -iname awesome
+: 1718294487:0;cd /usr/share/awesome
+: 1718294493:0;cd themes
+: 1718294507:0;cd share/doc
+: 1718294510:0;cd awesome
+: 1718294516:0;cd doc
+: 1718294521:0;cd sample\ files
+: 1718294548:0;cp sample\ files ~/.config/awesome
+: 1718341715:0;cd Documents
+: 1718341805:0;cd gitclone
+: 1718341956:0;cd system-healt-monitoring
+: 1718341979:0;mkdir trying
+: 1718342008:0;cargo new -bin paho-mqtt
+: 1718342014:0;cargo new --bin paho-mqtt
+: 1718342806:0;vi Cargo.toml
+: 1718344637:0;rustup toolchain install 1.51.0\
+
+: 1718344666:0;rustup toolchain install 1.51.0
+: 1718344867:0;rustup default 1.51.0
+: 1718344974:0;rustup default nightly
+: 1718344995:0;rustup default stable
+: 1718345443:0;mosquitto_sub -h localhost -p 1883 -t sks/by-device/v1/#
+: 1718346581:0;code .
+: 1718348547:0;sudo vi /run/sks-device-id.env
+: 1718348554:0;sudo nvim /run/sks-device-id.env
+: 1718349009:0;cd paho-mqtt
+: 1718349012:0;vi src/main.rs
+: 1718350408:0;cler
+: 1718350427:0;mosquitto_sub -h localhost -p 1883 -t sks/by-device/#
+: 1718353615:0;cp system-health-monitoring-agent trying/agent-with-paho
+: 1718353624:0;cd gitclone/system-healt-monitoring/
+: 1718353626:0;cd trying
+: 1718353629:0;cd agent-with-paho
+: 1718353681:0;sudo rm -r .git
+: 1718353697:0;rm .gitignore README.md
+: 1718354881:0;sudo rm -r system-health-monitoring-agent
+: 1718354968:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
+: 1718355037:0;cd system-health-monitoring-agent
+: 1718355041:0;checkout 1-feature-my-sks-test
+: 1718355051:0;checkout origin/1-feature-init-system-health-monitoring-agent
+: 1718355060:0;checkout 1-feature-init-system-health-monitoring-agent
+: 1718355063:0;pull
+: 1718355195:0;vpn
+: 1718355277:0;cargo run
+: 1718355303:0;mosquitto_sub -h my-sks-test.de -p 42024 -t sks/by-device/v1/#
+: 1718355368:0;cd health-monitoring-clients
+: 1718355374:0;cd grafana
+: 1718355376:0;cd example_dashboards
+: 1718356671:0;pacs delta
+: 1718356692:0;paru -S delta zoxide
+: 1718357186:0;vi .config/zsh/plugins.zsh
+: 1718357199:0;vi .config/zsh
+: 1718357217:0;cd .config/zsh
+: 1718357221:0;V I
+: 1718357269:0;source
+: 1718357495:0;u
+: 1718357503:0;z .config/nvim
+: 1718357505:0;z
+: 1718357524:0;z zsh
+: 1718357527:0;vi alias
+: 1718357531:0;vi aliases.zsh
+: 1718357572:0;z nvim
+: 1718357578:0;cd nvi
+: 1718357582:0;cd config
+: 1718357588:0;cd gitclone/system-healt-monitoring/system-health-monitoring-agent
+: 1718357623:0;paru -S delta
+: 1718358022:0;sudo pacman -S thefuck
+: 1718358065:0;vi .
+: 1718358100:0;sudo pacsman -Syu
+: 1718358102:0;fuck
+: 1718358106:0;sudo pacman -Syu
+: 1718358107:0;clear
+: 1718358181:0;[200~https://github.com/junegunn/fzf-git.sh~]
+: 1718358195:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh
+: 1718358202:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh/
+: 1718358218:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh/fzf
+: 1718358221:0;cd zsh
+: 1718358224:0;cd fzf
+: 1718358233:0;mv fzf-git.sh ..
+: 1718358238:0;..
+: 1718358239:0;ls
+: 1718358250:0;chmod +x fzf-git.sh
+: 1718358327:0;vi .zshrc
+: 1718358341:0;source .zshrc
+: 1718358362:0;cd monitoring-agent
+: 1718358373:0;d
+: 1718358409:0;fzf
+: 1718358421:0;fzf-git-branches-widget
+: 1718358431:0;fzf-tmux
+: 1718358485:0;tldr
+: 1718358503:0;tldr fzf
+: 1718358539:0;cd
+: 1718596849:0;sudo pacman -Syu
+: 1718596939:0;cd dotfiles
+: 1718596940:0;ls
+: 1718596948:0;git diff
+: 1718597116:0;addall
+: 1718597142:0;git rm --cached -f .config/fzf
+: 1718597158:0;git rm --cached -f .config/zsh/fzf
+: 1718597167:0;cd .config/zsh/fzf
+: 1718597168:0;ls
+: 1718597175:0;..
+: 1718597185:0;sudo rm -r fzf
+: 1718597193:0;...
+: 1718597197:0;addall

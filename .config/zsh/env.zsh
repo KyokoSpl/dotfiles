@@ -77,4 +77,6 @@ export LS_COLORS='*.7z=38;5;40:*.WARC=38;5;40:*.a=38;5;40:*.arj=38;5;40:*.bz2=38
 # Fix ranger locale error
 export LANGUAGE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
+eval "$(zoxide init zsh)zoxide init zsh"
+eval $(thefuck --alias)
 # vim:ft=zsh:nowrap

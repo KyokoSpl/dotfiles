@@ -73,6 +73,6 @@ alias cd='z'
 alias dwm-recomp="rm config.h && sudo make install"
 
 # todos
-alias todo="bat ~/Documents/rust_todo.json"
+alias todo="todo_app"
 alias st="st -w '' tmux"
 # vim:ft=zsh.

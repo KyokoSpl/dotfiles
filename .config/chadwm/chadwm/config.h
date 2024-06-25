@@ -183,7 +183,7 @@ static const Key keys[] = {
     {MODKEY | ControlMask, XK_e, spawn, SHCMD("pycharm-community-eap")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
     {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("rofi -show drun")},
-    {MODKEY, XK_Return, spawn, SHCMD("st -w '' tmux")},
+    {MODKEY, XK_Return, spawn, SHCMD("kitty")},
     {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("slock")},
 
     // toggle stuff

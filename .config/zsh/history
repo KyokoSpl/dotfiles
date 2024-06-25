@@ -241,7 +241,6 @@ cmake --build build
 : 1707892302:0;clar
 : 1707892315:0;rustc variables3.rs
 : 1707892321:0;./variables3
-: 1707892663:0;mkdir rust
 : 1707892671:0;mv -r rustlings rust
 : 1707892678:0;mv rustlings rust
 : 1707892705:0;cargo new guiessing_game
@@ -410,7 +409,6 @@ cmake --build build
 : 1708941494:0;vi notizen-ram.txt
 : 1708951739:0;cd L
 : 1708951748:0;nvim notizen_S39_Aufgaben.txt
-: 1708955552:0;cd rust
 : 1708955573:0;rustlings run if1
 : 1708955580:0;rustlings run variable1
 : 1708955593:0;rustlings run variables1
@@ -489,7 +487,6 @@ cmake --build build
 : 1709817762:0;xwaylandvideobridge
 : 1710149773:0;sudo pacman -S figma-linux
 : 1710240000:0;ping 8.8.8.8
-: 1710240022:0;ping google.com
 : 1710240420:0;packettracer --version
 : 1710240825:0;paru -S google-chrome
 : 1710241031:0;pacs java
@@ -1017,7 +1014,6 @@ vi -u NONE -c "helptags fugitive/doc" -c q
 : 1712611300:0;cd picom
 : 1712611318:0;sudo rm -r .srcs
 : 1712649184:0;cd Documents/schule
-: 1712649188:0;cd Deutsch
 : 1712649192:0;cd Fachbuchvorstellung-Projekt
 : 1712649203:0;onlyoffice-desktopeditors Kap\ 5.5\ Python\ stuff\ zusammenfassung.odt
 : 1712658842:0;vi .config/kitty/kitty.conf
@@ -1174,8 +1170,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1713511669:0;cd Documents/Learning\ Languages/rust/rustlings
 : 1713511679:0;cargo watch
 : 1713511689:0;cargo run watch
-: 1713511803:0;cd schule
-: 1713511807:0;cd LF5
 : 1713511814:0;cd school/Buch\ Seite\ 55
 : 1713511823:0;code Bremsweg
 : 1713545110:0;vi notes.txt
@@ -1198,7 +1192,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1713945889:0;cargo +nightlz run
 : 1713946769:0;vi config.rs
 : 1713946783:0;vi csv.rs
-: 1713946810:0;vi main.rs
 : 1713946822:0;vi sftp.rs
 : 1713946841:0;vi example
 : 1713946870:0;,,
@@ -1308,7 +1301,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1714386682:0;spicetify config custom_apps lyrics-plus
 : 1714386693:0;spicetify apply
 : 1714459999:0;commit "added database connection"
-: 1714511234:0;pacs libreoffice
 : 1714512072:0;vi env.zsh
 : 1714581379:0;journalctl -u splat3-netlog
 : 1714622135:0;cd startpage/fazzi
@@ -1391,7 +1383,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1715161388:0;git fetch origin\
 git checkout 7-add-personality-to-gui
 : 1715203707:0;cd startpage/fazzi/
-: 1715203715:0;vi index.html
 : 1715203923:0;vi localStorageHelper.js
 : 1715203936:0;cd gtitclone/dbm-intern-ranking
 : 1715203983:0;vi actix-api/src/main.rs
@@ -1427,14 +1418,11 @@ git checkout 7-add-personality-to-gui
 : 1715748096:0;cd gitclone/TuxMC-rust/
 : 1715749775:0;cd gitclone/TextPaster/
 : 1715750241:0;ip address
-: 1715833316:0;ping 212.132.108.197
 : 1715833869:0;sudo rm -r dbm-intern-ranking
 : 1715833895:0;clone git@github.com:KyokoSpl/dbm-intern-ranking.git
 : 1715844193:0;openvpn --config vpn.ovpn --data-ciphers AES-256-CBC
 : 1715844205:0;whereis vpn.ovpn
 : 1715844216:0;sudo find / -iname vpn.ovpn
-: 1715945020:0;cd actix-api
-: 1715946533:0;cd dbm-intern-ranking-gui
 : 1715946553:0;sudo cp target/debug/dbm-intern-ranking-gui /bin/
 : 1715946568:0;dbm-intern-ranking-gui
 : 1716787997:0;paru -R electron25
@@ -1467,7 +1455,6 @@ git checkout 7-add-personality-to-gui
 : 1716878779:0;sudo rm -r .local/share/nvim
 : 1716878787:0;sudo rm -r .local/state/nvim
 : 1716878790:0;sudo rm -r .cache/nvim
-: 1716879816:0;cd gitclone/dbm-intern-ranking
 : 1716879822:0;vi actix-api
 : 1716882902:0;git clone git@github.com:dreamsofcode-io/DreamNvim.git ~/.config/nvim
 : 1716883248:0;mv ~/.config/nvim ~/.config/nvim-backup\
@@ -1483,7 +1470,6 @@ rm -rf ~/.local/share/nvim
 : 1716884578:0;git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 : 1716884930:0;clone https://github.com/dreamsofcode-io/neovim-rust
 : 1716885077:0;cl
-: 1716885078:0;c
 : 1716885660:0;cd gtitclone/
 : 1716885670:0;clone https://github.com/folke/dot
 : 1716885686:0;cp nvim ~/.config/
@@ -1559,7 +1545,6 @@ nvim
 : 1716987817:0;sudo rm -r school
 : 1716987900:0;rm Project_C\# projects projects\ C\#
 : 1716987905:0;clone git@github.com:KyokoSpl/school.git projects
-: 1716987918:0;cd Buch\ Seite\ 55
 : 1716987923:0;vi Bremsweg
 : 1716988015:0;cd Bremsweg
 : 1716988074:0;dotnet run Bremsweg.csproj
@@ -1708,7 +1693,6 @@ sudo make install
 : 1717399007:0;cd ~/.config/chadwm/chadwm\
 rm config.h\
 sudo make install
-: 1717399021:0;vi dwm.c
 : 1717399099:0;mkdir ~/.config/chadwmback
 : 1717399121:0;mv config.def.h ~/.config/chadwmback
 : 1717399145:0;mv scripts ~/.config/chadwmback
@@ -1717,7 +1701,6 @@ sudo make install
 cd ~/.config/chadwm/
 : 1717399263:0;rm config.h\
 sudo make install
-: 1717399305:0;vi zsh/aliases.zsh
 : 1717400861:0;vi eww.yuck
 : 1717400875:0;cd src/
 : 1717400924:0;shutdown -h
@@ -1731,7 +1714,6 @@ sudo make install
 : 1717405676:0;df
 : 1717407259:0;#
 : 1717414693:0;cd .config/eww
-: 1717414706:0;cd src
 : 1717414717:0;cd footer
 : 1717414720:0;vi btns.yuck
 : 1717415365:0;notify-send "test"
@@ -1746,8 +1728,6 @@ sudo make install
 : 1717417729:0;cd .config/nvim
 : 1717417731:0;cd lua
 : 1717417870:0;vi community.lua
-: 1717417984:0;cd projects/cs/ausprobieren
-: 1717417987:0;cd while_exercise
 : 1717418902:0;cd cs
 : 1717418929:0;git add ausprobieren/
 : 1717418947:0;commit "adde loop exercises"
@@ -1806,7 +1786,6 @@ sudo make install
 : 1717654433:0;rsftch
 : 1717654570:0;cd TuxMC-rust
 : 1717665513:0;cd/
-: 1717665534:0;cd dot
 : 1717665544:0;vi brave-beta-flags.conf
 : 1717665555:0;vi brave-flags.conf
 : 1717665563:0;vi starship.toml
@@ -1861,7 +1840,6 @@ sudo make install
 : 1718002853:0;./install.sh
 : 1718003065:0;sudo pacman -R adw-gtk3
 : 1718003096:0;htop
-: 1718003101:0;btop
 : 1718003194:0;asass
 : 1718003198:0;man sass
 : 1718003204:0;sass -h
@@ -1870,19 +1848,14 @@ sudo make install
 : 1718003483:0;paru -S hyperland-git
 : 1718003494:0;paru -S hyprland-git
 : 1718005100:0;exit
-: 1718005944:0;n
 : 1718006394:0;cp -r gitclone/dot/config/tmux .config/tmux
-: 1718006682:0;cd ausprobieren
 : 1718006684:0;cd again
 : 1718006703:0;dotnet ru
-: 1718006706:0;dotnet run
 : 1718006800:0;cd Documents/Learning\ Languages
 : 1718006804:0;cd rust/ausprobieren
 : 1718006806:0;cd api-client
 : 1718006813:0;cd python
 : 1718006817:0;cd pytest-example
-: 1718007257:0;todo_app
-: 1718007288:0;todo
 : 1718007336:0;cd .config/hypr/
 : 1718007341:0;vi hyprland.conf
 : 1718007361:0;vi hyprland
@@ -1905,16 +1878,13 @@ sudo make install
 : 1718115356:0;cd Buch\ Seite\ 45
 : 1718115364:0;cd Buch\ Seite\ 39
 : 1718115366:0;cd Autovermieter
-: 1718115371:0;vi Program.cs
 : 1718170271:0;rm -r .config/tmux
-: 1718170550:0;pacsyyu
 : 1718170651:0;cd Applications
 : 1718171240:0;lsw
 : 1718171910:0;cd gitclone/system-healt-monitoring
 : 1718172261:0;cd .confg
 : 1718172278:0;vi xmonad/xmonad.hs
 : 1718172871:0;vi run.sh
-: 1718172886:0;vi bar.sh
 : 1718172937:0;vi rofi
 : 1718172966:0;mv rofi rofi-back/
 : 1718172984:0;mv chadwm/rofi rofi/
@@ -1931,14 +1901,12 @@ sudo make install
 : 1718186317:0;cd database
 : 1718186397:0;vi config.ini
 : 1718186517:0;vi CustomerDeviceMapper.py
-: 1718186838:0;...
 : 1718186852:0;vi .config/fish
 : 1718186927:0;sudo pacman -R fish
 : 1718186971:0;sudo pacman -R fish dtos-fish fish-autopair illogical-impulse-fonts-themes
 : 1718186985:0;pacs illogical-impulse-fonts-themes
 : 1718187000:0;paru -S illogical-impulse-fonts-themes
 : 1718187010:0;rm -r .config/fish
-: 1718187306:0;paru -Syyu
 : 1718193528:0;cd gitclone/system-healt-monitoring/health-monitoring-clients
 : 1718194387:0;cd .config/st
 : 1718194452:0;vi keybinds.zsh
@@ -1950,7 +1918,6 @@ sudo make install
 : 1718194844:0;cd .config/st/
 : 1718194848:0;vi config.h
 : 1718194876:0;cd tabbed
-: 1718194881:0;vi config.def.h
 : 1718194928:0;tmux
 : 1718195107:0;cd .config/tabbed
 : 1718195302:0;killall tabbed
@@ -1984,7 +1951,6 @@ sudo make install
 : 1718199382:0;tmux source .config/tmux/tmux.conf
 : 1718199440:0;st -w '' tmux
 : 1718199449:0;vi .config/chadwm/chadwm/config.def.h
-: 1718199465:0;cd .config/chadwm/chadwm
 : 1718199466:0;dwm-recomp
 : 1718199603:0;easyeffects
 : 1718199617:0;killall easyeffects
@@ -1995,7 +1961,6 @@ sudo make install
 : 1718201710:0;cmatrix
 : 1718201802:0;tmux kill-session
 : 1718286920:0;
-: 1718256264:0;cd my-dots
 : 1718256277:0;mkdir dotfiles
 : 1718256320:0;vi ~/.zshenv
 : 1718256332:0;cp ~/.zshenv .
@@ -2045,25 +2010,19 @@ git push -u origin main
 : 1718278386:0;commit "added hypr config"
 : 1718278481:0;rm .config/waybar/config
 : 1718278533:0;commit "fixed waybar issue"
-: 1718278611:0;diff
 : 1718278627:0;cd .config/kitty
 : 1718278635:0;vi kitty.conf
-: 1718278649:0;cd dotfiles
 : 1718278686:0;cp ~/startpage startpage
 : 1718278693:0;stow --adopt .
 : 1718278707:0;git rm --cached -f startpage
-: 1718278710:0;cd startpage
 : 1718278716:0;sudo rm -r .git .gitignore
-: 1718278729:0;addall
 : 1718278737:0;commit "added startpage"
-: 1718278741:0;push
 : 1718284319:0;mosquitto_sub -h localhost -p -1883 -t sks/by-device/v1/#
 : 1718284341:0;mosquitto_pub -h localhost -p 1883 -t sks/by-device/v1/# -m dldld
 : 1718284356:0;mosquitto_pub -h localhost -p 1883 -t sks/by-device/v1/test -m dldld
 : 1718284362:0;mosquitto_pub -h localhost -p 1883 -t sks/by-device/v1/test2 -m dld
 : 1718284421:0;sudo nvim /data/sks-device-id.env
 : 1718284481:0;sudo rm /data/sks-device-id.env
-: 1718284552:0;cd scripts
 : 1718284562:0;vi sys_info.sh
 : 1718284608:0;bash sys_info.sh
 : 1718286030:0;killall cargo
@@ -2075,12 +2034,7 @@ git push -u origin main
 : 1718292958:0;cd hyprland
 : 1718292986:0;vi keybinds.conf
 : 1718293014:0;vi general.conf
-: 1718293097:0;vi .config/zsh/aliases.zsh
 : 1718293439:0;vi gitclone/dbm-intern-ranking/api/src/main.rs
-: 1718293446:0;cd dbm-intern-ranking
-: 1718293449:0;vi dbm-intern-ranking-gui/src/main.rs
-: 1718293514:0;git status
-: 1718293522:0;git diff
 : 1718293557:0;cd .config/hypr/hyprland
 : 1718294366:0;whereis awesome
 : 1718294374:0;vi rc.lua
@@ -2095,8 +2049,6 @@ git push -u origin main
 : 1718294516:0;cd doc
 : 1718294521:0;cd sample\ files
 : 1718294548:0;cp sample\ files ~/.config/awesome
-: 1718341715:0;cd Documents
-: 1718341805:0;cd gitclone
 : 1718341956:0;cd system-healt-monitoring
 : 1718341979:0;mkdir trying
 : 1718342008:0;cargo new -bin paho-mqtt
@@ -2111,9 +2063,7 @@ git push -u origin main
 : 1718345443:0;mosquitto_sub -h localhost -p 1883 -t sks/by-device/v1/#
 : 1718346581:0;code .
 : 1718348547:0;sudo vi /run/sks-device-id.env
-: 1718348554:0;sudo nvim /run/sks-device-id.env
 : 1718349009:0;cd paho-mqtt
-: 1718349012:0;vi src/main.rs
 : 1718350408:0;cler
 : 1718350427:0;mosquitto_sub -h localhost -p 1883 -t sks/by-device/#
 : 1718353615:0;cp system-health-monitoring-agent trying/agent-with-paho
@@ -2128,9 +2078,7 @@ git push -u origin main
 : 1718355041:0;checkout 1-feature-my-sks-test
 : 1718355051:0;checkout origin/1-feature-init-system-health-monitoring-agent
 : 1718355060:0;checkout 1-feature-init-system-health-monitoring-agent
-: 1718355063:0;pull
 : 1718355195:0;vpn
-: 1718355277:0;cargo run
 : 1718355303:0;mosquitto_sub -h my-sks-test.de -p 42024 -t sks/by-device/v1/#
 : 1718355368:0;cd health-monitoring-clients
 : 1718355374:0;cd grafana
@@ -2154,11 +2102,6 @@ git push -u origin main
 : 1718357588:0;cd gitclone/system-healt-monitoring/system-health-monitoring-agent
 : 1718357623:0;paru -S delta
 : 1718358022:0;sudo pacman -S thefuck
-: 1718358065:0;vi .
-: 1718358100:0;sudo pacsman -Syu
-: 1718358102:0;fuck
-: 1718358106:0;sudo pacman -Syu
-: 1718358107:0;clear
 : 1718358181:0;[200~https://github.com/junegunn/fzf-git.sh~]
 : 1718358195:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh
 : 1718358202:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh/
@@ -2166,8 +2109,6 @@ git push -u origin main
 : 1718358221:0;cd zsh
 : 1718358224:0;cd fzf
 : 1718358233:0;mv fzf-git.sh ..
-: 1718358238:0;..
-: 1718358239:0;ls
 : 1718358250:0;chmod +x fzf-git.sh
 : 1718358327:0;vi .zshrc
 : 1718358341:0;source .zshrc
@@ -2178,17 +2119,271 @@ git push -u origin main
 : 1718358431:0;fzf-tmux
 : 1718358485:0;tldr
 : 1718358503:0;tldr fzf
-: 1718358539:0;cd
-: 1718596849:0;sudo pacman -Syu
-: 1718596939:0;cd dotfiles
-: 1718596940:0;ls
-: 1718596948:0;git diff
-: 1718597116:0;addall
 : 1718597142:0;git rm --cached -f .config/fzf
 : 1718597158:0;git rm --cached -f .config/zsh/fzf
 : 1718597167:0;cd .config/zsh/fzf
-: 1718597168:0;ls
-: 1718597175:0;..
 : 1718597185:0;sudo rm -r fzf
-: 1718597193:0;...
-: 1718597197:0;addall
+: 1718597211:0;commit "updated some tools and confs"
+: 1718597236:0;cd config nvim
+: 1718597660:0;n
+: 1718598550:0;cd .config/chadwm/chadwm
+: 1718598560:0;cd scripts
+: 1718598566:0;vi bar.sh
+: 1718598587:0;cd bar_themes
+: 1718598601:0;cd chad scripts
+: 1718602160:0;this is a typing test with my loop
+: 1718602189:0;this is a typing test without my loops its quit loud now my keyboard is very klicky
+: 1718602309:0;maybe this seal is better its kinda better tbh
+: 1718602332:0;i don't no whats going on \
+cat .bashrc
+: 1718602335:0;''
+: 1718602339:0;sudo ''
+: 1718602562:0;this is loop with open setting and i dont know if there is a real diffrenceso letzt test it ok intressting the clicky sound is les present so it works
+: 1718602642:0;tmux respawnw
+: 1718607940:0;cd gitclone/dbm-intern-ranking
+: 1718608145:0;git dbm
+: 1718608152:0;cd git dbm
+: 1718697964:0;cd my-dots
+: 1718697973:0;cd gitclone/my-dots/
+: 1718697984:0;cd dotfiles
+: 1718699689:0;cd Documents/schule/
+: 1718699691:0;cd Deutsch
+: 1718700023:0;cd schule deutsch
+: 1718700025:0;vi Felix_Lobrecht_Notizen.md
+: 1718709753:0;suspend
+: 1718709758:0;sudo suspend
+: 1718709780:0;systemctl suspend
+: 1718711317:0;cd RustroverProjects
+: 1718711324:0;cd actix-test
+: 1718714476:0;cd rust actix
+: 1718714980:0;paru -S eshare
+: 1718775927:0;sudo rm -r .idea
+: 1718777439:0;paru -Syyu
+: 1718779275:0;sudo pacsman -Syu
+: 1718779284:0;fuck
+: 1718779291:0;sudo pacman -Syu
+: 1718779540:0;cargo install --locked cargo-bitbake
+: 1718782175:0;sudo nvim /run/sks-device-id.env
+: 1718786793:0;systemctl status
+: 1718787985:0;whereis fwupd
+: 1718788974:0;sudo rm -r RustroverProjects
+: 1718788998:0;cd Documents
+: 1718789004:0;rm -r test.cs
+: 1718789009:0;rm -r testing_nvim
+: 1718789018:0;sudo rm -r testing_nvim
+: 1718789038:0;mkdir testing_stuff
+: 1718789041:0;cd testing_stuff
+: 1718789047:0;mkdir rust
+: 1718789049:0;cd rust
+: 1718789064:0;cargo new --bin systemd-test
+: 1718789070:0;cd systemd-test
+: 1718789186:0;systemctl is-system-running
+: 1718790909:0;git status
+: 1718790913:0;addall
+: 1718790948:0;commit "added systemctl is-system-running"
+: 1718790951:0;push
+: 1718791378:0;cd startpage
+: 1718791381:0;cd fazzi
+: 1718791386:0;vi index.html
+: 1718792528:0;todo_app
+: 1718792539:0;vi zsh/aliases.zsh
+: 1718792555:0;vi .config/zsh/aliases.zsh
+: 1718792655:0;todo
+: 1718868394:0;cd gitclone
+: 1718868420:0;cd dot
+: 1718869283:0;vi Installer
+: 1718962213:0;ping 212.132.108.197
+: 1718962321:0;ping google.com
+: 1719212291:0;pacsyyu
+: 1719213075:0;pull
+: 1719218652:0;cd dbm-intern-ranking
+: 1719218655:0;diff
+: 1719218750:0;vi dbm-intern-ranking-gui/src/main.rs
+: 1719218827:0;git diff
+: 1719222188:0;cd LF5
+: 1719222194:0;cd projects/cs/ausprobieren
+: 1719222202:0;cd Buch\ Seite\ 55
+: 1719222217:0;vi Bremsweg/Bremsweg/Program.cs
+: 1719222235:0;cd Buch\ Seite\ 52
+: 1719222245:0;vi Versandkosten/Program.cs
+: 1719222311:0;cd gitclone dbm
+: 1719222340:0;vi dbm-intern-ranking-gui
+: 1719222373:0;cargo run
+: 1719222456:0;..
+: 1719222460:0;cd actix-api
+: 1719222469:0;vi .
+: 1719222573:0;cd healt agent
+: 1719222577:0;cd src
+: 1719222580:0;vi main.rs
+: 1719223090:0;cd chad chad
+: 1719223135:0;vi dwm.c
+: 1719223583:0;vi config.def.h
+: 1719223710:0;btop
+: 1719231484:0;cd dbm-intern-ranking-gui
+: 1719231488:0;vi src/main.rs
+: 1719231981:0;cd
+: 1719231988:0;pacs lowriter
+: 1719231998:0;pacs libreoffice
+: 1719232024:0;clear
+: 1719232083:0;cd schule
+: 1719232086:0;cd lf5
+: 1719232156:0;dotnet new console -n Schleifen
+: 1719232177:0;n\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+: 1719232182:0;lear
+: 1719232183:0;c
+: 1719232292:0;cd schule lf5 projects
+: 1719232298:0;cd schule lf5 projekts
+: 1719232302:0;cd schule lf5
+: 1719232308:0;cd projects/cs
+: 1719232308:0;ls
+: 1719232312:0;cd ausprobieren
+: 1719232315:0;vi while_exercise
+: 1719232400:0;cd while_exercise
+: 1719232588:0;dotnet run
+: 1719232814:0;...
+: 1719232819:0;cd Schleifen
+: 1719232824:0;vi Program.cs
+: 1719292942:0;cd .screenlayout
+: 1719292952:0;./workstandart.sh
+: 1719292983:0;nitrogen --restore
+: 1719292987:0;clear
+: 1719293123:0;pacsyyu
+: 1719293335:0;cd schule lf5
+: 1719293339:0;cd projects/cs
+: 1719293345:0;cd schleifen
+: 1719293346:0;ls
+: 1719293351:0;vi Program.cs
+: 1719293436:0;git status
+: 1719293441:0;addall
+: 1719293455:0;commit "Bearbeiten Schleifen.docx"
+: 1719293456:0;clear
+: 1719293463:0;ls
+: 1719293466:0;vi README.md
+: 1719293511:0;push
+: 1719293530:0;vi README.md
+: 1719293544:0;git status
+: 1719293546:0;addall
+: 1719293556:0;commit "updated README.md"
+: 1719293557:0;push
+: 1719293699:0;cd
+: 1719293702:0;cd healt agent
+: 1719293704:0;pull
+: 1719293707:0;.
+: 1719293708:0;..
+: 1719293721:0;sudo rm -r system-health-monitoring-agent
+: 1719293731:0;clear
+: 1719293752:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
+: 1719293755:0;cd health-monitoring-clients
+: 1719293757:0;..
+: 1719293765:0;ls
+: 1719293769:0;cd system-health-monitoring-agent
+: 1719293796:0;checkout 1-feature-init-system-health-monitoring-agent
+: 1719293797:0;ls
+: 1719293803:0;vi src
+: 1719294055:0;spicetify update
+: 1719294061:0;spicetify backup apply
+: 1719294134:0;clear
+: 1719294136:0;cd
+: 1719294245:0;cargo install yazi
+: 1719294275:0;cargo add yazi
+: 1719294278:0;clear
+: 1719294350:0;pacs yazi
+: 1719294360:0;yazi
+: 1719294754:0;clear
+: 1719294765:0;vi .config/zsh/env.zsh
+: 1719294790:0;yy
+: 1719294815:0;vi .config/picom.conf
+: 1719294939:0;cd .config/kitty
+: 1719294946:0;ls
+: 1719294952:0;vi .
+: 1719295034:0;kitty +kitten themes --reload-in=all <optional: Catppuccin-Mocha>
+: 1719295058:0;clear
+: 1719295061:0;kitty +kitten themes --reload-in=all <optional: Catppuccin-Mocha>
+: 1719295070:0;bash
+: 1719295103:0;ls
+: 1719295155:0;vi kitty.conf
+: 1719295237:0;vi .config/kitty/kitty.conf
+: 1719295269:0;cd .config/kitty
+: 1719295269:0;ls
+: 1719295280:0;rm decay.ini open-actions.conf
+: 1719295288:0;vi kitty.conf
+: 1719295561:0;rm kitty.conf
+: 1719295563:0;ls
+: 1719295572:0;sudo find / -iname kitty.conf
+: 1719296011:0;cp /usr/share/doc/kitty/kitty.conf kitty.conf
+: 1719296013:0;clear
+: 1719296016:0;vi kitty.conf
+: 1719296055:0;vi dotfiles/.config/kitty
+: 1719297495:0;vi kitty.conf
+: 1719297618:0;vi dotfiles/.config/kitty/kitty.conf
+: 1719299356:0;yy
+: 1719299430:0;clear
+: 1719299431:0;cd
+: 1719300000:0;kitty +tmux
+: 1719300011:0;kitty +launch tmux
+: 1719300017:0;kitty tmux
+: 1719300070:0;cd chad chad
+: 1719300079:0;vi config.def.h
+: 1719300114:0;dwm-recomp
+: 1719300122:0;clear
+: 1719300175:0;blueman-applet &
+: 1719300177:0;clear
+: 1719300199:0;st
+: 1719300284:0;kitty -w
+: 1719300292:0;kitty '' tmux
+: 1719300667:0;killall easyeffects
+: 1719300819:0;cd .config/kitty
+: 1719300823:0;vi kitty.conf
+: 1719300860:0;cd Documents
+: 1719300867:0;nvim notes.txt
+: 1719301015:0;cd chad chad
+: 1719301019:0;vi config.def.h
+: 1719301037:0;clear
+: 1719301040:0;dwm-recomp
+: 1719301119:0;..
+: 1719301126:0;cd kitty
+: 1719301148:0;cp kitty.conf ~/dotfiles/.config/kitty/kitty.conf
+: 1719301153:0;ls
+: 1719301162:0;yy
+: 1719301180:0;cd
+: 1719301188:0;cd dotfiles
+: 1719301190:0;stow
+: 1719301197:0;stow --adopt .
+: 1719301207:0;git status
+: 1719301225:0;addall

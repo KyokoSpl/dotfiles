@@ -79,4 +79,12 @@ export LANGUAGE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 eval "$(zoxide init zsh)zoxide init zsh"
 eval $(thefuck --alias)
+function yy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
 # vim:ft=zsh:nowrap

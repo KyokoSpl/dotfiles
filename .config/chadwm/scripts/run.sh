@@ -1,5 +1,6 @@
 #!/bin/sh
 
+xrdb merge ~/.Xresources &
 lxsession &
 xbacklight -set 100 &
 xset r rate 200 50 &

@@ -321,7 +321,6 @@ cmake --build build
 : 1708342110:0;cd configs
 : 1708342137:0;cd dotfiles-2.0
 : 1708342150:0;nvim Installer
-: 1708346342:0;spicetify update
 : 1708347920:0;vi alacritty/alacritty.yml
 : 1708347937:0;vi hypr
 : 1708349967:0;sudo find / -iname hypr.conf
@@ -826,7 +825,6 @@ cargo add uuid --features v4\
 : 1712038592:0;rm -r ranking.db
 : 1712038596:0;sqlite3 ranking.db
 : 1712038884:0;cd rust-rocket-sqlite-api
-: 1712038892:0;vi src
 : 1712038913:0;rename rust-rocket-sqlite-api dbm-intern-ranking
 : 1712039256:0;cargo install diesel_cli
 : 1712039289:0;cargo remove diesel_cli
@@ -981,15 +979,12 @@ nvim -u NONE -c "helptags commentary/doc" -c q
 cd ~/.vim/pack/tpope/start\
 git clone https://tpope.io/vim/fugitive.git\
 vi -u NONE -c "helptags fugitive/doc" -c q
-: 1712608442:0;vi lazy_setup.lua
 : 1712608457:0;vi astrocore.lua
 : 1712609054:0;sudo find / -iname astrocommunity.pack.lua
 : 1712609239:0;commit "changed cargo.toml"
 : 1712609262:0;cd .local/share/nvim
 : 1712609266:0;cd lazy
 : 1712609309:0;cd astrotheme
-: 1712609524:0;vi user.lua
-: 1712609747:0;vi init.lua
 : 1712610127:0;vi astroui.lua
 : 1712610198:0;vi astrolsp.lua
 : 1712610489:0;sudo find / -iname crates.nvim
@@ -1016,7 +1011,6 @@ vi -u NONE -c "helptags fugitive/doc" -c q
 : 1712649184:0;cd Documents/schule
 : 1712649192:0;cd Fachbuchvorstellung-Projekt
 : 1712649203:0;onlyoffice-desktopeditors Kap\ 5.5\ Python\ stuff\ zusammenfassung.odt
-: 1712658842:0;vi .config/kitty/kitty.conf
 : 1712722580:0;pacs maui-shell-git
 : 1712722595:0;paru maui-shell-git
 : 1712723169:0;paru -r mauiman
@@ -1398,12 +1392,10 @@ git checkout 7-add-personality-to-gui
 : 1715665230:0;git checkout 6-rewrite-api-in-actix
 : 1715665233:0;pulll
 : 1715668015:0;checkout 7-add-personality-to-gui
-: 1715668290:0;git stash
 : 1715670511:0;checkout 6-rewrite-api-in-actix
 : 1715674110:0;checkout main
 : 1715683207:0;cd .cache
 : 1715691866:0;clone https://github.com/JasonClarkAltmann/TextPaster.git
-: 1715691872:0;cd TextPaster
 : 1715692165:0;cd gitclone/TextPaster
 : 1715694190:0;sudo find / -iname btop
 : 1715694225:0;cd Downloads/themes
@@ -1503,7 +1495,6 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 : 1716890549:0;git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim\
 rm -rf ~/.config/nvim/.git\
 nvim
-: 1716890564:0;cd nvim
 : 1716892092:0;vi ~/gitclone/dbm-intern-ranking/dbm-intern-ranking-gui/
 : 1716896900:0;cd gitclone/esp32
 : 1716896905:0;cd Arduino/ESP32-Arduino-OTAHTTP
@@ -1621,7 +1612,6 @@ sudo make clean install
 : 1717353075:0;vi scripts/system
 : 1717353624:0;startx ~/.config/chadwm/scripts/run.sh
 : 1717353641:0;sudo nvim /usr/share/xsessions/chadwm.desktop
-: 1717353661:0;reboot
 : 1717353786:0;whoami
 : 1717354084:0;eww open eww
 : 1717354111:0;which
@@ -1642,9 +1632,7 @@ sudo make clean install
 : 1717396548:0;st -h
 : 1717396569:0;st nvim
 : 1717397037:0;cp .config/xmonad/kblayout.sh .config/chadwm/scripts
-: 1717397412:0;nitrogen --restore
 : 1717397454:0;vi autostart.sh
-: 1717397485:0;blueman-applet &
 : 1717397943:0;vi .config/chadwm/scripts/run.sh
 : 1717398363:0;vi var.yuck
 : 1717398384:0;vi audio
@@ -1726,7 +1714,6 @@ sudo make install
 : 1717416451:0;dotnet run .
 : 1717416917:0;dotnet run while_exercise
 : 1717417729:0;cd .config/nvim
-: 1717417731:0;cd lua
 : 1717417870:0;vi community.lua
 : 1717418902:0;cd cs
 : 1717418929:0;git add ausprobieren/
@@ -1762,14 +1749,12 @@ sudo make install
 : 1717583163:0;bat src/main.rs
 : 1717583422:0;v
 : 1717586606:0;cargo install rsftch
-: 1717593436:0;cd kitty
 : 1717593439:0;v kitty.conf
 : 1717593472:0;v decay.ini
 : 1717593636:0;v picom/picom.conf
 : 1717593662:0;v picom/picom.ini
 : 1717593675:0;vi picom.conf
 : 1717593767:0;xprop
-: 1717593832:0;st
 : 1717593847:0;v picom.conf
 : 1717593859:0;picom &
 : 1717651217:0;v sys_info.sh
@@ -1812,7 +1797,6 @@ sudo make install
 : 1717740647:0;git rm --cached -f .config/tabbed
 : 1717740684:0;rm LICENSE README
 : 1717740698:0;commit "added tabbed"
-: 1717740720:0;vi README.md
 : 1717740785:0;commit "added  README.md"
 : 1717741245:0;paru -S proton
 : 1717741272:0;paru -S protonmail-desktop
@@ -1839,7 +1823,6 @@ sudo make install
 : 1718002670:0;vi install.sh
 : 1718002853:0;./install.sh
 : 1718003065:0;sudo pacman -R adw-gtk3
-: 1718003096:0;htop
 : 1718003194:0;asass
 : 1718003198:0;man sass
 : 1718003204:0;sass -h
@@ -1847,7 +1830,6 @@ sudo make install
 : 1718003438:0;paru -help
 : 1718003483:0;paru -S hyperland-git
 : 1718003494:0;paru -S hyprland-git
-: 1718005100:0;exit
 : 1718006394:0;cp -r gitclone/dot/config/tmux .config/tmux
 : 1718006684:0;cd again
 : 1718006703:0;dotnet ru
@@ -1861,7 +1843,6 @@ sudo make install
 : 1718007361:0;vi hyprland
 : 1718085131:0;spicetify restore backup applz
 : 1718085135:0;spicetify restore backup apply
-: 1718085142:0;spicetify backup apply
 : 1718085703:0;paru -S via-bin
 : 1718085993:0;via
 : 1718086061:0;sudo via
@@ -1870,7 +1851,6 @@ sudo make install
 : 1718095667:0;Zed .
 : 1718096608:0;vi .config/nvim/lua/plugins/user.lua
 : 1718100567:0;cd chadwm/chadwm
-: 1718101106:0;vi
 : 1718112077:0;pacs python3-dev python3-pip python3-venv
 : 1718112098:0;paru -S python3-dev python3-pip python3-venv
 : 1718112292:0;pacs easyeffects
@@ -1895,12 +1875,9 @@ sudo make install
 : 1718174698:0;vi sks-device-id.env
 : 1718174738:0;sudo nvim sks-device-id.env
 : 1718180836:0;wethr
-: 1718184835:0;cargo clean
-: 1718186048:0;cd Customer-Device-Mapper
 : 1718186194:0;ssh root@my-sks-test.de
 : 1718186317:0;cd database
 : 1718186397:0;vi config.ini
-: 1718186517:0;vi CustomerDeviceMapper.py
 : 1718186852:0;vi .config/fish
 : 1718186927:0;sudo pacman -R fish
 : 1718186971:0;sudo pacman -R fish dtos-fish fish-autopair illogical-impulse-fonts-themes
@@ -1934,7 +1911,6 @@ sudo make install
 : 1718196000:0;sudo find / -iname tmux
 : 1718196022:0;cd .local/share/tmux
 : 1718196026:0;cd resurrect
-: 1718196036:0;.
 : 1718196074:0;tmux splitw
 : 1718196087:0;tmux kill-pane
 : 1718198172:0;rm tmux.conf
@@ -1942,23 +1918,18 @@ sudo make install
 : 1718198185:0;tmux -v
 : 1718198190:0;man tmux
 : 1718198203:0;tmux -V
-: 1718198227:0;cd plugins
 : 1718198267:0;cd .tmux
 : 1718198304:0;cd .config/tmux
 : 1718198312:0;vi tmux.conf
-: 1718198897:0;nvim
 : 1718199235:0;tmux neww
 : 1718199382:0;tmux source .config/tmux/tmux.conf
 : 1718199440:0;st -w '' tmux
 : 1718199449:0;vi .config/chadwm/chadwm/config.def.h
-: 1718199466:0;dwm-recomp
 : 1718199603:0;easyeffects
-: 1718199617:0;killall easyeffects
 : 1718199701:0;nvim .config/zsh/aliases.zsh
 : 1718199975:0;vi .config/tmux/tmux.conf\ 
 : 1718199977:0;vi .config/tmux/tmux.conf
 : 1718199990:0;bat .config/zsh/aliases.zsh
-: 1718201710:0;cmatrix
 : 1718201802:0;tmux kill-session
 : 1718286920:0;
 : 1718256277:0;mkdir dotfiles
@@ -2010,10 +1981,7 @@ git push -u origin main
 : 1718278386:0;commit "added hypr config"
 : 1718278481:0;rm .config/waybar/config
 : 1718278533:0;commit "fixed waybar issue"
-: 1718278627:0;cd .config/kitty
-: 1718278635:0;vi kitty.conf
 : 1718278686:0;cp ~/startpage startpage
-: 1718278693:0;stow --adopt .
 : 1718278707:0;git rm --cached -f startpage
 : 1718278716:0;sudo rm -r .git .gitignore
 : 1718278737:0;commit "added startpage"
@@ -2049,7 +2017,6 @@ git push -u origin main
 : 1718294516:0;cd doc
 : 1718294521:0;cd sample\ files
 : 1718294548:0;cp sample\ files ~/.config/awesome
-: 1718341956:0;cd system-healt-monitoring
 : 1718341979:0;mkdir trying
 : 1718342008:0;cargo new -bin paho-mqtt
 : 1718342014:0;cargo new --bin paho-mqtt
@@ -2072,15 +2039,10 @@ git push -u origin main
 : 1718353629:0;cd agent-with-paho
 : 1718353681:0;sudo rm -r .git
 : 1718353697:0;rm .gitignore README.md
-: 1718354881:0;sudo rm -r system-health-monitoring-agent
-: 1718354968:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
-: 1718355037:0;cd system-health-monitoring-agent
 : 1718355041:0;checkout 1-feature-my-sks-test
 : 1718355051:0;checkout origin/1-feature-init-system-health-monitoring-agent
-: 1718355060:0;checkout 1-feature-init-system-health-monitoring-agent
 : 1718355195:0;vpn
 : 1718355303:0;mosquitto_sub -h my-sks-test.de -p 42024 -t sks/by-device/v1/#
-: 1718355368:0;cd health-monitoring-clients
 : 1718355374:0;cd grafana
 : 1718355376:0;cd example_dashboards
 : 1718356671:0;pacs delta
@@ -2095,7 +2057,6 @@ git push -u origin main
 : 1718357505:0;z
 : 1718357524:0;z zsh
 : 1718357527:0;vi alias
-: 1718357531:0;vi aliases.zsh
 : 1718357572:0;z nvim
 : 1718357578:0;cd nvi
 : 1718357582:0;cd config
@@ -2106,7 +2067,6 @@ git push -u origin main
 : 1718358195:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh
 : 1718358202:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh/
 : 1718358218:0;clone https://github.com/junegunn/fzf-git.sh .config/zsh/fzf
-: 1718358221:0;cd zsh
 : 1718358224:0;cd fzf
 : 1718358233:0;mv fzf-git.sh ..
 : 1718358250:0;chmod +x fzf-git.sh
@@ -2125,9 +2085,7 @@ git push -u origin main
 : 1718597185:0;sudo rm -r fzf
 : 1718597211:0;commit "updated some tools and confs"
 : 1718597236:0;cd config nvim
-: 1718597660:0;n
 : 1718598550:0;cd .config/chadwm/chadwm
-: 1718598560:0;cd scripts
 : 1718598566:0;vi bar.sh
 : 1718598587:0;cd bar_themes
 : 1718598601:0;cd chad scripts
@@ -2145,7 +2103,6 @@ cat .bashrc
 : 1718608152:0;cd git dbm
 : 1718697964:0;cd my-dots
 : 1718697973:0;cd gitclone/my-dots/
-: 1718697984:0;cd dotfiles
 : 1718699689:0;cd Documents/schule/
 : 1718699691:0;cd Deutsch
 : 1718700023:0;cd schule deutsch
@@ -2158,7 +2115,6 @@ cat .bashrc
 : 1718714476:0;cd rust actix
 : 1718714980:0;paru -S eshare
 : 1718775927:0;sudo rm -r .idea
-: 1718777439:0;paru -Syyu
 : 1718779275:0;sudo pacsman -Syu
 : 1718779284:0;fuck
 : 1718779291:0;sudo pacman -Syu
@@ -2167,7 +2123,6 @@ cat .bashrc
 : 1718786793:0;systemctl status
 : 1718787985:0;whereis fwupd
 : 1718788974:0;sudo rm -r RustroverProjects
-: 1718788998:0;cd Documents
 : 1718789004:0;rm -r test.cs
 : 1718789009:0;rm -r testing_nvim
 : 1718789018:0;sudo rm -r testing_nvim
@@ -2178,10 +2133,7 @@ cat .bashrc
 : 1718789064:0;cargo new --bin systemd-test
 : 1718789070:0;cd systemd-test
 : 1718789186:0;systemctl is-system-running
-: 1718790909:0;git status
-: 1718790913:0;addall
 : 1718790948:0;commit "added systemctl is-system-running"
-: 1718790951:0;push
 : 1718791378:0;cd startpage
 : 1718791381:0;cd fazzi
 : 1718791386:0;vi index.html
@@ -2189,13 +2141,10 @@ cat .bashrc
 : 1718792539:0;vi zsh/aliases.zsh
 : 1718792555:0;vi .config/zsh/aliases.zsh
 : 1718792655:0;todo
-: 1718868394:0;cd gitclone
 : 1718868420:0;cd dot
 : 1718869283:0;vi Installer
 : 1718962213:0;ping 212.132.108.197
 : 1718962321:0;ping google.com
-: 1719212291:0;pacsyyu
-: 1719213075:0;pull
 : 1719218652:0;cd dbm-intern-ranking
 : 1719218655:0;diff
 : 1719218750:0;vi dbm-intern-ranking-gui/src/main.rs
@@ -2208,23 +2157,13 @@ cat .bashrc
 : 1719222245:0;vi Versandkosten/Program.cs
 : 1719222311:0;cd gitclone dbm
 : 1719222340:0;vi dbm-intern-ranking-gui
-: 1719222373:0;cargo run
-: 1719222456:0;..
 : 1719222460:0;cd actix-api
-: 1719222469:0;vi .
-: 1719222573:0;cd healt agent
 : 1719222577:0;cd src
 : 1719222580:0;vi main.rs
-: 1719223090:0;cd chad chad
 : 1719223135:0;vi dwm.c
-: 1719223583:0;vi config.def.h
-: 1719223710:0;btop
 : 1719231484:0;cd dbm-intern-ranking-gui
-: 1719231488:0;vi src/main.rs
-: 1719231981:0;cd
 : 1719231988:0;pacs lowriter
 : 1719231998:0;pacs libreoffice
-: 1719232024:0;clear
 : 1719232083:0;cd schule
 : 1719232086:0;cd lf5
 : 1719232156:0;dotnet new console -n Schleifen
@@ -2266,124 +2205,296 @@ cat .bashrc
 \
 
 : 1719232182:0;lear
-: 1719232183:0;c
 : 1719232292:0;cd schule lf5 projects
 : 1719232298:0;cd schule lf5 projekts
-: 1719232302:0;cd schule lf5
-: 1719232308:0;cd projects/cs
-: 1719232308:0;ls
 : 1719232312:0;cd ausprobieren
 : 1719232315:0;vi while_exercise
 : 1719232400:0;cd while_exercise
-: 1719232588:0;dotnet run
 : 1719232814:0;...
-: 1719232819:0;cd Schleifen
-: 1719232824:0;vi Program.cs
 : 1719292942:0;cd .screenlayout
 : 1719292952:0;./workstandart.sh
 : 1719292983:0;nitrogen --restore
-: 1719292987:0;clear
-: 1719293123:0;pacsyyu
-: 1719293335:0;cd schule lf5
-: 1719293339:0;cd projects/cs
 : 1719293345:0;cd schleifen
-: 1719293346:0;ls
-: 1719293351:0;vi Program.cs
-: 1719293436:0;git status
-: 1719293441:0;addall
 : 1719293455:0;commit "Bearbeiten Schleifen.docx"
-: 1719293456:0;clear
-: 1719293463:0;ls
-: 1719293466:0;vi README.md
-: 1719293511:0;push
 : 1719293530:0;vi README.md
-: 1719293544:0;git status
-: 1719293546:0;addall
 : 1719293556:0;commit "updated README.md"
-: 1719293557:0;push
-: 1719293699:0;cd
 : 1719293702:0;cd healt agent
-: 1719293704:0;pull
 : 1719293707:0;.
-: 1719293708:0;..
-: 1719293721:0;sudo rm -r system-health-monitoring-agent
-: 1719293731:0;clear
-: 1719293752:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
 : 1719293755:0;cd health-monitoring-clients
-: 1719293757:0;..
-: 1719293765:0;ls
 : 1719293769:0;cd system-health-monitoring-agent
-: 1719293796:0;checkout 1-feature-init-system-health-monitoring-agent
-: 1719293797:0;ls
-: 1719293803:0;vi src
 : 1719294055:0;spicetify update
 : 1719294061:0;spicetify backup apply
-: 1719294134:0;clear
-: 1719294136:0;cd
 : 1719294245:0;cargo install yazi
 : 1719294275:0;cargo add yazi
-: 1719294278:0;clear
 : 1719294350:0;pacs yazi
 : 1719294360:0;yazi
-: 1719294754:0;clear
 : 1719294765:0;vi .config/zsh/env.zsh
-: 1719294790:0;yy
-: 1719294815:0;vi .config/picom.conf
-: 1719294939:0;cd .config/kitty
-: 1719294946:0;ls
-: 1719294952:0;vi .
-: 1719295034:0;kitty +kitten themes --reload-in=all <optional: Catppuccin-Mocha>
-: 1719295058:0;clear
 : 1719295061:0;kitty +kitten themes --reload-in=all <optional: Catppuccin-Mocha>
 : 1719295070:0;bash
-: 1719295103:0;ls
-: 1719295155:0;vi kitty.conf
 : 1719295237:0;vi .config/kitty/kitty.conf
-: 1719295269:0;cd .config/kitty
-: 1719295269:0;ls
 : 1719295280:0;rm decay.ini open-actions.conf
-: 1719295288:0;vi kitty.conf
 : 1719295561:0;rm kitty.conf
-: 1719295563:0;ls
 : 1719295572:0;sudo find / -iname kitty.conf
 : 1719296011:0;cp /usr/share/doc/kitty/kitty.conf kitty.conf
-: 1719296013:0;clear
-: 1719296016:0;vi kitty.conf
 : 1719296055:0;vi dotfiles/.config/kitty
-: 1719297495:0;vi kitty.conf
 : 1719297618:0;vi dotfiles/.config/kitty/kitty.conf
-: 1719299356:0;yy
-: 1719299430:0;clear
-: 1719299431:0;cd
 : 1719300000:0;kitty +tmux
 : 1719300011:0;kitty +launch tmux
 : 1719300017:0;kitty tmux
-: 1719300070:0;cd chad chad
-: 1719300079:0;vi config.def.h
-: 1719300114:0;dwm-recomp
-: 1719300122:0;clear
 : 1719300175:0;blueman-applet &
-: 1719300177:0;clear
 : 1719300199:0;st
 : 1719300284:0;kitty -w
 : 1719300292:0;kitty '' tmux
-: 1719300667:0;killall easyeffects
-: 1719300819:0;cd .config/kitty
-: 1719300823:0;vi kitty.conf
 : 1719300860:0;cd Documents
 : 1719300867:0;nvim notes.txt
-: 1719301015:0;cd chad chad
 : 1719301019:0;vi config.def.h
-: 1719301037:0;clear
 : 1719301040:0;dwm-recomp
-: 1719301119:0;..
 : 1719301126:0;cd kitty
 : 1719301148:0;cp kitty.conf ~/dotfiles/.config/kitty/kitty.conf
-: 1719301153:0;ls
 : 1719301162:0;yy
-: 1719301180:0;cd
-: 1719301188:0;cd dotfiles
 : 1719301190:0;stow
 : 1719301197:0;stow --adopt .
-: 1719301207:0;git status
-: 1719301225:0;addall
+: 1719301244:0;commit "updated kitty conf and switched back to kitty"
+: 1719301266:0;cd .config/kitty
+: 1719301272:0;vi kitty.conf
+: 1719301298:0;cd dotfiles
+: 1719302971:0;cd /home/wynter/Documents/schule/LF5/Kontrollstrukturen/Kontrollstrukturen
+: 1719303866:0;cd .config/foot
+: 1719303874:0;vi foot.ini
+: 1719311390:0;cd scripts
+: 1719311396:0;./run.sh
+: 1719311499:0;cd chad chad
+: 1719315552:0;cd schule lf5
+: 1719315556:0;cd projects/cs
+: 1719315572:0;cd Kontrollstrukturen
+: 1719317159:0;killall easyeffects
+: 1719317977:0;reboot
+: 1719814660:0;vi .config/picom.conf
+: 1719814683:0;killall picom
+: 1719814698:0;picom
+: 1719816675:0;paru -S uwufetch
+: 1719816771:0;uwufetch
+: 1719816773:0;n
+: 1719816782:0;neofetch
+: 1719904438:0;pul
+: 1719904514:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=localhost MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_T\
+OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 cargo run
+: 1719907028:0;pacman -S ruff-lsp
+: 1719907033:0;pacs ruff-lsp
+: 1719907291:0;cd system-healt-monitoring
+: 1719907295:0;cd clients
+: 1719907304:0;cd Customer-Device-Mapper\ 
+: 1719907305:0;cd Customer-Device-Mapper
+: 1719907536:0;whereis settings.nvim
+: 1719907544:0;sudo find / -iname settings.nvim
+: 1719907596:0;vi lazy_setup.lua
+: 1719907794:0;cd customerdevice mapper
+: 1719907798:0;cd customerdevicemapper
+: 1719907802:0;cd customer device mapper
+: 1719907806:0;vi CustomerDeviceMapper.py
+: 1719907939:0;nvim
+: 1719907952:0;cd plugins
+: 1719908187:0;code user.lua
+: 1719908443:0;vi init.lua
+: 1719908466:0;cd lua
+: 1719908469:0;vi plugins
+: 1719908674:0;cd lua plugins
+: 1719908681:0;vi user.lua
+: 1719910972:0;cargo clean
+: 1719912172:0;cd nvim
+: 1719912234:0;vi .
+: 1719925412:0;cmatrix
+: 1719925431:0;gfewsxzsdfgasrdtfewrtweeerteeeeeerwttttttwertttttwwwwwwrwetttttttttttttttttttttttttttttterrrrrwwwwwwwwwwwwwwwwwwwwwwwwwwwerttttttttttttttttttttttttttttttrettttttttttttttttttttteeeeeeeeeeeeeeeeeeerrttttttttttt
+: 1719925440:0;c
+: 1719926704:0;vi
+: 1719932170:0;git stash
+: 1719932201:0;sudo rm -r system-health-monitoring-agent
+: 1719932288:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
+: 1719932296:0;checkout 1-feature-init-system-health-monitoring-agent
+: 1719932302:0;vi src
+: 1719984103:0;pacsyyu
+: 1719984538:0;paru -Syyu
+: 1719986574:0;cd zsh
+: 1719986578:0;vi aliases.zsh
+: 1719988752:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=localhost MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 cargo run
+: 1719988864:0;exit
+: 1719988923:0;addall
+: 1719988929:0;commit "splitted ram funktion"
+: 1719988948:0;git merge
+: 1719988965:0;git status
+: 1719988978:0;push
+: 1719991118:0;btop
+: 1719991125:0;htop
+: 1719995776:0;cd gitclone
+: 1719995780:0;cd TextPaster
+: 1720014151:0;cargo run
+: 1720014162:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run --verbose
+: 1720073823:0;cd health agent
+: 1720073825:0;pull
+: 1720073836:0;vi src/main.rs
+: 1720095542:0;cd Documents schule cs
+: 1720095566:0;cd Schleifen
+: 1720095584:0;..
+: 1720095609:0;dotnet new console -n combine-learned
+: 1720098251:0;dotnet run
+: 1720098269:0;clear
+: 1720098271:0;cd
+: 1720161913:0;cd schule lf5 cs
+: 1720161921:0;cd combine-learned
+: 1720161922:0;ls
+: 1720161927:0;vi Program.cs
+: 1720418836:0;pacsyyu
+: 1720419225:0;yy
+: 1720439930:0;pacs angry-ipsccanner
+: 1720440036:0;cd
+: 1720440046:0;cd Downloads
+: 1720440054:0;java -jar ipscan-any-3.9.1.jar
+: 1720440066:0;paru -S ipscan
+: 1720440079:0;ipscan
+: 1720440172:0;ls
+: 1720440236:0;ping 192.168.157.204
+: 1720440249:0;ssh root@192.168.157.204
+: 1720440280:0;paru -S adb
+: 1720440327:0;adb
+: 1720440346:0;androiddeployqt6
+: 1720440369:0;androiddeployqt6 --devices
+: 1720440377:0;clear
+: 1720440582:0;ls
+: 1720440592:0;unzip platform-tools-latest-linux.zip
+: 1720440598:0;cd platform-tools
+: 1720440599:0;ls
+: 1720440607:0;./adb devices
+: 1720440651:0;./adb help
+: 1720440684:0;./adb reboot
+: 1720440700:0;./adb devices
+: 1720440844:0;n
+: 1720588926:0;paru -Syu
+: 1720589881:0;cd chad chad
+: 1720589885:0;vi config.def.h
+: 1720589935:0;Zed
+: 1720589968:0;zeditor
+: 1720589987:0;clear
+: 1720590044:0;df
+: 1720590060:0;clear
+: 1720590299:0;pacs solaar
+: 1720590319:0;clear
+: 1720590584:0;dwm-recomp
+: 1720590589:0;cd
+: 1720590592:0;cd health agent
+: 1720590593:0;ls
+: 1720590595:0;pull
+: 1720590620:0;checkout develop
+: 1720590621:0;ls
+: 1720590625:0;pull
+: 1720592413:0;cd
+: 1720592417:0;cd .config
+: 1720592418:0;ls
+: 1720592423:0;rm droidcam
+: 1720592439:0;sudo pacman -R droidcam
+: 1720592458:0;yy
+: 1720597729:0;clear
+: 1720597730:0;cd
+: 1720597759:0;n
+: 1720597779:0;btop
+: 1720600344:0;cd startpage
+: 1720600346:0;cd fazzi
+: 1720600347:0;ls
+: 1720600350:0;vi index.html
+: 1720600982:0;clear
+: 1720600983:0;cd
+: 1720600991:0;vi zsh/aliases.zsh
+: 1720601006:0;cd .config/zsh/aliases.zsh
+: 1720601011:0;vi .config/zsh/aliases.zsh
+: 1720615753:0;btop
+: 1720617488:0;cd lf5
+: 1720617489:0;ls
+: 1720617491:0;cd cs
+: 1720617491:0;ls
+: 1720617498:0;cd combine-learned
+: 1720617502:0;vi Program.cs
+: 1720618592:0;dotnet run
+: 1720618621:0;vi Program.cs
+: 1720618694:0;clear
+: 1720618831:0;cd
+: 1720618836:0;ls
+: 1720618893:0;cd health agent
+: 1720619004:0;pull
+: 1720619008:0;clear
+: 1720620202:0;..
+: 1720620207:0;cd dbm-intern-ranking
+: 1720620208:0;ls
+: 1720620214:0;cd actix-api
+: 1720620219:0;vi Cargo.toml
+: 1720679124:0;cd dbm-intern-ranking
+: 1720679127:0;git status
+: 1720679133:0;gdiff
+: 1720679154:0;cd dbm-intern-ranking-gui
+: 1720679155:0;ls
+: 1720679165:0;vi README.md
+: 1720679406:0;cargo run
+: 1720680136:0;git add README.md
+: 1720680148:0;commit "updated README.md"
+: 1720680150:0;push
+: 1720680246:0;git push --help
+: 1720680456:0;cp README.md ~/gitclone/dbm-backup
+: 1720680460:0;clear
+: 1720680461:0;..
+: 1720680475:0;sudo rm -r dbm-intern-ranking
+: 1720680494:0;clone https://github.com/KyokoSpl/dbm-intern-ranking
+: 1720680510:0;cd dbm-intern-ranking
+: 1720680518:0;cd dbm-intern-ranking-gui
+: 1720680525:0;pcmanfm .
+: 1720680580:0;vi README.md
+: 1720680594:0;addall
+: 1720680596:0;commit "updated README.md"
+: 1720680598:0;push
+: 1720680621:0;..
+: 1720680627:0;sudo rm -r dbm-intern-ranking
+: 1720680629:0;ls
+: 1720680638:0;clone git@github.com:KyokoSpl/dbm-intern-ranking.git
+: 1720680652:0;clear
+: 1720680657:0;cd dbm-intern-ranking
+: 1720680660:0;..
+: 1720680662:0;pcmanfm .
+: 1720680692:0;cd dbm-intern-ranking
+: 1720680694:0;addall
+: 1720680696:0;commit "updated README.md"
+: 1720680701:0;push
+: 1720681610:0;clear
+: 1720683427:0;cd dbm-intern-ranking
+: 1720683433:0;cargo run
+: 1720683466:0;clear
+: 1720683468:0;..
+: 1720684331:0;ls
+: 1720684343:0;bash dbm-intern-ranking-gui-linux
+: 1720684351:0;dbm-intern-ranking-gui
+: 1721193912:0;pacsyyu
+: 1721195132:0;clear
+: 1721195178:0;cd health agent
+: 1721195179:0;pull
+: 1721195192:0;clear
+: 1721195376:0;ls
+: 1721195384:0;checkout 7-feature-cb-check-for-open-boxes
+: 1721195385:0;ls
+: 1721195392:0;cd src
+: 1721195398:0;..
+: 1721195399:0;vi .
+: 1721195994:0;cd
+: 1721195995:0;ls
+: 1721196001:0;cd .config
+: 1721196002:0;ls
+: 1721196023:0;cd eww
+: 1721196024:0;ls
+: 1721196062:0;cd src
+: 1721196063:0;ls
+: 1721196075:0;vi dashboard.yuck
+: 1721196200:0;cd
+: 1721196201:0;ls
+: 1721196212:0;cd dotfiles/l
+: 1721196215:0;cd dotfiles
+: 1721196216:0;ls
+: 1721196231:0;gs
+: 1721196240:0;clear
+: 1721196245:0;gdiff
+: 1721196310:0;git status
+: 1721196325:0;addall

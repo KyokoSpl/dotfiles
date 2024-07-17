@@ -3,6 +3,15 @@
 
 ---@type LazySpec
 return {
+  vim.keymap.set("n", "<leader>rn", ":IncRename "),
+  require("lspconfig").ruff_lsp.setup {
+    init_options = {
+      settings = {
+        -- Any extra CLI arguments for `ruff` go here.
+        args = {},
+      },
+    },
+  },
 
   -- == Examples of Adding Plugins ==
 
@@ -15,4 +24,11 @@ return {
   "numToStr/Comment.nvim",
 
   require("Comment").setup(),
+
+  require("lazy").setup({
+    {
+      "supermaven-inc/supermaven-nvim",
+      config = function() require("supermaven-nvim").setup {} end,
+    },
+  }, {}),
 }

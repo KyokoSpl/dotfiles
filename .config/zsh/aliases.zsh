@@ -47,6 +47,8 @@ alias pull='git pull origin'
 alias push='git push origin'
 alias tag='git tag'
 alias newtag='git tag -a'
+alias gstat='git status'
+alias gdiff='git diff'
 # my aliases
 alias vi='nvim'
 alias py='python'
@@ -68,6 +70,7 @@ alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pac
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias cd='z'
+
 
 # dwm
 alias dwm-recomp="rm config.h && sudo make install"

@@ -178,8 +178,8 @@ static const Key keys[] = {
 
     {MODKEY, XK_b, spawn, SHCMD("brave")},
     {MODKEY | Mod1Mask, XK_e, spawn, SHCMD("eww open eww")},
-    {MODKEY, XK_e, spawn, SHCMD("st nvim")},
-    {MODKEY | ShiftMask, XK_e, spawn, SHCMD("rustrover-eap")},
+    {MODKEY, XK_e, spawn, SHCMD("kitty nvim")},
+    {MODKEY | ShiftMask, XK_e, spawn, SHCMD("zededitor")},
     {MODKEY | ControlMask, XK_e, spawn, SHCMD("pycharm-community-eap")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
     {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("rofi -show drun")},

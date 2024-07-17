@@ -12,5 +12,9 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.pack.cs" },
+  { import = "astrocommunity.lsp.lsp-lens-nvim" },
+  { import = "astrocommunity.lsp.actions-preview-nvim" },
+  { import = "astrocommunity.lsp.inc-rename-nvim" },
+  { import = "astrocommunity.test.neotest" },
   -- import/override with your plugins folder
 }

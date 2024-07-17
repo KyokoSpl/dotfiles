@@ -1,12 +1,12 @@
 {
 	"all": {
 		"changeLogs": {
-			"BDFDB": "3.7.2",
-			"PluginRepo": "2.5.5",
-			"ReadAllNotificationsButton": "1.7.6",
+			"BDFDB": "3.7.6",
+			"PluginRepo": "2.5.7",
+			"ReadAllNotificationsButton": "1.7.7",
 			"SpellCheck": "1.6.9",
 			"SpotifyControls": "1.4.0",
-			"ThemeRepo": "2.5.6"
+			"ThemeRepo": "2.5.7"
 		},
 		"choices": {
 			"toastPosition": "right"
@@ -18,8 +18,8 @@
 			"useChromium": false
 		},
 		"hashes": {
-			"0BDFDB.data.json": "886399d2e3bff68a613bc96711ebbfb232696e57",
-			"0BDFDB.raw.css": "ed403dd1e22b2cb14d4153a296366cbef66e17b9"
+			"0BDFDB.data.json": "d2b5d1c477d0e8792ead8e9c97c877a7e1b05c9a",
+			"0BDFDB.raw.css": "9b2948d4215db3f534453b92726e60b2819fe897"
 		}
 	}
 }

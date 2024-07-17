@@ -1256,7 +1256,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1714167020:0;strace droidcam\
 
 : 1714167071:0;strace droidcam | grep lib
-: 1714167085:0;sudo pacman -R droidcam
 : 1714167095:0;sudo pacman -S droidcam
 : 1714167119:0;sudo ln -s /usr/lib/libusbmuxd-2.0.so.6 /usr/lib/libusbmuxd-2.0.so.6\
 
@@ -1335,7 +1334,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1715021568:0;vi keymap.json
 : 1715021576:0;rm -r zed
 : 1715021874:0;pacs zed-editor
-: 1715021917:0;cd .config/
 : 1715024081:0;sudo rm -r zed
 : 1715024118:0;cd App
 : 1715024136:0;rm zed-0.132.3.tar.gz
@@ -1344,7 +1342,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1715024162:0;sudo rm zed-editor
 : 1715024168:0;sudo rm -r zed-editor
 : 1715024274:0;paru -R zed-editor
-: 1715024295:0;Zed
 : 1715024487:0;rm -r src
 : 1715024588:0;cd zed-0.133.7
 : 1715024591:0;cd script
@@ -1388,7 +1385,6 @@ git checkout 7-add-personality-to-gui
 : 1715630588:0;m
 : 1715630613:0;cd .config/neofetch
 : 1715630655:0;vi config.conf
-: 1715664522:0;paru -Syu
 : 1715665230:0;git checkout 6-rewrite-api-in-actix
 : 1715665233:0;pulll
 : 1715668015:0;checkout 7-add-personality-to-gui
@@ -1410,13 +1406,10 @@ git checkout 7-add-personality-to-gui
 : 1715748096:0;cd gitclone/TuxMC-rust/
 : 1715749775:0;cd gitclone/TextPaster/
 : 1715750241:0;ip address
-: 1715833869:0;sudo rm -r dbm-intern-ranking
-: 1715833895:0;clone git@github.com:KyokoSpl/dbm-intern-ranking.git
 : 1715844193:0;openvpn --config vpn.ovpn --data-ciphers AES-256-CBC
 : 1715844205:0;whereis vpn.ovpn
 : 1715844216:0;sudo find / -iname vpn.ovpn
 : 1715946553:0;sudo cp target/debug/dbm-intern-ranking-gui /bin/
-: 1715946568:0;dbm-intern-ranking-gui
 : 1716787997:0;paru -R electron25
 : 1716788006:0;sudo pacman -R libicuuc
 : 1716792785:0;clone git@scm.sks-kinkel.de:research/esp32.git
@@ -1510,7 +1503,6 @@ nvim
 : 1716899598:0;cmake ../cpp_test
 : 1716899624:0;cmake --help
 : 1716899835:0;clone https://github.com/memsharded/hello.git
-: 1716900101:0;pcmanfm .
 : 1716902762:0;mkdir python_test
 : 1716902767:0;cd python_test
 : 1716902911:0;py main.py
@@ -1602,7 +1594,6 @@ sudo make clean install
 : 1717351695:0;cd scss/themes
 : 1717351706:0;vi eww.scss
 : 1717352323:0;vi .config/eww/eww.yuck
-: 1717352764:0;vi dashboard.yuck
 : 1717352773:0;cd focal
 : 1717352781:0;vi widgets.yuck
 : 1717352795:0;vi init.yuck
@@ -1699,7 +1690,6 @@ sudo make install
 : 1717404609:0;cd header
 : 1717404612:0;vi fetch.yuck
 : 1717405024:0;dwm-recomp^
-: 1717405676:0;df
 : 1717407259:0;#
 : 1717414693:0;cd .config/eww
 : 1717414717:0;cd footer
@@ -1715,7 +1705,6 @@ sudo make install
 : 1717416917:0;dotnet run while_exercise
 : 1717417729:0;cd .config/nvim
 : 1717417870:0;vi community.lua
-: 1717418902:0;cd cs
 : 1717418929:0;git add ausprobieren/
 : 1717418947:0;commit "adde loop exercises"
 : 1717418979:0;git restore Buch\ Seite\ 32/
@@ -1810,7 +1799,6 @@ sudo make install
 : 1717748877:0;sudo make install
 : 1717751067:0;cd gitclone/dbm-intern-ranking/actix-api
 : 1718000313:0;cd gitclone/dbm-intern-ranking/dbm-intern-ranking-gui
-: 1718000437:0;cd Downloads
 : 1718002195:0;mkdir .cfg-back
 : 1718002209:0;cp -r .config .cfg-back
 : 1718002222:0;rs
@@ -1874,7 +1862,6 @@ sudo make install
 : 1718174670:0;cd /run
 : 1718174698:0;vi sks-device-id.env
 : 1718174738:0;sudo nvim sks-device-id.env
-: 1718180836:0;wethr
 : 1718186194:0;ssh root@my-sks-test.de
 : 1718186317:0;cd database
 : 1718186397:0;vi config.ini
@@ -1893,7 +1880,6 @@ sudo make install
 : 1718194652:0;tmux -h
 : 1718194698:0;man tabbed
 : 1718194844:0;cd .config/st/
-: 1718194848:0;vi config.h
 : 1718194876:0;cd tabbed
 : 1718194928:0;tmux
 : 1718195107:0;cd .config/tabbed
@@ -1997,7 +1983,6 @@ git push -u origin main
 : 1718286033:0;cargo build
 : 1718292808:0;pacs bspwm
 : 1718292840:0;whereis bspwm
-: 1718292944:0;cd .config
 : 1718292948:0;cd hypr
 : 1718292958:0;cd hyprland
 : 1718292986:0;vi keybinds.conf
@@ -2020,7 +2005,6 @@ git push -u origin main
 : 1718341979:0;mkdir trying
 : 1718342008:0;cargo new -bin paho-mqtt
 : 1718342014:0;cargo new --bin paho-mqtt
-: 1718342806:0;vi Cargo.toml
 : 1718344637:0;rustup toolchain install 1.51.0\
 
 : 1718344666:0;rustup toolchain install 1.51.0
@@ -2059,7 +2043,6 @@ git push -u origin main
 : 1718357527:0;vi alias
 : 1718357572:0;z nvim
 : 1718357578:0;cd nvi
-: 1718357582:0;cd config
 : 1718357588:0;cd gitclone/system-healt-monitoring/system-health-monitoring-agent
 : 1718357623:0;paru -S delta
 : 1718358022:0;sudo pacman -S thefuck
@@ -2084,7 +2067,6 @@ git push -u origin main
 : 1718597167:0;cd .config/zsh/fzf
 : 1718597185:0;sudo rm -r fzf
 : 1718597211:0;commit "updated some tools and confs"
-: 1718597236:0;cd config nvim
 : 1718598550:0;cd .config/chadwm/chadwm
 : 1718598566:0;vi bar.sh
 : 1718598587:0;cd bar_themes
@@ -2134,18 +2116,11 @@ cat .bashrc
 : 1718789070:0;cd systemd-test
 : 1718789186:0;systemctl is-system-running
 : 1718790948:0;commit "added systemctl is-system-running"
-: 1718791378:0;cd startpage
-: 1718791381:0;cd fazzi
-: 1718791386:0;vi index.html
-: 1718792528:0;todo_app
-: 1718792539:0;vi zsh/aliases.zsh
-: 1718792555:0;vi .config/zsh/aliases.zsh
 : 1718792655:0;todo
 : 1718868420:0;cd dot
 : 1718869283:0;vi Installer
 : 1718962213:0;ping 212.132.108.197
 : 1718962321:0;ping google.com
-: 1719218652:0;cd dbm-intern-ranking
 : 1719218655:0;diff
 : 1719218750:0;vi dbm-intern-ranking-gui/src/main.rs
 : 1719218827:0;git diff
@@ -2157,15 +2132,11 @@ cat .bashrc
 : 1719222245:0;vi Versandkosten/Program.cs
 : 1719222311:0;cd gitclone dbm
 : 1719222340:0;vi dbm-intern-ranking-gui
-: 1719222460:0;cd actix-api
-: 1719222577:0;cd src
 : 1719222580:0;vi main.rs
 : 1719223135:0;vi dwm.c
-: 1719231484:0;cd dbm-intern-ranking-gui
 : 1719231988:0;pacs lowriter
 : 1719231998:0;pacs libreoffice
 : 1719232083:0;cd schule
-: 1719232086:0;cd lf5
 : 1719232156:0;dotnet new console -n Schleifen
 : 1719232177:0;n\
 \
@@ -2216,8 +2187,6 @@ cat .bashrc
 : 1719292983:0;nitrogen --restore
 : 1719293345:0;cd schleifen
 : 1719293455:0;commit "Bearbeiten Schleifen.docx"
-: 1719293530:0;vi README.md
-: 1719293556:0;commit "updated README.md"
 : 1719293702:0;cd healt agent
 : 1719293707:0;.
 : 1719293755:0;cd health-monitoring-clients
@@ -2247,23 +2216,18 @@ cat .bashrc
 : 1719300292:0;kitty '' tmux
 : 1719300860:0;cd Documents
 : 1719300867:0;nvim notes.txt
-: 1719301019:0;vi config.def.h
-: 1719301040:0;dwm-recomp
 : 1719301126:0;cd kitty
 : 1719301148:0;cp kitty.conf ~/dotfiles/.config/kitty/kitty.conf
-: 1719301162:0;yy
 : 1719301190:0;stow
 : 1719301197:0;stow --adopt .
 : 1719301244:0;commit "updated kitty conf and switched back to kitty"
 : 1719301266:0;cd .config/kitty
 : 1719301272:0;vi kitty.conf
-: 1719301298:0;cd dotfiles
 : 1719302971:0;cd /home/wynter/Documents/schule/LF5/Kontrollstrukturen/Kontrollstrukturen
 : 1719303866:0;cd .config/foot
 : 1719303874:0;vi foot.ini
 : 1719311390:0;cd scripts
 : 1719311396:0;./run.sh
-: 1719311499:0;cd chad chad
 : 1719315552:0;cd schule lf5
 : 1719315556:0;cd projects/cs
 : 1719315572:0;cd Kontrollstrukturen
@@ -2274,7 +2238,6 @@ cat .bashrc
 : 1719814698:0;picom
 : 1719816675:0;paru -S uwufetch
 : 1719816771:0;uwufetch
-: 1719816773:0;n
 : 1719816782:0;neofetch
 : 1719904438:0;pul
 : 1719904514:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=localhost MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_T\
@@ -2302,7 +2265,6 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1719908681:0;vi user.lua
 : 1719910972:0;cargo clean
 : 1719912172:0;cd nvim
-: 1719912234:0;vi .
 : 1719925412:0;cmatrix
 : 1719925431:0;gfewsxzsdfgasrdtfewrtweeerteeeeeerwttttttwertttttwwwwwwrwetttttttttttttttttttttttttttttterrrrrwwwwwwwwwwwwwwwwwwwwwwwwwwwerttttttttttttttttttttttttttttttrettttttttttttttttttttteeeeeeeeeeeeeeeeeeerrttttttttttt
 : 1719925440:0;c
@@ -2312,189 +2274,118 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1719932288:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
 : 1719932296:0;checkout 1-feature-init-system-health-monitoring-agent
 : 1719932302:0;vi src
-: 1719984103:0;pacsyyu
 : 1719984538:0;paru -Syyu
 : 1719986574:0;cd zsh
 : 1719986578:0;vi aliases.zsh
 : 1719988752:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=localhost MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 cargo run
 : 1719988864:0;exit
-: 1719988923:0;addall
 : 1719988929:0;commit "splitted ram funktion"
 : 1719988948:0;git merge
-: 1719988965:0;git status
-: 1719988978:0;push
-: 1719991118:0;btop
 : 1719991125:0;htop
 : 1719995776:0;cd gitclone
 : 1719995780:0;cd TextPaster
-: 1720014151:0;cargo run
 : 1720014162:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run --verbose
-: 1720073823:0;cd health agent
-: 1720073825:0;pull
 : 1720073836:0;vi src/main.rs
 : 1720095542:0;cd Documents schule cs
 : 1720095566:0;cd Schleifen
-: 1720095584:0;..
 : 1720095609:0;dotnet new console -n combine-learned
-: 1720098251:0;dotnet run
-: 1720098269:0;clear
-: 1720098271:0;cd
 : 1720161913:0;cd schule lf5 cs
-: 1720161921:0;cd combine-learned
-: 1720161922:0;ls
-: 1720161927:0;vi Program.cs
-: 1720418836:0;pacsyyu
-: 1720419225:0;yy
 : 1720439930:0;pacs angry-ipsccanner
-: 1720440036:0;cd
 : 1720440046:0;cd Downloads
 : 1720440054:0;java -jar ipscan-any-3.9.1.jar
 : 1720440066:0;paru -S ipscan
 : 1720440079:0;ipscan
-: 1720440172:0;ls
 : 1720440236:0;ping 192.168.157.204
 : 1720440249:0;ssh root@192.168.157.204
 : 1720440280:0;paru -S adb
 : 1720440327:0;adb
 : 1720440346:0;androiddeployqt6
 : 1720440369:0;androiddeployqt6 --devices
-: 1720440377:0;clear
-: 1720440582:0;ls
 : 1720440592:0;unzip platform-tools-latest-linux.zip
 : 1720440598:0;cd platform-tools
-: 1720440599:0;ls
-: 1720440607:0;./adb devices
 : 1720440651:0;./adb help
 : 1720440684:0;./adb reboot
 : 1720440700:0;./adb devices
-: 1720440844:0;n
 : 1720588926:0;paru -Syu
-: 1720589881:0;cd chad chad
 : 1720589885:0;vi config.def.h
 : 1720589935:0;Zed
-: 1720589968:0;zeditor
-: 1720589987:0;clear
 : 1720590044:0;df
-: 1720590060:0;clear
 : 1720590299:0;pacs solaar
-: 1720590319:0;clear
 : 1720590584:0;dwm-recomp
-: 1720590589:0;cd
-: 1720590592:0;cd health agent
-: 1720590593:0;ls
-: 1720590595:0;pull
 : 1720590620:0;checkout develop
-: 1720590621:0;ls
-: 1720590625:0;pull
-: 1720592413:0;cd
-: 1720592417:0;cd .config
-: 1720592418:0;ls
 : 1720592423:0;rm droidcam
 : 1720592439:0;sudo pacman -R droidcam
 : 1720592458:0;yy
-: 1720597729:0;clear
-: 1720597730:0;cd
-: 1720597759:0;n
-: 1720597779:0;btop
 : 1720600344:0;cd startpage
 : 1720600346:0;cd fazzi
-: 1720600347:0;ls
 : 1720600350:0;vi index.html
-: 1720600982:0;clear
-: 1720600983:0;cd
-: 1720600991:0;vi zsh/aliases.zsh
 : 1720601006:0;cd .config/zsh/aliases.zsh
 : 1720601011:0;vi .config/zsh/aliases.zsh
-: 1720615753:0;btop
 : 1720617488:0;cd lf5
-: 1720617489:0;ls
 : 1720617491:0;cd cs
-: 1720617491:0;ls
 : 1720617498:0;cd combine-learned
-: 1720617502:0;vi Program.cs
 : 1720618592:0;dotnet run
 : 1720618621:0;vi Program.cs
-: 1720618694:0;clear
-: 1720618831:0;cd
-: 1720618836:0;ls
-: 1720618893:0;cd health agent
-: 1720619004:0;pull
-: 1720619008:0;clear
-: 1720620202:0;..
-: 1720620207:0;cd dbm-intern-ranking
-: 1720620208:0;ls
 : 1720620214:0;cd actix-api
 : 1720620219:0;vi Cargo.toml
-: 1720679124:0;cd dbm-intern-ranking
-: 1720679127:0;git status
-: 1720679133:0;gdiff
-: 1720679154:0;cd dbm-intern-ranking-gui
-: 1720679155:0;ls
-: 1720679165:0;vi README.md
-: 1720679406:0;cargo run
 : 1720680136:0;git add README.md
-: 1720680148:0;commit "updated README.md"
-: 1720680150:0;push
 : 1720680246:0;git push --help
 : 1720680456:0;cp README.md ~/gitclone/dbm-backup
-: 1720680460:0;clear
-: 1720680461:0;..
-: 1720680475:0;sudo rm -r dbm-intern-ranking
 : 1720680494:0;clone https://github.com/KyokoSpl/dbm-intern-ranking
-: 1720680510:0;cd dbm-intern-ranking
 : 1720680518:0;cd dbm-intern-ranking-gui
-: 1720680525:0;pcmanfm .
 : 1720680580:0;vi README.md
-: 1720680594:0;addall
-: 1720680596:0;commit "updated README.md"
-: 1720680598:0;push
-: 1720680621:0;..
 : 1720680627:0;sudo rm -r dbm-intern-ranking
-: 1720680629:0;ls
 : 1720680638:0;clone git@github.com:KyokoSpl/dbm-intern-ranking.git
-: 1720680652:0;clear
-: 1720680657:0;cd dbm-intern-ranking
-: 1720680660:0;..
 : 1720680662:0;pcmanfm .
-: 1720680692:0;cd dbm-intern-ranking
-: 1720680694:0;addall
 : 1720680696:0;commit "updated README.md"
-: 1720680701:0;push
-: 1720681610:0;clear
 : 1720683427:0;cd dbm-intern-ranking
 : 1720683433:0;cargo run
-: 1720683466:0;clear
-: 1720683468:0;..
-: 1720684331:0;ls
 : 1720684343:0;bash dbm-intern-ranking-gui-linux
 : 1720684351:0;dbm-intern-ranking-gui
 : 1721193912:0;pacsyyu
-: 1721195132:0;clear
-: 1721195178:0;cd health agent
 : 1721195179:0;pull
-: 1721195192:0;clear
-: 1721195376:0;ls
 : 1721195384:0;checkout 7-feature-cb-check-for-open-boxes
-: 1721195385:0;ls
-: 1721195392:0;cd src
 : 1721195398:0;..
 : 1721195399:0;vi .
-: 1721195994:0;cd
-: 1721195995:0;ls
 : 1721196001:0;cd .config
-: 1721196002:0;ls
 : 1721196023:0;cd eww
-: 1721196024:0;ls
 : 1721196062:0;cd src
-: 1721196063:0;ls
 : 1721196075:0;vi dashboard.yuck
-: 1721196200:0;cd
-: 1721196201:0;ls
 : 1721196212:0;cd dotfiles/l
 : 1721196215:0;cd dotfiles
-: 1721196216:0;ls
 : 1721196231:0;gs
-: 1721196240:0;clear
 : 1721196245:0;gdiff
 : 1721196310:0;git status
 : 1721196325:0;addall
+: 1721196346:0;commit "updated nvim stuff and dwm keybind"
+: 1721196349:0;push
+: 1721196377:0;cd config
+: 1721196396:0;cd config nvim
+: 1721196548:0;cd chad chad
+: 1721196557:0;vi config.h
+: 1721196610:0;cd
+: 1721196921:0;wethr
+: 1721197389:0;pacs firefox
+: 1721197561:0;sudo pacman -R firefox
+: 1721203464:0;uname
+: 1721203468:0;uname -r
+: 1721205200:0;cd .config/
+: 1721205201:0;ld
+: 1721205231:0;vi zsh/aliases.zsh
+: 1721205261:0;todo_app
+: 1721205298:0;clear
+: 1721205302:0;n
+: 1721205329:0;btop
+: 1721209567:0;cd health agent
+: 1721209569:0;ls
+: 1721209577:0;git checkout 5-feature-chts-check-for-presence-of-dev-video-chts_camera_jpeg
+: 1721209596:0;zeditor
+: 1721209665:0;cd health agent
+: 1721209674:0;vi src/config.rs
+: 1721215098:0;cd chad chad
+: 1721215099:0;ls
+: 1721215102:0;vi config.def.h
+: 1721215122:0;clear
+: 1721215128:0;cd
+: 1721215131:0;cd dotfiles
+: 1721215134:0;addall

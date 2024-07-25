@@ -950,7 +950,6 @@ sudo pacman -S --needed webkit2gtk base-devel curl wget file openssl appmenu-gtk
 : 1712443374:0;dmenu
 : 1712443389:0;cd dmscripts/
 : 1712443394:0;vi config
-: 1712443492:0;cd xmonad
 : 1712443565:0;dm-logout -help
 : 1712443598:0;dm-logout -r
 : 1712443657:0;dm-hub
@@ -1028,8 +1027,6 @@ vi -u NONE -c "helptags fugitive/doc" -c q
 : 1712735865:0;mkdir Boys-girls-day
 : 1712738706:0;code Konzept.md
 : 1712743472:0;cargo install cross
-: 1712743660:0;docker
-: 1712743676:0;docker ps
 : 1712743700:0;sudo systemctl start docker
 : 1712743729:0;[12:06 PM] Jason Clark Altmann\
 https://github.com/JasonClarkAltmann/TextPaster\
@@ -1037,16 +1034,12 @@ GitHub - JasonClarkAltmann/TextPaster: TextPaster is a Rust application that all
 TextPaster is a Rust application that allows you to enter text and insert it in a different place. - JasonClarkAltmann/TextPaster
 : 1712743889:0;sudo service docker start
 : 1712743908:0;sudo systemctl docker start
-: 1712743928:0;systemctl start docker
-: 1712743958:0;systemctl stop docker
 : 1712744061:0;sudo find / -iname dockerd-rootless-setuptool.sh
 : 1712744116:0;curl -fsSL https://get.docker.com/rootless | sh
 : 1712744191:0;dockerd
-: 1712744310:0;sudo dockerd
 : 1712744324:0;sudo dockerd&
 : 1712744356:0;sudo systemctl stop docker.socket
 : 1712744359:0;sudo systemctl stop docker
-: 1712744363:0;sudo dockerd &
 : 1712744689:0;sudo cross build --release --target x86_64-pc-windows-gnu
 : 1712744939:0;cross build --release --target x86_64-pc-windows-gnu --target-dir ~/gitclone/dbm-intern-ranking/Template-graphical-app/target/release
 : 1712744999:0;cross build x86_64-pc-windows-gnu
@@ -1351,7 +1344,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1715025037:0;sudo curl -sSL https://get.livekit.io/cli | sudo bash
 : 1715025343:0;rustup update
 : 1715025965:0;vi .config/xmonad/xmonad.hs
-: 1715027280:0;docker compose up -d
 : 1715028454:0;cargo run --release
 : 1715028599:0;net.git-fetch-with-cli
 : 1715028876:0;rm zed-0.133.7
@@ -1548,7 +1540,6 @@ nvim
 : 1716988325:0;cd Calculator
 : 1716988339:0;dotnet add -h
 : 1716988374:0;dotnet add package Calculator.csproj
-: 1716988386:0;cd ..
 : 1716988390:0;dotnet add package Calculator
 : 1716988427:0;cd Body\ mass\ index
 : 1716988444:0;dotnet add package Body\ mass\ index.sln
@@ -1617,7 +1608,6 @@ sudo make clean install
 : 1717354260:0;whereis zsh
 : 1717395244:0;trayer &
 : 1717395631:0;cd .config/xmonad/
-: 1717395636:0;vi xmonad.hs
 : 1717395846:0;rm autostart.sh
 : 1717395886:0;chmod +x autostart.sh
 : 1717396548:0;st -h
@@ -1790,7 +1780,6 @@ sudo make install
 : 1717741245:0;paru -S proton
 : 1717741272:0;paru -S protonmail-desktop
 : 1717745055:0;sudo vpn
-: 1717746633:0;vi scripts/run.sh
 : 1717748508:0;cd gti
 : 1717748540:0;git checkout 1-feature-init-system-health-monitoring-agent
 : 1717748852:0;unzip lsw-0.3.tar.gz
@@ -1852,7 +1841,6 @@ sudo make install
 : 1718171910:0;cd gitclone/system-healt-monitoring
 : 1718172261:0;cd .confg
 : 1718172278:0;vi xmonad/xmonad.hs
-: 1718172871:0;vi run.sh
 : 1718172937:0;vi rofi
 : 1718172966:0;mv rofi rofi-back/
 : 1718172984:0;mv chadwm/rofi rofi/
@@ -1863,7 +1851,6 @@ sudo make install
 : 1718174698:0;vi sks-device-id.env
 : 1718174738:0;sudo nvim sks-device-id.env
 : 1718186194:0;ssh root@my-sks-test.de
-: 1718186317:0;cd database
 : 1718186397:0;vi config.ini
 : 1718186852:0;vi .config/fish
 : 1718186927:0;sudo pacman -R fish
@@ -1933,7 +1920,6 @@ git branch -M main\
 git remote add origin git@github.com:KyokoSpl/dotfiles.git\
 git push -u origin main
 : 1718256944:0;commit "added first files"
-: 1718256953:0;status
 : 1718257051:0;commit "fixed zsh history issue"
 : 1718257166:0;vi .gitignore
 : 1718257371:0;cp ~/.config/tmux .config
@@ -2025,7 +2011,6 @@ git push -u origin main
 : 1718353697:0;rm .gitignore README.md
 : 1718355041:0;checkout 1-feature-my-sks-test
 : 1718355051:0;checkout origin/1-feature-init-system-health-monitoring-agent
-: 1718355195:0;vpn
 : 1718355303:0;mosquitto_sub -h my-sks-test.de -p 42024 -t sks/by-device/v1/#
 : 1718355374:0;cd grafana
 : 1718355376:0;cd example_dashboards
@@ -2226,7 +2211,6 @@ cat .bashrc
 : 1719302971:0;cd /home/wynter/Documents/schule/LF5/Kontrollstrukturen/Kontrollstrukturen
 : 1719303866:0;cd .config/foot
 : 1719303874:0;vi foot.ini
-: 1719311390:0;cd scripts
 : 1719311396:0;./run.sh
 : 1719315552:0;cd schule lf5
 : 1719315556:0;cd projects/cs
@@ -2267,7 +2251,6 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1719912172:0;cd nvim
 : 1719925412:0;cmatrix
 : 1719925431:0;gfewsxzsdfgasrdtfewrtweeerteeeeeerwttttttwertttttwwwwwwrwetttttttttttttttttttttttttttttterrrrrwwwwwwwwwwwwwwwwwwwwwwwwwwwerttttttttttttttttttttttttttttttrettttttttttttttttttttteeeeeeeeeeeeeeeeeeerrttttttttttt
-: 1719925440:0;c
 : 1719926704:0;vi
 : 1719932170:0;git stash
 : 1719932201:0;sudo rm -r system-health-monitoring-agent
@@ -2284,7 +2267,6 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1719991125:0;htop
 : 1719995776:0;cd gitclone
 : 1719995780:0;cd TextPaster
-: 1720014162:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run --verbose
 : 1720073836:0;vi src/main.rs
 : 1720095542:0;cd Documents schule cs
 : 1720095566:0;cd Schleifen
@@ -2307,11 +2289,9 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1720440684:0;./adb reboot
 : 1720440700:0;./adb devices
 : 1720588926:0;paru -Syu
-: 1720589885:0;vi config.def.h
 : 1720589935:0;Zed
 : 1720590044:0;df
 : 1720590299:0;pacs solaar
-: 1720590584:0;dwm-recomp
 : 1720590620:0;checkout develop
 : 1720592423:0;rm droidcam
 : 1720592439:0;sudo pacman -R droidcam
@@ -2336,56 +2316,266 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1720680580:0;vi README.md
 : 1720680627:0;sudo rm -r dbm-intern-ranking
 : 1720680638:0;clone git@github.com:KyokoSpl/dbm-intern-ranking.git
-: 1720680662:0;pcmanfm .
 : 1720680696:0;commit "updated README.md"
 : 1720683427:0;cd dbm-intern-ranking
-: 1720683433:0;cargo run
 : 1720684343:0;bash dbm-intern-ranking-gui-linux
 : 1720684351:0;dbm-intern-ranking-gui
-: 1721193912:0;pacsyyu
 : 1721195179:0;pull
-: 1721195384:0;checkout 7-feature-cb-check-for-open-boxes
-: 1721195398:0;..
-: 1721195399:0;vi .
 : 1721196001:0;cd .config
 : 1721196023:0;cd eww
 : 1721196062:0;cd src
 : 1721196075:0;vi dashboard.yuck
 : 1721196212:0;cd dotfiles/l
-: 1721196215:0;cd dotfiles
 : 1721196231:0;gs
-: 1721196245:0;gdiff
 : 1721196310:0;git status
-: 1721196325:0;addall
 : 1721196346:0;commit "updated nvim stuff and dwm keybind"
-: 1721196349:0;push
 : 1721196377:0;cd config
 : 1721196396:0;cd config nvim
-: 1721196548:0;cd chad chad
 : 1721196557:0;vi config.h
-: 1721196610:0;cd
 : 1721196921:0;wethr
 : 1721197389:0;pacs firefox
 : 1721197561:0;sudo pacman -R firefox
 : 1721203464:0;uname
-: 1721203468:0;uname -r
 : 1721205200:0;cd .config/
 : 1721205201:0;ld
 : 1721205231:0;vi zsh/aliases.zsh
 : 1721205261:0;todo_app
-: 1721205298:0;clear
 : 1721205302:0;n
 : 1721205329:0;btop
-: 1721209567:0;cd health agent
-: 1721209569:0;ls
 : 1721209577:0;git checkout 5-feature-chts-check-for-presence-of-dev-video-chts_camera_jpeg
-: 1721209596:0;zeditor
-: 1721209665:0;cd health agent
 : 1721209674:0;vi src/config.rs
-: 1721215098:0;cd chad chad
-: 1721215099:0;ls
 : 1721215102:0;vi config.def.h
-: 1721215122:0;clear
-: 1721215128:0;cd
-: 1721215131:0;cd dotfiles
-: 1721215134:0;addall
+: 1721215138:0;status
+: 1721215167:0;commit "updated dwm zeditor keybind"
+: 1721219005:0;cd ..
+: 1721219010:0;cd scripts
+: 1721219016:0;vi run.sh
+: 1721219026:0;cd xmonad
+: 1721219035:0;vi xmonad.hs
+: 1721220835:0;dwm-recomp
+: 1721221193:0;lxsession
+: 1721221201:0;lxsession&
+: 1721224247:0;cd chad chad
+: 1721224257:0;vi scripts/run.sh
+: 1721224413:0;cd dotfiles
+: 1721224416:0;git add .config/chadwm/.
+: 1721224420:0;commit "changed stuff for dwm"
+: 1721225353:0;cd#
+: 1721225354:0;cd
+: 1721225370:0;git checkout 8-feature-device-name
+: 1721226288:0;zeditor
+: 1721226780:0;poweroff
+: 1721275799:0;vpn &
+: 1721275805:0;vpn
+: 1721276378:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/s\
+ip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run --verbose
+: 1721276387:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run --verbose
+: 1721279674:0;sudo pacman -R zeditor
+: 1721279687:0;curl -f https://zed.dev/install.sh | sh
+: 1721280428:0;sudo pacman -R zed
+: 1721280440:0;curl -f https://zed.dev/install.sh | ZED_CHANNEL=preview sh
+: 1721280642:0;zed
+: 1721282473:0;addall
+: 1721282610:0;commit "implemented suggestions"
+: 1721282615:0;push
+: 1721282696:0;checkout 7-feature-cb-check-for-open-boxes
+: 1721282699:0;clea
+: 1721282883:0;sudo dockerd &
+: 1721283246:0;mkdir mosquitto
+: 1721283248:0;cd mosquitto
+: 1721283257:0;vi mosquitto.conf
+: 1721287266:0;cd docker
+: 1721287270:0;cd database
+: 1721288300:0;clone git@scm.sks-kinkel.de:products/ip/database.git
+: 1721288319:0;pcmanfm .
+: 1721288396:0;..
+: 1721288417:0;sudo dockerd
+: 1721289047:0;sudo docker compose up
+: 1721290195:0;gdiff
+: 1721290242:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run
+: 1721290316:0;gstat
+: 1721365247:0;cargo run
+: 1721365304:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_UERNAME=304 cargo run
+: 1721371309:0;docker stop e23d22ac069c
+: 1721371318:0;docker stop 63edaf42d9be
+: 1721371328:0;docker compose up -d
+: 1721371346:0;systemctl stop docker
+: 1721371352:0;docker
+: 1721371361:0;systemctl start docker
+: 1721371374:0;systemctl status docker
+: 1721371381:0;docker ps
+: 1721371386:0;docker compose up
+: 1721371395:0;sudo docker compose up -d
+: 1721371408:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1721372857:0;vi .
+: 1721626224:0;pacsyyu
+: 1721626908:0;uname -r
+: 1721626932:0;clear
+: 1721626933:0;c
+: 1721627100:0;cd health agent
+: 1721627102:0;ls
+: 1721627796:0;reboot
+: 1721628307:0;cd config hypr
+: 1721628310:0;cd config
+: 1721628313:0;cd hypr
+: 1721628314:0;ls
+: 1721628316:0;vi .
+: 1721628436:0;cd
+: 1721628515:0;lsd
+: 1721628519:0;yy
+: 1721628585:0;sudo find / -iname yazi
+: 1721628595:0;cd config
+: 1721628599:0;cd yazi
+: 1721628600:0;ls
+: 1721628610:0;vi .
+: 1721628741:0;yy
+: 1721628921:0;clear
+: 1721628928:0;cd
+: 1721628931:0;yy
+: 1721628939:0;cd cs
+: 1721628940:0;ls
+: 1721628946:0;yy
+: 1721629207:0;clear
+: 1721629208:0;cd
+: 1721629212:0;ls
+: 1721629217:0;ll
+: 1721630223:0;cd health agent
+: 1721630225:0;vi .
+: 1721631671:0;clear
+: 1721631672:0;..
+: 1721631683:0;sudo rm -r system-health-monitoring-agent
+: 1721631708:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
+: 1721631712:0;cd health agent
+: 1721631713:0;ls
+: 1721631723:0;checkout 8-feature-device-name
+: 1721631725:0;vi .
+: 1721635755:0;cd
+: 1721635762:0;cd startpage fazzi
+: 1721635762:0;ls
+: 1721635766:0;vi index.html
+: 1721638131:0;vi .
+: 1721638144:0;cd
+: 1721638149:0;cd gitclone/system-healt-monitoring
+: 1721638152:0;sudo rm -r system-health-monitoring-agent
+: 1721638293:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
+: 1721638299:0;cd health agent
+: 1721638302:0;checkout 8-feature-device-name
+: 1721638304:0;vi .
+: 1721638522:0;gstat
+: 1721638524:0;addall
+: 1721638565:0;vi .
+: 1721638588:0;gstat
+: 1721638591:0;addall
+: 1721638593:0;gstat
+: 1721638596:0;clear
+: 1721638601:0;commit "implemented suggestions"
+: 1721638603:0;push
+: 1721638636:0;clear
+: 1721638637:0;..
+: 1721638640:0;cd health agent
+: 1721638645:0;checkout 7-feature-cb-check-for-open-boxes
+: 1721650463:0;vi .
+: 1721652065:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1721652096:0;docker ps
+: 1721652108:0;docker status up
+: 1721652110:0;clear
+: 1721652117:0;docker ps
+: 1721652182:0;cd health agent
+: 1721652215:0;cd docker
+: 1721652215:0;ls
+: 1721652222:0;clone git@scm.sks-kinkel.de:products/ip/database.git
+: 1721652232:0;..
+: 1721652239:0;cd health agent
+: 1721652278:0;cd docker
+: 1721652280:0;clone git@scm.sks-kinkel.de:products/ip/database.git
+: 1721652289:0;..
+: 1721652295:0;docker stop 63edaf42d9be
+: 1721652301:0;docker ps
+: 1721652315:0;docker stop e23d22ac069c
+: 1721652322:0;sudo docker compose up -d
+: 1721652341:0;sudo dockerd
+: 1721652348:0;sudo docker compose up -d
+: 1721652356:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1721656687:0;cd health agent
+: 1721656688:0;vi .
+: 1721657006:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1721709145:0;pacsyyu
+: 1721714232:0;cd health agent
+: 1721714237:0;vi .
+: 1721714261:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1721801211:0;pacsyyu
+: 1721801914:0;cd
+: 1721801926:0;cd health agent
+: 1721801942:0;cd chad chad
+: 1721801944:0;ls
+: 1721801947:0;cd health agent
+: 1721801977:0;vi .
+: 1721802092:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1721808300:0;cd
+: 1721808304:0;cd Documents
+: 1721808304:0;ls
+: 1721808308:0;cd Bib\ Materialien\ Software
+: 1721808311:0;ls
+: 1721808341:0;vi notizen-24.7.24.md
+: 1721811022:0;reboot
+: 1721811728:0;yy
+: 1721812320:0;cd health agent
+: 1721812323:0;vi .
+: 1721812361:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1721823134:0;cd
+: 1721823139:0;cd health agent
+: 1721823140:0;..
+: 1721823143:0;sudo rm -r system-health-monitoring-agent
+: 1721823157:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
+: 1721823172:0;\
+cargo install --version 0.18.0 cargo-tarpaulin
+: 1721823255:0;time
+: 1721823270:0;\
+cargo uninstall --version 0.18.0 cargo-tarpaulin
+: 1721823279:0;\
+cargo uninstall cargo-tarpaulin
+: 1721823291:0;\
+cargo install --version 0.18.0 cargo-tarpaulin | time
+: 1721823302:0;clear
+: 1721824166:0;pacman -R zed
+: 1721824167:0;clear
+: 1721824218:0;cd
+: 1721824223:0;whereis zed
+: 1721824286:0;sudo rm .local/bin/zed
+: 1721824290:0;zed
+: 1721824292:0;clear
+: 1721824298:0;pacs zed-editor
+: 1721824304:0;pacs zed
+: 1721824321:0;clear
+: 1721825061:0;whoami
+: 1721825126:0;cargo run "/home/wynter/gitclone/system-healt-monitoring/system-health-monitoring-agent/src/main.rs"
+: 1721825278:0;printenv > "/tmp/tmp-238179hEwPfXFqTtuW.txt"
+: 1721825763:0;cd health agent
+: 1721825765:0;nvim .
+: 1721826329:0;git checkout 8-feature-device-name
+: 1721826353:0;git merge origin/develop
+: 1721826393:0;git diff
+: 1721826432:0;code .
+: 1721827276:0;gstat
+: 1721827285:0;addall
+: 1721827308:0;push
+: 1721827621:0;cd health agent
+: 1721827623:0;vi .
+: 1721828148:0;whereis zsh
+: 1721828609:0;cd nvim
+: 1721828642:0;ls
+: 1721828656:0;whereis nvim
+: 1721829583:0;vi .
+: 1721885675:0;pacsyyu
+: 1721886153:0;cd .config/hypr
+: 1721886154:0;ls
+: 1721886160:0;cd hyprland
+: 1721886161:0;ls
+: 1721886163:0;vi .
+: 1721888821:0;cd hyprland
+: 1721888825:0;vi .
+: 1721888933:0;cd
+: 1721888936:0;cd dotfiles
+: 1721888937:0;ls
+: 1721888942:0;gstat
+: 1721888953:0;addall

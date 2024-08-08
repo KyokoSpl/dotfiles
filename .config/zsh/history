@@ -225,7 +225,6 @@ cmake --build build
 : 1707824196:0;ls /dev/tty*
 : 1707824312:0;sudo find / -iname BetterDiscord-Linux.AppImage
 : 1707827619:0;teams-for-linux --version
-: 1707833804:0;nvim .
 : 1707886229:0;cd gitclone/esp32/Arduino/ESP32-Arduino-OTAHTTP\ 
 : 1707891245:0;nvim resourc\ and\ languages.txt
 : 1707891287:0;whereis cargo
@@ -430,7 +429,6 @@ cmake --build build
 : 1709111299:0;sudo pacman -R libreoffice-fresh
 : 1709111319:0;paru -S only-office
 : 1709111325:0;paru -S onlyoffice
-: 1709131995:0;gparted
 : 1709132328:0;cd google-test
 : 1709132394:0;sudo cp CMakeLists.txt /run/media/wynter/9cdabc4a-0b7f-43ec-9135-c27e9d84015d/
 : 1709133732:0;cd /run/media/wynter/9cdabc4a-0b7f-43ec-9135-c27e9d84015d
@@ -468,7 +466,6 @@ cmake --build build
 : 1709800521:0;pacs gvim
 : 1709800578:0;gvim
 : 1709800663:0;vi theme.py
-: 1709801611:0;cd .config/hypr
 : 1709801614:0;cd UserConfigs
 : 1709801620:0;vi UserKeybinds.conf
 : 1709803227:0;pacs ente
@@ -1326,7 +1323,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1715021564:0;cd .config/zed
 : 1715021568:0;vi keymap.json
 : 1715021576:0;rm -r zed
-: 1715021874:0;pacs zed-editor
 : 1715024081:0;sudo rm -r zed
 : 1715024118:0;cd App
 : 1715024136:0;rm zed-0.132.3.tar.gz
@@ -1526,7 +1522,6 @@ nvim
 : 1716988086:0;dotnet run Bremsweg.sln
 : 1716988089:0;dotnet run Bremsweg
 : 1716988112:0;cd Buch\ Seite\ 32
-: 1716988113:0;l
 : 1716988119:0;cd Windchill
 : 1716988150:0;cd Documents/testing_nvim/cs_test
 : 1716988186:0;rm Properties Windchill.sln
@@ -1594,7 +1589,6 @@ sudo make clean install
 : 1717353075:0;vi scripts/system
 : 1717353624:0;startx ~/.config/chadwm/scripts/run.sh
 : 1717353641:0;sudo nvim /usr/share/xsessions/chadwm.desktop
-: 1717353786:0;whoami
 : 1717354084:0;eww open eww
 : 1717354111:0;which
 : 1717354120:0;sh
@@ -1605,7 +1599,6 @@ sudo make clean install
 : 1717354189:0;mv .local/bin/eww /bin/
 : 1717354193:0;sudo mv .local/bin/eww /bin/
 : 1717354199:0;eww
-: 1717354260:0;whereis zsh
 : 1717395244:0;trayer &
 : 1717395631:0;cd .config/xmonad/
 : 1717395846:0;rm autostart.sh
@@ -1687,7 +1680,6 @@ sudo make install
 : 1717415365:0;notify-send "test"
 : 1717415507:0;vi kblayout.sh
 : 1717415532:0;code kblayout.sh
-: 1717415711:0;./kblayout.sh
 : 1717416054:0;cd projects
 : 1717416105:0;dotnet new console -n while_exercise
 : 1717416112:0;cd exercises
@@ -1712,7 +1704,6 @@ sudo make install
 : 1717569023:0;cd Notes
 : 1717569029:0;vi test.md
 : 1717569833:0;//
-: 1717569842:0;cd .config/chadwm/scripts
 : 1717570178:0;cd testing_nvim
 : 1717570181:0;cd cpp_test
 : 1717570187:0;cd hello
@@ -1752,7 +1743,6 @@ sudo make install
 : 1717665513:0;cd/
 : 1717665544:0;vi brave-beta-flags.conf
 : 1717665555:0;vi brave-flags.conf
-: 1717665563:0;vi starship.toml
 : 1717666524:0;sudo find / -iname slock
 : 1717666652:0;sudo pacman -R slock
 : 1717666670:0;clone https://git.suckless.org/slock
@@ -1798,7 +1788,6 @@ sudo make install
 : 1718002659:0;git clone https://github.com/end-4/dots-hyprland
 : 1718002665:0;cd dots-hyprland
 : 1718002670:0;vi install.sh
-: 1718002853:0;./install.sh
 : 1718003065:0;sudo pacman -R adw-gtk3
 : 1718003194:0;asass
 : 1718003198:0;man sass
@@ -1838,7 +1827,6 @@ sudo make install
 : 1718170271:0;rm -r .config/tmux
 : 1718170651:0;cd Applications
 : 1718171240:0;lsw
-: 1718171910:0;cd gitclone/system-healt-monitoring
 : 1718172261:0;cd .confg
 : 1718172278:0;vi xmonad/xmonad.hs
 : 1718172937:0;vi rofi
@@ -1969,22 +1957,17 @@ git push -u origin main
 : 1718286033:0;cargo build
 : 1718292808:0;pacs bspwm
 : 1718292840:0;whereis bspwm
-: 1718292948:0;cd hypr
-: 1718292958:0;cd hyprland
 : 1718292986:0;vi keybinds.conf
 : 1718293014:0;vi general.conf
 : 1718293439:0;vi gitclone/dbm-intern-ranking/api/src/main.rs
 : 1718293557:0;cd .config/hypr/hyprland
 : 1718294366:0;whereis awesome
 : 1718294374:0;vi rc.lua
-: 1718294425:0;cd .config/awesome
 : 1718294437:0;sudo rm awesome
 : 1718294445:0;sudo rm -r awesome
 : 1718294460:0;sudo find / -iname awesome
 : 1718294487:0;cd /usr/share/awesome
-: 1718294493:0;cd themes
 : 1718294507:0;cd share/doc
-: 1718294510:0;cd awesome
 : 1718294516:0;cd doc
 : 1718294521:0;cd sample\ files
 : 1718294548:0;cp sample\ files ~/.config/awesome
@@ -1998,7 +1981,6 @@ git push -u origin main
 : 1718344974:0;rustup default nightly
 : 1718344995:0;rustup default stable
 : 1718345443:0;mosquitto_sub -h localhost -p 1883 -t sks/by-device/v1/#
-: 1718346581:0;code .
 : 1718348547:0;sudo vi /run/sks-device-id.env
 : 1718349009:0;cd paho-mqtt
 : 1718350408:0;cler
@@ -2108,7 +2090,6 @@ cat .bashrc
 : 1718962321:0;ping google.com
 : 1719218655:0;diff
 : 1719218750:0;vi dbm-intern-ranking-gui/src/main.rs
-: 1719218827:0;git diff
 : 1719222188:0;cd LF5
 : 1719222194:0;cd projects/cs/ausprobieren
 : 1719222202:0;cd Buch\ Seite\ 55
@@ -2166,7 +2147,6 @@ cat .bashrc
 : 1719232312:0;cd ausprobieren
 : 1719232315:0;vi while_exercise
 : 1719232400:0;cd while_exercise
-: 1719232814:0;...
 : 1719292942:0;cd .screenlayout
 : 1719292952:0;./workstandart.sh
 : 1719292983:0;nitrogen --restore
@@ -2199,14 +2179,12 @@ cat .bashrc
 : 1719300199:0;st
 : 1719300284:0;kitty -w
 : 1719300292:0;kitty '' tmux
-: 1719300860:0;cd Documents
 : 1719300867:0;nvim notes.txt
 : 1719301126:0;cd kitty
 : 1719301148:0;cp kitty.conf ~/dotfiles/.config/kitty/kitty.conf
 : 1719301190:0;stow
 : 1719301197:0;stow --adopt .
 : 1719301244:0;commit "updated kitty conf and switched back to kitty"
-: 1719301266:0;cd .config/kitty
 : 1719301272:0;vi kitty.conf
 : 1719302971:0;cd /home/wynter/Documents/schule/LF5/Kontrollstrukturen/Kontrollstrukturen
 : 1719303866:0;cd .config/foot
@@ -2216,7 +2194,6 @@ cat .bashrc
 : 1719315556:0;cd projects/cs
 : 1719315572:0;cd Kontrollstrukturen
 : 1719317159:0;killall easyeffects
-: 1719317977:0;reboot
 : 1719814660:0;vi .config/picom.conf
 : 1719814683:0;killall picom
 : 1719814698:0;picom
@@ -2248,13 +2225,9 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1719908674:0;cd lua plugins
 : 1719908681:0;vi user.lua
 : 1719910972:0;cargo clean
-: 1719912172:0;cd nvim
 : 1719925412:0;cmatrix
 : 1719925431:0;gfewsxzsdfgasrdtfewrtweeerteeeeeerwttttttwertttttwwwwwwrwetttttttttttttttttttttttttttttterrrrrwwwwwwwwwwwwwwwwwwwwwwwwwwwerttttttttttttttttttttttttttttttrettttttttttttttttttttteeeeeeeeeeeeeeeeeeerrttttttttttt
-: 1719926704:0;vi
 : 1719932170:0;git stash
-: 1719932201:0;sudo rm -r system-health-monitoring-agent
-: 1719932288:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
 : 1719932296:0;checkout 1-feature-init-system-health-monitoring-agent
 : 1719932302:0;vi src
 : 1719984538:0;paru -Syyu
@@ -2265,7 +2238,6 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1719988929:0;commit "splitted ram funktion"
 : 1719988948:0;git merge
 : 1719991125:0;htop
-: 1719995776:0;cd gitclone
 : 1719995780:0;cd TextPaster
 : 1720073836:0;vi src/main.rs
 : 1720095542:0;cd Documents schule cs
@@ -2290,19 +2262,15 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1720440700:0;./adb devices
 : 1720588926:0;paru -Syu
 : 1720589935:0;Zed
-: 1720590044:0;df
 : 1720590299:0;pacs solaar
 : 1720590620:0;checkout develop
 : 1720592423:0;rm droidcam
 : 1720592439:0;sudo pacman -R droidcam
-: 1720592458:0;yy
 : 1720600344:0;cd startpage
 : 1720600346:0;cd fazzi
-: 1720600350:0;vi index.html
 : 1720601006:0;cd .config/zsh/aliases.zsh
 : 1720601011:0;vi .config/zsh/aliases.zsh
 : 1720617488:0;cd lf5
-: 1720617491:0;cd cs
 : 1720617498:0;cd combine-learned
 : 1720618592:0;dotnet run
 : 1720618621:0;vi Program.cs
@@ -2320,16 +2288,12 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1720683427:0;cd dbm-intern-ranking
 : 1720684343:0;bash dbm-intern-ranking-gui-linux
 : 1720684351:0;dbm-intern-ranking-gui
-: 1721195179:0;pull
-: 1721196001:0;cd .config
 : 1721196023:0;cd eww
-: 1721196062:0;cd src
 : 1721196075:0;vi dashboard.yuck
 : 1721196212:0;cd dotfiles/l
 : 1721196231:0;gs
 : 1721196310:0;git status
 : 1721196346:0;commit "updated nvim stuff and dwm keybind"
-: 1721196377:0;cd config
 : 1721196396:0;cd config nvim
 : 1721196557:0;vi config.h
 : 1721196921:0;wethr
@@ -2340,29 +2304,22 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1721205201:0;ld
 : 1721205231:0;vi zsh/aliases.zsh
 : 1721205261:0;todo_app
-: 1721205302:0;n
 : 1721205329:0;btop
 : 1721209577:0;git checkout 5-feature-chts-check-for-presence-of-dev-video-chts_camera_jpeg
 : 1721209674:0;vi src/config.rs
 : 1721215102:0;vi config.def.h
 : 1721215138:0;status
 : 1721215167:0;commit "updated dwm zeditor keybind"
-: 1721219005:0;cd ..
 : 1721219010:0;cd scripts
-: 1721219016:0;vi run.sh
 : 1721219026:0;cd xmonad
 : 1721219035:0;vi xmonad.hs
 : 1721220835:0;dwm-recomp
 : 1721221193:0;lxsession
 : 1721221201:0;lxsession&
-: 1721224247:0;cd chad chad
 : 1721224257:0;vi scripts/run.sh
-: 1721224413:0;cd dotfiles
 : 1721224416:0;git add .config/chadwm/.
 : 1721224420:0;commit "changed stuff for dwm"
 : 1721225353:0;cd#
-: 1721225354:0;cd
-: 1721225370:0;git checkout 8-feature-device-name
 : 1721226288:0;zeditor
 : 1721226780:0;poweroff
 : 1721275799:0;vpn &
@@ -2374,159 +2331,45 @@ ip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temper
 : 1721279687:0;curl -f https://zed.dev/install.sh | sh
 : 1721280428:0;sudo pacman -R zed
 : 1721280440:0;curl -f https://zed.dev/install.sh | ZED_CHANNEL=preview sh
-: 1721280642:0;zed
-: 1721282473:0;addall
-: 1721282610:0;commit "implemented suggestions"
-: 1721282615:0;push
-: 1721282696:0;checkout 7-feature-cb-check-for-open-boxes
 : 1721282699:0;clea
 : 1721282883:0;sudo dockerd &
 : 1721283246:0;mkdir mosquitto
 : 1721283248:0;cd mosquitto
 : 1721283257:0;vi mosquitto.conf
-: 1721287266:0;cd docker
-: 1721287270:0;cd database
-: 1721288300:0;clone git@scm.sks-kinkel.de:products/ip/database.git
 : 1721288319:0;pcmanfm .
-: 1721288396:0;..
-: 1721288417:0;sudo dockerd
 : 1721289047:0;sudo docker compose up
 : 1721290195:0;gdiff
 : 1721290242:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run
-: 1721290316:0;gstat
 : 1721365247:0;cargo run
 : 1721365304:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_UERNAME=304 cargo run
-: 1721371309:0;docker stop e23d22ac069c
-: 1721371318:0;docker stop 63edaf42d9be
 : 1721371328:0;docker compose up -d
 : 1721371346:0;systemctl stop docker
 : 1721371352:0;docker
 : 1721371361:0;systemctl start docker
 : 1721371374:0;systemctl status docker
-: 1721371381:0;docker ps
 : 1721371386:0;docker compose up
-: 1721371395:0;sudo docker compose up -d
-: 1721371408:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
-: 1721372857:0;vi .
-: 1721626224:0;pacsyyu
 : 1721626908:0;uname -r
-: 1721626932:0;clear
-: 1721626933:0;c
-: 1721627100:0;cd health agent
-: 1721627102:0;ls
-: 1721627796:0;reboot
 : 1721628307:0;cd config hypr
-: 1721628310:0;cd config
-: 1721628313:0;cd hypr
-: 1721628314:0;ls
-: 1721628316:0;vi .
-: 1721628436:0;cd
 : 1721628515:0;lsd
-: 1721628519:0;yy
 : 1721628585:0;sudo find / -iname yazi
-: 1721628595:0;cd config
-: 1721628599:0;cd yazi
-: 1721628600:0;ls
-: 1721628610:0;vi .
-: 1721628741:0;yy
-: 1721628921:0;clear
-: 1721628928:0;cd
-: 1721628931:0;yy
 : 1721628939:0;cd cs
-: 1721628940:0;ls
-: 1721628946:0;yy
-: 1721629207:0;clear
-: 1721629208:0;cd
-: 1721629212:0;ls
 : 1721629217:0;ll
-: 1721630223:0;cd health agent
-: 1721630225:0;vi .
-: 1721631671:0;clear
-: 1721631672:0;..
-: 1721631683:0;sudo rm -r system-health-monitoring-agent
-: 1721631708:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
-: 1721631712:0;cd health agent
-: 1721631713:0;ls
-: 1721631723:0;checkout 8-feature-device-name
-: 1721631725:0;vi .
-: 1721635755:0;cd
 : 1721635762:0;cd startpage fazzi
-: 1721635762:0;ls
 : 1721635766:0;vi index.html
-: 1721638131:0;vi .
-: 1721638144:0;cd
 : 1721638149:0;cd gitclone/system-healt-monitoring
-: 1721638152:0;sudo rm -r system-health-monitoring-agent
-: 1721638293:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
-: 1721638299:0;cd health agent
 : 1721638302:0;checkout 8-feature-device-name
-: 1721638304:0;vi .
-: 1721638522:0;gstat
-: 1721638524:0;addall
-: 1721638565:0;vi .
-: 1721638588:0;gstat
-: 1721638591:0;addall
-: 1721638593:0;gstat
-: 1721638596:0;clear
 : 1721638601:0;commit "implemented suggestions"
-: 1721638603:0;push
-: 1721638636:0;clear
-: 1721638637:0;..
-: 1721638640:0;cd health agent
-: 1721638645:0;checkout 7-feature-cb-check-for-open-boxes
-: 1721650463:0;vi .
-: 1721652065:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
-: 1721652096:0;docker ps
 : 1721652108:0;docker status up
-: 1721652110:0;clear
-: 1721652117:0;docker ps
-: 1721652182:0;cd health agent
-: 1721652215:0;cd docker
-: 1721652215:0;ls
-: 1721652222:0;clone git@scm.sks-kinkel.de:products/ip/database.git
-: 1721652232:0;..
-: 1721652239:0;cd health agent
-: 1721652278:0;cd docker
 : 1721652280:0;clone git@scm.sks-kinkel.de:products/ip/database.git
-: 1721652289:0;..
 : 1721652295:0;docker stop 63edaf42d9be
-: 1721652301:0;docker ps
 : 1721652315:0;docker stop e23d22ac069c
-: 1721652322:0;sudo docker compose up -d
 : 1721652341:0;sudo dockerd
 : 1721652348:0;sudo docker compose up -d
-: 1721652356:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
-: 1721656687:0;cd health agent
-: 1721656688:0;vi .
-: 1721657006:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
-: 1721709145:0;pacsyyu
-: 1721714232:0;cd health agent
-: 1721714237:0;vi .
-: 1721714261:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
-: 1721801211:0;pacsyyu
-: 1721801914:0;cd
-: 1721801926:0;cd health agent
 : 1721801942:0;cd chad chad
-: 1721801944:0;ls
-: 1721801947:0;cd health agent
-: 1721801977:0;vi .
-: 1721802092:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
-: 1721808300:0;cd
 : 1721808304:0;cd Documents
-: 1721808304:0;ls
 : 1721808308:0;cd Bib\ Materialien\ Software
-: 1721808311:0;ls
 : 1721808341:0;vi notizen-24.7.24.md
 : 1721811022:0;reboot
-: 1721811728:0;yy
-: 1721812320:0;cd health agent
-: 1721812323:0;vi .
-: 1721812361:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
-: 1721823134:0;cd
-: 1721823139:0;cd health agent
-: 1721823140:0;..
-: 1721823143:0;sudo rm -r system-health-monitoring-agent
-: 1721823157:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
 : 1721823172:0;\
 cargo install --version 0.18.0 cargo-tarpaulin
 : 1721823255:0;time
@@ -2536,46 +2379,189 @@ cargo uninstall --version 0.18.0 cargo-tarpaulin
 cargo uninstall cargo-tarpaulin
 : 1721823291:0;\
 cargo install --version 0.18.0 cargo-tarpaulin | time
-: 1721823302:0;clear
 : 1721824166:0;pacman -R zed
-: 1721824167:0;clear
-: 1721824218:0;cd
 : 1721824223:0;whereis zed
 : 1721824286:0;sudo rm .local/bin/zed
 : 1721824290:0;zed
-: 1721824292:0;clear
 : 1721824298:0;pacs zed-editor
 : 1721824304:0;pacs zed
-: 1721824321:0;clear
 : 1721825061:0;whoami
 : 1721825126:0;cargo run "/home/wynter/gitclone/system-healt-monitoring/system-health-monitoring-agent/src/main.rs"
 : 1721825278:0;printenv > "/tmp/tmp-238179hEwPfXFqTtuW.txt"
-: 1721825763:0;cd health agent
 : 1721825765:0;nvim .
 : 1721826329:0;git checkout 8-feature-device-name
-: 1721826353:0;git merge origin/develop
 : 1721826393:0;git diff
-: 1721826432:0;code .
-: 1721827276:0;gstat
-: 1721827285:0;addall
-: 1721827308:0;push
-: 1721827621:0;cd health agent
-: 1721827623:0;vi .
 : 1721828148:0;whereis zsh
-: 1721828609:0;cd nvim
-: 1721828642:0;ls
 : 1721828656:0;whereis nvim
-: 1721829583:0;vi .
-: 1721885675:0;pacsyyu
 : 1721886153:0;cd .config/hypr
-: 1721886154:0;ls
-: 1721886160:0;cd hyprland
-: 1721886161:0;ls
-: 1721886163:0;vi .
-: 1721888821:0;cd hyprland
-: 1721888825:0;vi .
-: 1721888933:0;cd
 : 1721888936:0;cd dotfiles
-: 1721888937:0;ls
 : 1721888942:0;gstat
 : 1721888953:0;addall
+: 1721888970:0;commit "configured hyprland keybinds and settings"
+: 1721888972:0;push
+: 1721889345:0;pacs caps2esc
+: 1721889387:0;pacs interception-caps2esc
+: 1721889437:0;sudo pacman -R interception-caps2esc
+: 1721889445:0;sudo pacman -R interception-tools
+: 1721889454:0;yay -S kanata
+: 1721889566:0;mkdir katana
+: 1721889570:0;cd katana
+: 1721889582:0;rm katana
+: 1721889589:0;mkdir kanata
+: 1721889738:0;systemctl --user daemon-reload\
+systemctl --user enable kanata.service\
+systemctl --user start kanata.service\
+systemctl --user status kanata.service   # check whether the service is running
+: 1721891575:0;kanata -c config.kbd
+: 1721891592:0;sudo kanata -c config.kbd
+: 1721891761:0;systemctl --user daemon-reload\
+systemctl --user enable kanata.service\
+systemctl --user start kanata.service\
+systemctl --user status kanata.service
+: 1721891784:0;vi ~/.config/systemd/user/kanata.service
+: 1721891827:0;mv ~/.config/systemd/user/kanata.service /etc/systemd/system
+: 1721891833:0;sudo mv ~/.config/systemd/user/kanata.service /etc/systemd/system
+: 1721891880:0;journalctl -u kanata.service
+: 1721891899:0;sudo vi /etc/systemd/system
+: 1721891903:0;sudo vim /etc/systemd/system
+: 1721891934:0;systemctl daemon-reload\
+systemctl enable kanata.service\
+systemctl start kanata.service\
+systemctl status kanata.service
+: 1721905564:0;vi .config/zsh/
+: 1721905589:0;cd config
+: 1721906339:0;cd starship
+: 1721906341:0;vi starship.toml
+: 1721906385:0;cd src
+: 1721906498:0;cd yazi
+: 1721906503:0;vi theme.toml
+: 1721906521:0;yy
+: 1721906586:0;cd nvim
+: 1721906594:0;vi
+: 1721906848:0;c
+: 1721906929:0;sudo pacman -S gtk-engine-murrine
+: 1721907003:0;clone https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme.git
+: 1721907173:0;cd Everforest-GTK-Theme
+: 1721907180:0;cd themes
+: 1721907183:0;l
+: 1721907190:0;./install.sh
+: 1721907260:0;man look
+: 1721907275:0;yay -S nwg-look
+: 1721907329:0;cd icons
+: 1721907424:0;cd Everforest-Dark
+: 1721907440:0;cd .icons
+: 1721907460:0;mv Everforest-Dark ~/.icons
+: 1721907473:0;nwg-look
+: 1721907617:0;cd Desktop
+: 1721907630:0;cd Pictures
+: 1721907727:0;cd wallpapers
+: 1721907740:0;cd pictures wallpaper
+: 1721907755:0;clone https://github.com/Apeiros-46B/everforest-walls.git
+: 1721907895:0;clone git@github.com:Apeiros-46B/everforest-walls.git
+: 1722837004:0;pull
+: 1722837028:0;sudo rm -r health-monitoring-clients
+: 1722837141:0;...
+: 1722837163:0;clone git@github.com:KyokoSpl/dbm-intern-ranking-bot.git
+: 1722837171:0;cd dbm-intern-ranking-bot
+: 1722837208:0;pip install discord.pz
+: 1722837212:0;pip install discord.py
+: 1722837228:0;pip install --break-system-packages discord.py
+: 1722837440:0;code --help
+: 1722841477:0;python3 -u "/home/wynter/gitclone/dbm-intern-ranking-bot/tempCodeRunnerFile.py"
+: 1722841516:0;python3 -u "/home/wynter/gitclone/dbm-intern-ranking-bot/main.py"
+: 1722857488:0;cd hyprland
+: 1722860069:0;git checkout origin/7-feature-cb-check-for-open-boxes
+: 1722860078:0;git checkout 7-feature-cb-check-for-open-boxes
+: 1722860104:0;git merge origin/develop
+: 1722862091:0;sudo mount /dev/usb/hiddev0
+: 1722862100:0;df
+: 1722863169:0;sudo pcmanfm
+: 1722863179:0;sudo pcmanfm .
+: 1722863190:0;sudo thunar .
+: 1722863210:0;sudo mount /dev/sdb
+: 1722863222:0;sudo mount /dev/sda
+: 1722863236:0;gparted
+: 1722867185:0;cd .config
+: 1722867194:0;cd kanata
+: 1722867202:0;vi config.kbd
+: 1722921950:0;kitten themes
+: 1722921971:0;cd ..
+: 1722922169:0;hyprctl monitors
+: 1722922855:0;pacs nwg-displays
+: 1722922910:0;nwg-displays
+: 1722923359:0;paru -S awesome-git
+: 1722923381:0;paru -Sy picom-git wezterm rofi acpi acpid acpi_call upower lxappearance-gtk3 jq inotify-tools polkit-gnome xdotool xclip gpick ffmpeg blueman redshift pipewire pipewire-alsa pipewire-pulse alsa-utils brightnessctl feh maim mpv mpd mpc mpdris2 python-mutagen ncmpcpp playerctl --needed
+: 1722923498:0;cd gitclone
+: 1722923503:0;git clone --depth 1 --recurse-submodules https://github.com/rxyhn/yoru.git\
+cd yoru && git submodule update --remote --merge
+: 1722923574:0;git submodule update --remote --merge
+: 1722923602:0;cp -r config/* ~/.config/
+: 1722923701:0;cd yoru
+: 1722923723:0;cp -r misc/fonts/* ~/.local/share/fonts/
+: 1722923730:0;fc-cache -fv
+: 1722923782:0;vi .Xresources
+: 1722925113:0;vi run.sh
+: 1722925956:0;cd .config/chadwm/scripts
+: 1722925992:0;cp kblayout.sh ~/.config/awesome/utilities
+: 1722926123:0;cd hypr
+: 1722926158:0;cd .config/kitty
+: 1722926178:0;vi current-theme.conf
+: 1722928224:0;cd chadwm/scripts
+: 1722928230:0;./kblayout.sh
+: 1722928253:0;cd
+: 1722928260:0;cd awesome utilit
+: 1722928269:0;cd .config/awesome/utilities
+: 1722928296:0;sudo chmod +x kblayout.sh
+: 1722928487:0;cd awesome util
+: 1722928495:0;bash kblayout.sh
+: 1722944969:0;sudo rm -r system-health-monitoring-agent
+: 1722945039:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
+: 1722945098:0;cd health agent
+: 1722945105:0;checkout 7-feature-cb-check-for-open-boxes
+: 1722945259:0;git submodule update --init --recursive\
+
+: 1722945270:0;cd docker
+: 1722945276:0;cd database
+: 1722945281:0;..
+: 1722945593:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
+: 1722945787:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=cb cargo run
+: 1722945808:0;docker ps
+: 1722946952:0;vi test.py
+: 1722946995:0;python3 test.py
+: 1723008508:0;cd .config/awesome
+: 1723008510:0;vi .
+: 1723008542:0;clear
+: 1723008680:0;pacsyyu
+: 1723009437:0;sudo find / -iname beautifull
+: 1723009459:0;sudo find / -iname beautiful
+: 1723009502:0;cd /usr/share/awesome/lib/
+: 1723009503:0;ls
+: 1723015567:0;cd awesome
+: 1723015570:0;code .
+: 1723029963:0;n
+: 1723099449:0;cd dotfiles
+: 1723099454:0;stow --adopt .
+: 1723099459:0;git status
+: 1723100716:0;cd .config/awesome
+: 1723100718:0;ls
+: 1723100731:0;vi README.md
+: 1723100774:0;cd dotfiles
+: 1723100884:0;cp -r ~/.config/awesome .config/
+: 1723100899:0;tree
+: 1723100929:0;stow --adopt .
+: 1723100953:0;cd .config/awesome/utilities
+: 1723100958:0;ls
+: 1723100966:0;rm kblayout.sh
+: 1723100970:0;...
+: 1723100972:0;..
+: 1723100976:0;stow --adopt .
+: 1723100985:0;addall
+: 1723101012:0;git rm --cached .config/awesome/theme/assets/everforest-walls
+: 1723101022:0;git rm -f --cached .config/awesome/theme/assets/everforest-walls
+: 1723101034:0;cd .config/awesome/theme/assets
+: 1723101037:0;cd everforest-walls
+: 1723101038:0;ls
+: 1723101047:0;sudo rm -r .git
+: 1723101059:0;.4
+: 1723101062:0;..
+: 1723101069:0;addall

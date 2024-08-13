@@ -2746,3 +2746,8 @@ cd yoru && git submodule update --remote --merge
 : 1723583307:0;stow --adopt .
 : 1723583311:0;gstat
 : 1723583317:0;addall
+: 1723583329:0;commit "added kblayout switching for river"
+: 1723583338:0;push
+: 1723583347:0;gstat
+: 1723583353:0;..
+: 1723583356:0;addall

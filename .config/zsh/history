@@ -2650,3 +2650,19 @@ cd yoru && git submodule update --remote --merge
 : 1723555359:0;cp -r ~/.config/nvim .config/
 : 1723555368:0;stow --adopt .
 : 1723555517:0;addall
+: 1723555542:0;commit "added river and change themes of oher stuff"
+: 1723555544:0;push
+: 1723555551:0;gstat
+: 1723555556:0;stow --adopt .
+: 1723555591:0;cd .config
+: 1723555597:0;rm -r .config/nvim
+: 1723555628:0;cd .config
+: 1723555633:0;stow --adopt .
+: 1723555638:0;..
+: 1723556268:0;gstat
+: 1723556276:0;ls
+: 1723556282:0;cd .config
+: 1723556283:0;ls
+: 1723556335:0;..
+: 1723556339:0;pcmanfm .
+: 1723556392:0;addall

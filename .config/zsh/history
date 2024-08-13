@@ -2666,3 +2666,53 @@ cd yoru && git submodule update --remote --merge
 : 1723556335:0;..
 : 1723556339:0;pcmanfm .
 : 1723556392:0;addall
+: 1723556405:0;commit "fixed mistake"
+: 1723556410:0;push
+: 1723556417:0;gstat
+: 1723556425:0;cd .config
+: 1723556426:0;ls
+: 1723579989:0;cmatrix
+: 1723580277:0;rofi --show run
+: 1723580326:0;nwg-displays
+: 1723580368:0;xrandr
+: 1723580371:0;clear
+: 1723581555:0;cd .config/awesome
+: 1723581557:0;cd scr
+: 1723581560:0;ls
+: 1723581569:0;./kblayout.sh
+: 1723581904:0;cd
+: 1723581913:0;riverctl list-input-configs
+: 1723581919:0;riverctl list-input
+: 1723581925:0;riverctl list-inputs
+: 1723581998:0;riverctl keyboard-layout de
+: 1723582207:0;cd dotfiles
+: 1723582213:0;cd .config/river
+: 1723582214:0;ls
+: 1723582235:0;vi keyboard.sh
+: 1723582250:0;cd chad chad
+: 1723582253:0;vi keyboard.sh
+: 1723582264:0;..
+: 1723582266:0;cd scripts
+: 1723582270:0;vi kblayout.sh
+: 1723582341:0;stow
+: 1723582350:0;stow keyboard.sh
+: 1723582357:0;..
+: 1723582359:0;stow .
+: 1723582360:0;ls
+: 1723582367:0;cd river
+: 1723582368:0;ls
+: 1723582383:0;cd
+: 1723582387:0;cd .config/river
+: 1723582388:0;ls
+: 1723582395:0;vi kblayout.sh
+: 1723582407:0;ls
+: 1723582409:0;vi keyboard.sh
+: 1723582429:0;clear
+: 1723582441:0;cd dotfiles
+: 1723582453:0;cp -r ~/.config/river/kblayout.sh .config/river
+: 1723582457:0;stow .
+: 1723582459:0;ls
+: 1723582474:0;pcmanfm .
+: 1723582506:0;cd .config
+: 1723582510:0;stow --adopt .
+: 1723582514:0;addall

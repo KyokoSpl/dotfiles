@@ -1,6 +1,7 @@
 {
-    "Catppuccin Macchiato": true,
+    "Catppuccin Macchiato": false,
     "Comfy": false,
     "Dark Matter": false,
-    "GGO Kirito": false
+    "GGO Kirito": false,
+    "everforest": true
 }

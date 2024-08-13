@@ -51,7 +51,6 @@ cmake --build build
 : 1707461271:0;cd test
 : 1707461279:0;cd docs
 : 1707461313:0;cd samples
-: 1707461379:0;code
 : 1707466943:0;cmake --version
 : 1707468967:0;cp -r googletest-1.14.0 /usr/include
 : 1707468973:0;sudo cp -r googletest-1.14.0 /usr/include
@@ -268,7 +267,6 @@ cmake --build build
 : 1707903792:0;cd .cmake
 : 1707903800:0;cd v1
 : 1707903803:0;cd query
-: 1707903808:0;.4
 : 1707903811:0;.2
 : 1707903823:0;cmake ../
 : 1707903924:0;rm -r CMakeFiles
@@ -1339,7 +1337,6 @@ TextPaster is a Rust application that allows you to enter text and insert it in 
 : 1715024770:0;curl -sSL https://get.livekit.io/cli | bash
 : 1715025037:0;sudo curl -sSL https://get.livekit.io/cli | sudo bash
 : 1715025343:0;rustup update
-: 1715025965:0;vi .config/xmonad/xmonad.hs
 : 1715028454:0;cargo run --release
 : 1715028599:0;net.git-fetch-with-cli
 : 1715028876:0;rm zed-0.133.7
@@ -1589,7 +1586,6 @@ sudo make clean install
 : 1717353075:0;vi scripts/system
 : 1717353624:0;startx ~/.config/chadwm/scripts/run.sh
 : 1717353641:0;sudo nvim /usr/share/xsessions/chadwm.desktop
-: 1717354084:0;eww open eww
 : 1717354111:0;which
 : 1717354120:0;sh
 : 1717354127:0;dash
@@ -1989,7 +1985,6 @@ git push -u origin main
 : 1718353624:0;cd gitclone/system-healt-monitoring/
 : 1718353626:0;cd trying
 : 1718353629:0;cd agent-with-paho
-: 1718353681:0;sudo rm -r .git
 : 1718353697:0;rm .gitignore README.md
 : 1718355041:0;checkout 1-feature-my-sks-test
 : 1718355051:0;checkout origin/1-feature-init-system-health-monitoring-agent
@@ -2034,7 +2029,6 @@ git push -u origin main
 : 1718597167:0;cd .config/zsh/fzf
 : 1718597185:0;sudo rm -r fzf
 : 1718597211:0;commit "updated some tools and confs"
-: 1718598550:0;cd .config/chadwm/chadwm
 : 1718598566:0;vi bar.sh
 : 1718598587:0;cd bar_themes
 : 1718598601:0;cd chad scripts
@@ -2183,7 +2177,6 @@ cat .bashrc
 : 1719301126:0;cd kitty
 : 1719301148:0;cp kitty.conf ~/dotfiles/.config/kitty/kitty.conf
 : 1719301190:0;stow
-: 1719301197:0;stow --adopt .
 : 1719301244:0;commit "updated kitty conf and switched back to kitty"
 : 1719301272:0;vi kitty.conf
 : 1719302971:0;cd /home/wynter/Documents/schule/LF5/Kontrollstrukturen/Kontrollstrukturen
@@ -2281,7 +2274,6 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1720680456:0;cp README.md ~/gitclone/dbm-backup
 : 1720680494:0;clone https://github.com/KyokoSpl/dbm-intern-ranking
 : 1720680518:0;cd dbm-intern-ranking-gui
-: 1720680580:0;vi README.md
 : 1720680627:0;sudo rm -r dbm-intern-ranking
 : 1720680638:0;clone git@github.com:KyokoSpl/dbm-intern-ranking.git
 : 1720680696:0;commit "updated README.md"
@@ -2292,7 +2284,6 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1721196075:0;vi dashboard.yuck
 : 1721196212:0;cd dotfiles/l
 : 1721196231:0;gs
-: 1721196310:0;git status
 : 1721196346:0;commit "updated nvim stuff and dwm keybind"
 : 1721196396:0;cd config nvim
 : 1721196557:0;vi config.h
@@ -2313,7 +2304,6 @@ OPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU
 : 1721219010:0;cd scripts
 : 1721219026:0;cd xmonad
 : 1721219035:0;vi xmonad.hs
-: 1721220835:0;dwm-recomp
 : 1721221193:0;lxsession
 : 1721221201:0;lxsession&
 : 1721224257:0;vi scripts/run.sh
@@ -2336,7 +2326,6 @@ ip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temper
 : 1721283246:0;mkdir mosquitto
 : 1721283248:0;cd mosquitto
 : 1721283257:0;vi mosquitto.conf
-: 1721288319:0;pcmanfm .
 : 1721289047:0;sudo docker compose up
 : 1721290195:0;gdiff
 : 1721290242:0;MQTT_TOPIC=sks/by-device/v1 DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_PORT=8883 MQTT_HOST_CALLS=sks-chts-2792.local MQTT_PORT_CALLS=1883 MQTT_TOPIC_BASE=mysks/devices/ MQTT_TOPIC_CALLS=/sip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temperature/out/cpu WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=10 MQTT_USERNAME=304 cargo run
@@ -2365,7 +2354,6 @@ ip/in/call MQTT_TOPIC_ACCEPTED_CALLS=/sip/out/accept MQTT_TOPIC_CPU_TEMP=/temper
 : 1721652315:0;docker stop e23d22ac069c
 : 1721652341:0;sudo dockerd
 : 1721652348:0;sudo docker compose up -d
-: 1721801942:0;cd chad chad
 : 1721808304:0;cd Documents
 : 1721808308:0;cd Bib\ Materialien\ Software
 : 1721808341:0;vi notizen-24.7.24.md
@@ -2394,11 +2382,8 @@ cargo install --version 0.18.0 cargo-tarpaulin | time
 : 1721828148:0;whereis zsh
 : 1721828656:0;whereis nvim
 : 1721886153:0;cd .config/hypr
-: 1721888936:0;cd dotfiles
 : 1721888942:0;gstat
-: 1721888953:0;addall
 : 1721888970:0;commit "configured hyprland keybinds and settings"
-: 1721888972:0;push
 : 1721889345:0;pacs caps2esc
 : 1721889387:0;pacs interception-caps2esc
 : 1721889437:0;sudo pacman -R interception-caps2esc
@@ -2460,15 +2445,12 @@ systemctl status kanata.service
 : 1721907895:0;clone git@github.com:Apeiros-46B/everforest-walls.git
 : 1722837004:0;pull
 : 1722837028:0;sudo rm -r health-monitoring-clients
-: 1722837141:0;...
 : 1722837163:0;clone git@github.com:KyokoSpl/dbm-intern-ranking-bot.git
-: 1722837171:0;cd dbm-intern-ranking-bot
 : 1722837208:0;pip install discord.pz
 : 1722837212:0;pip install discord.py
 : 1722837228:0;pip install --break-system-packages discord.py
 : 1722837440:0;code --help
 : 1722841477:0;python3 -u "/home/wynter/gitclone/dbm-intern-ranking-bot/tempCodeRunnerFile.py"
-: 1722841516:0;python3 -u "/home/wynter/gitclone/dbm-intern-ranking-bot/main.py"
 : 1722857488:0;cd hyprland
 : 1722860069:0;git checkout origin/7-feature-cb-check-for-open-boxes
 : 1722860078:0;git checkout 7-feature-cb-check-for-open-boxes
@@ -2481,17 +2463,14 @@ systemctl status kanata.service
 : 1722863210:0;sudo mount /dev/sdb
 : 1722863222:0;sudo mount /dev/sda
 : 1722863236:0;gparted
-: 1722867185:0;cd .config
 : 1722867194:0;cd kanata
 : 1722867202:0;vi config.kbd
 : 1722921950:0;kitten themes
 : 1722921971:0;cd ..
 : 1722922169:0;hyprctl monitors
 : 1722922855:0;pacs nwg-displays
-: 1722922910:0;nwg-displays
 : 1722923359:0;paru -S awesome-git
 : 1722923381:0;paru -Sy picom-git wezterm rofi acpi acpid acpi_call upower lxappearance-gtk3 jq inotify-tools polkit-gnome xdotool xclip gpick ffmpeg blueman redshift pipewire pipewire-alsa pipewire-pulse alsa-utils brightnessctl feh maim mpv mpd mpc mpdris2 python-mutagen ncmpcpp playerctl --needed
-: 1722923498:0;cd gitclone
 : 1722923503:0;git clone --depth 1 --recurse-submodules https://github.com/rxyhn/yoru.git\
 cd yoru && git submodule update --remote --merge
 : 1722923574:0;git submodule update --remote --merge
@@ -2508,11 +2487,8 @@ cd yoru && git submodule update --remote --merge
 : 1722926178:0;vi current-theme.conf
 : 1722928224:0;cd chadwm/scripts
 : 1722928230:0;./kblayout.sh
-: 1722928253:0;cd
 : 1722928260:0;cd awesome utilit
-: 1722928269:0;cd .config/awesome/utilities
 : 1722928296:0;sudo chmod +x kblayout.sh
-: 1722928487:0;cd awesome util
 : 1722928495:0;bash kblayout.sh
 : 1722944969:0;sudo rm -r system-health-monitoring-agent
 : 1722945039:0;clone git@scm.sks-kinkel.de:products/ip/system-health-monitoring-agent.git
@@ -2522,46 +2498,155 @@ cd yoru && git submodule update --remote --merge
 
 : 1722945270:0;cd docker
 : 1722945276:0;cd database
-: 1722945281:0;..
 : 1722945593:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=chts cargo run
 : 1722945787:0;DEVICE_ID=304 ARTICLE_NUMBER=600047 MQTT_PASSWORD=t8K2C6kRSk5DaEXLx5Rk MQTT_HOST=my-sks-test.de MQTT_HOST_CALLS=sks-chts-2792.local WG_MYSKS=10.252.1.0/24 WG_PEER_MAX=1 MQTT_USERNAME=304 LOOKUP_INTERVAL=5 DB_USERNAME=root DB_PASSWORD=root DB_NAME=sks_ip DEVICE_TYPE=cb cargo run
 : 1722945808:0;docker ps
 : 1722946952:0;vi test.py
 : 1722946995:0;python3 test.py
-: 1723008508:0;cd .config/awesome
 : 1723008510:0;vi .
-: 1723008542:0;clear
-: 1723008680:0;pacsyyu
 : 1723009437:0;sudo find / -iname beautifull
 : 1723009459:0;sudo find / -iname beautiful
 : 1723009502:0;cd /usr/share/awesome/lib/
-: 1723009503:0;ls
 : 1723015567:0;cd awesome
-: 1723015570:0;code .
 : 1723029963:0;n
-: 1723099449:0;cd dotfiles
-: 1723099454:0;stow --adopt .
 : 1723099459:0;git status
-: 1723100716:0;cd .config/awesome
-: 1723100718:0;ls
 : 1723100731:0;vi README.md
 : 1723100774:0;cd dotfiles
 : 1723100884:0;cp -r ~/.config/awesome .config/
 : 1723100899:0;tree
-: 1723100929:0;stow --adopt .
 : 1723100953:0;cd .config/awesome/utilities
-: 1723100958:0;ls
 : 1723100966:0;rm kblayout.sh
 : 1723100970:0;...
-: 1723100972:0;..
 : 1723100976:0;stow --adopt .
-: 1723100985:0;addall
 : 1723101012:0;git rm --cached .config/awesome/theme/assets/everforest-walls
 : 1723101022:0;git rm -f --cached .config/awesome/theme/assets/everforest-walls
 : 1723101034:0;cd .config/awesome/theme/assets
 : 1723101037:0;cd everforest-walls
-: 1723101038:0;ls
 : 1723101047:0;sudo rm -r .git
 : 1723101059:0;.4
-: 1723101062:0;..
-: 1723101069:0;addall
+: 1723101121:0;commit "added awesome config and some changes to other wm"
+: 1723122031:0;cd gitclone
+: 1723122034:0;clone https://github.com/talwat/everforest-BD.git
+: 1723122049:0;cd everforest-BD
+: 1723122054:0;pcmanfm .
+: 1723122629:0;pip install dotenv
+: 1723122653:0;python3 -m pip install dotenv
+: 1723122665:0;python3 -m pip install --break-syste-packages dotenv
+: 1723122671:0;python3 -m pip install --break-system-packages dotenv
+: 1723122713:0;pip install --break-system-packages mysql-connector-python
+: 1723122725:0;pip install --break-system-packages mysql
+: 1723122773:0;pip install --break-system-packages dotenv
+: 1723122945:0;pip install logging
+: 1723122954:0;pip install --break-system-packages logging
+: 1723123878:0;cd dbm-intern-ranking-bot
+: 1723123882:0;addall
+: 1723123900:0;commit "split files and added logging"
+: 1723123902:0;push
+: 1723124347:0;python3 -u "/home/wynter/gitclone/dbm-intern-ranking-bot/main.py"
+: 1723124725:0;cd awesome util
+: 1723124730:0;cd
+: 1723124735:0;cd .config/awesome
+: 1723124736:0;ls
+: 1723444281:0;cd Documents/schule/berichtsheft
+: 1723444283:0;cd Berichte
+: 1723444289:0;vi nachweise.py
+: 1723448229:0;cd .config/chadwm/chadwm
+: 1723448266:0;code
+: 1723448443:0;paru -S betterlockscreen
+: 1723448548:0;sudo find / -iname betterlockscreenrc
+: 1723448605:0;cd .config
+: 1723448611:0;mkdir betterlockscreen
+: 1723448622:0;mv betterlockscreenrc betterlockscreen
+: 1723448627:0;betterlockscreen -h
+: 1723448648:0;cd betterlockscreen
+: 1723448658:0;code betterlockscreenrc
+: 1723461161:0;betterlockscreen -u
+: 1723461185:0;..
+: 1723461191:0;betterlockscreen -u betterlockscreen
+: 1723461461:0;betterlockscreen -u /home/wynter/Pictures/wallpapers/everforest-walls/other/japanese_store.jpg --fx dim,pixel
+: 1723462249:0;betterlockscreen -u /home/wynter/Pictures/wallpapers/1333744.png --fx dim,pixel
+: 1723462270:0;betterlockscreen -l\ 
+: 1723462272:0;betterlockscreen -l
+: 1723470694:0;code .
+: 1723470728:0;cd chad chad
+: 1723470731:0;dwm-recomp
+: 1723470820:0;pacsyyu
+: 1723471005:0;clear
+: 1723528096:0;nitrogen
+: 1723530251:0;eww open eww
+: 1723530276:0;killall Xmonad
+: 1723530281:0;killall xmonad
+: 1723530307:0;vi .config/xmonad/xmonad.hs
+: 1723530792:0;nwg-displays
+: 1723539351:0;cd gitclone
+: 1723539358:0;clone https://github.com/rv178/.dotfiles.git
+: 1723539401:0;cd ~/.config/hypr
+: 1723539404:0;ls
+: 1723539406:0;..
+: 1723539414:0;mkdir waybarback
+: 1723539424:0;mv waybar waybarback
+: 1723539431:0;cd gitclone
+: 1723539442:0;cd dot
+: 1723539444:0;ls
+: 1723539448:0;..
+: 1723539449:0;ls
+: 1723539451:0;cd .dotfiles
+: 1723539454:0;ls
+: 1723539466:0;./01-setup-arch.sh
+: 1723539627:0;./02-configs.sh
+: 1723539696:0;cd .dotfiles
+: 1723539701:0;..
+: 1723539719:0;mv .dotfiles ~/
+: 1723539722:0;cd
+: 1723539725:0;cd .dotfiles
+: 1723539732:0;./01-setup-arch.sh
+: 1723539826:0;.&c
+: 1723539851:0;pacs brave
+: 1723539918:0;..
+: 1723539939:0;[200~chmod +x ~/.dotfiles/*.sh]
+: 1723539946:0;chmod +x ~/.dotfiles/*.sh\
+\
+
+: 1723539961:0;~/.dotfiles/01-setup-arch.sh
+: 1723540036:0;vi .dotfiles/01-setup-arch.sh
+: 1723540131:0;~/.dotfiles/02-configs.sh
+: 1723540134:0;clear
+: 1723540138:0;reboot
+: 1723540208:0;ls
+: 1723540209:0;cd
+: 1723540327:0;cd .config/river
+: 1723540331:0;code .
+: 1723540829:0;paru -S wofi
+: 1723540841:0;wofi
+: 1723540852:0;wofi --show run
+: 1723540865:0;sudo find / -iname wofi
+: 1723541134:0;cd .config
+: 1723541137:0;mkdir wofi
+: 1723541140:0;cd wofi
+: 1723541142:0;vi config
+: 1723541179:0;vi moonfly.css
+: 1723541204:0;wofi --show run
+: 1723541211:0;wofi --show
+: 1723541234:0;wofi --show run config
+: 1723541238:0;wofi /h
+: 1723541243:0;wofi -h
+: 1723541262:0;clear
+: 1723541326:0;rofi -show run
+: 1723541626:0;nwg-look
+: 1723544110:0;rofi -show run
+: 1723544346:0;rofi -/show run
+: 1723544354:0;rofi --show run
+: 1723546499:0;blueman-applet &
+: 1723547218:0;~/.dotfiles/.config/nvim/lsp.sh
+: 1723553923:0;flatpak install flathub org.fedoraproject.MediaWriter
+: 1723554140:0;clear
+: 1723555135:0;cd dotfiles
+: 1723555137:0;ls
+: 1723555139:0;git diff
+: 1723555259:0;gstat
+: 1723555314:0;cp -r ~/.config/river .config/
+: 1723555326:0;cp -r ~/.config/waybar .config/
+: 1723555344:0;rm -r .config/nvim
+: 1723555359:0;cp -r ~/.config/nvim .config/
+: 1723555368:0;stow --adopt .
+: 1723555517:0;addall

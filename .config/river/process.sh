@@ -1,0 +1,1 @@
+../../.dotfiles/.config/river/process.sh

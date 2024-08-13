@@ -58,7 +58,7 @@ static const char *fonts[] = {
     "JetBrainsMono Nerd Font Mono:style:medium:size=19"};
 
 // theme
-#include "themes/catppuccin.h"
+#include "themes/everforest.h"
 
 static const char *colors[][3] = {
     /*                     fg       bg      border */
@@ -184,7 +184,7 @@ static const Key keys[] = {
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
     {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("rofi -show drun")},
     {MODKEY, XK_Return, spawn, SHCMD("kitty")},
-    {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("slock")},
+    {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("betterlockscreen -l")},
 
     // toggle stuff
     {MODKEY | ControlMask, XK_t, togglegaps, {0}},

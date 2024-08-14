@@ -2751,3 +2751,23 @@ cd yoru && git submodule update --remote --merge
 : 1723583347:0;gstat
 : 1723583353:0;..
 : 1723583356:0;addall
+: 1723583359:0;commit "added kblayout switching for river"
+: 1723583367:0;push
+: 1723583398:0;..
+: 1723583403:0;cd testing_stuff
+: 1723583407:0;clone git@github.com:KyokoSpl/dotfiles.git
+: 1723583526:0;ls
+: 1723583528:0;cd
+: 1723614837:0;sudo wipefs -f /dev/sdb
+: 1723614858:0;sudo wipefs /dev/sdb
+: 1723614945:0;cd Downloads
+: 1723615010:0;sudo dd bs=4M if=/home/wynter/Downloads/nixos-gnome-24.05.3844.a731b45590a5-x86_64-linux.iso of=/dev/sdb status=progress oflag=sync
+: 1723615433:0;cd dotfiles
+: 1723615436:0;gstat
+: 1723615439:0;clear
+: 1723615442:0;ls
+: 1723615456:0;..
+: 1723615469:0;cp .gitconfig dotfiles
+: 1723615472:0;ls
+: 1723615519:0;cd dotfiles
+: 1723615522:0;addall

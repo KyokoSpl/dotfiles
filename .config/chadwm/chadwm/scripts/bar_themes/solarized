@@ -1,0 +1,12 @@
+#!/bin/dash
+
+# colors
+black=#002b36        # base03
+green=#859900        # green
+white=#fdf6e3        # base3
+grey=#073642         # base02
+blue=#268bd2         # blue
+red=#dc322f          # red
+darkblue=$blue       # using the same Solarized blue
+yellow=#b58900 
+

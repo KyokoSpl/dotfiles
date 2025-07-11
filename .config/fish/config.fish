@@ -155,14 +155,14 @@ alias em='/usr/bin/emacs -nw'
 alias rem="killall emacs || echo 'Emacs server not running'; /usr/bin/emacs --daemon" # Kill Emacs and restart daemon..
 
 # Changing "ls" to "eza"
-alias ls='lsd -al --color=always' # my preferred listing
-alias la='lsd -a --color=always' # all files and dirs
-alias ll='lsd -l --color=always' # long format
-alias lt='lsd -aT --color=always' # tree listing
-alias l.='lsd -a | egrep "^\."'
-alias l.='lsd -al --color=always ../' # ls on the PARENT directory
-alias l..='lsd -al --color=always ../../' # ls on directory 2 levels up
-alias l...='lsd -al --color=always ../../../' # ls on directory 3 levels up
+alias ls='eza -al --color=always' # my preferred listing
+alias la='eza -a --color=always' # all files and dirs
+alias ll='eza -l --color=always' # long format
+alias lt='eza -aT --color=always' # tree listing
+alias l.='eza -a | egrep "^\."'
+alias l.='eza -al --color=always ../' # ls on the PARENT directory
+alias l..='eza -al --color=always ../../' # ls on directory 2 levels up
+alias l...='eza -al --color=always ../../../' # ls on directory 3 levels up
 
 # Arch pkg managment
 #alias pacsyu='sudo pacman -Syu' # update only standard pkgs

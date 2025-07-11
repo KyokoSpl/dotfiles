@@ -26,7 +26,7 @@ static const int systraypinningfailfirst =
 static const int showsystray = 1; /* 0 means no systray */
 static const int showbar = 1;     /* 0 means no bar */
 static const int showtab = showtab_auto;
-static const int toptab = 0;   /* 0 means bottom tab */
+static const int toptab = 1;   /* 0 means bottom tab */
 static const int floatbar = 1; /* 1 means the bar will float(don't have
                                   padding),0 means the bar have padding */
 static const int topbar = 1;   /* 0 means bottom bar */
@@ -128,10 +128,10 @@ static const int lockfullscreen =
 
 static const Layout layouts[] = {
     /* symbol     arrange function */
+    {"[\\]", dwindle},
     {"[]=", tile}, /* first entry is default */
     {"[M]", monocle},
     {"[@]", spiral},
-    {"[\\]", dwindle},
     {"H[]", deck},
     {"TTT", bstack},
     {"===", bstackhoriz},
@@ -182,11 +182,11 @@ static const Key keys[] = {
 
     {MODKEY, XK_b, spawn, SHCMD("firefox")},
     {MODKEY | Mod1Mask, XK_e, spawn, SHCMD("eww open eww")},
-    {MODKEY, XK_e, spawn, SHCMD("kitty helix")},
+    {MODKEY, XK_e, spawn, SHCMD("pcmanfm")},
     {MODKEY | ShiftMask, XK_e, spawn, SHCMD("code")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
     {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
-    {MODKEY, XK_Return, spawn, SHCMD("tmux st")},
+    {MODKEY, XK_Return, spawn, SHCMD("st tmux")},
     {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("betterlockscreen -l")},
     {MODKEY | Mod1Mask, XK_x, spawn, SHCMD("powermenu")},
     {MODKEY | Mod1Mask, XK_s, spawn, SHCMD("dm-maim")},

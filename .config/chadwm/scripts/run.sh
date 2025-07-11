@@ -6,8 +6,11 @@ xbacklight -set 100 &
 xset r rate 200 50 &
 picom &
 volumeicon &
-  bash ~/.screenlayout/standart.sh &
+gnome-keyring-daemon --start --components=secrets
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 || /usr/libexec/polkit-gnome-authentication-agent-1
+bash ~/.screenlayout/standart.sh &
 nitrogen --restore &
+betterlockscreen -u Pictures/dcbanner_von_josh.jpg &
 dunst -conf ~/.config/dunst/dunstrc.d/50-theme.conf &
 discord &
 blueman-applet &

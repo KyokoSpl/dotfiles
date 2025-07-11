@@ -28,6 +28,19 @@ pkg_updates() {
   fi
 }
 
+# volume() {
+#   vol=$(pamixer --get-volume 2>/dev/null)
+#   muted=$(pamixer --get-mute 2>/dev/null)
+#   
+#   if [ "$muted" = "true" ]; then
+#     printf "^c$black^^b$yellow^ 󰖁 "
+#     printf "^c$yellow^^b$grey^ Muted"
+#   else
+#     printf "^c$black^^b$yellow^ 󰕾 "
+#     printf "^c$yellow^^b$grey^ $vol%%"
+#   fi
+# }
+
 # battery() {
 #   get_capacity="$(cat /sys/class/power_supply/BAT0/capacity)"
 #   printf "^c$blue^   $get_capacity"

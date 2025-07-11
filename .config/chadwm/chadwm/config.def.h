@@ -26,7 +26,7 @@ static const int systraypinningfailfirst =
 static const int showsystray = 1; /* 0 means no systray */
 static const int showbar = 1;     /* 0 means no bar */
 static const int showtab = showtab_auto;
-static const int toptab = 1;   /* 0 means bottom tab */
+static const int toptab = 0;   /* 0 means bottom tab */
 static const int floatbar = 1; /* 1 means the bar will float(don't have
                                   padding),0 means the bar have padding */
 static const int topbar = 1;   /* 0 means bottom bar */
@@ -73,6 +73,8 @@ static const char *colors[][3] = {
     [SchemeTag3] = {orange, black, black},
     [SchemeTag4] = {green, black, black},
     [SchemeTag5] = {pink, black, black},
+    [SchemeTag6] = {cyan, black, black},
+    [SchemeTag7] = {blue, black, black},
     [SchemeLayout] = {green, black, black},
     [SchemeBtnPrev] = {green, black, black},
     [SchemeBtnNext] = {yellow, black, black},
@@ -89,7 +91,7 @@ static const Launcher launchers[] = {
 };
 
 static const int tagschemes[] = {SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4,
-                                 SchemeTag5};
+                                 SchemeTag5, SchemeTag6, SchemeTag7};
 
 static const unsigned int ulinepad =
     5; /* horizontal padding between the underline and tag */
@@ -168,6 +170,9 @@ static const Key keys[] = {
     {0, XF86XK_AudioRaiseVolume, spawn, {.v = upvol}},
     {0, XF86XK_MonBrightnessUp, spawn, {.v = light_up}},
     {0, XF86XK_MonBrightnessDown, spawn, {.v = light_down}},
+    {0, XF86XK_AudioPlay, spawn, SHCMD("playerctl play-pause")},
+    {0, XF86XK_AudioNext, spawn, SHCMD("playerctl next")},
+    {0, XF86XK_AudioPrev, spawn, SHCMD("playerctl previous")},
 
     // screenshot fullscreen and cropped
     {MODKEY | ControlMask, XK_u, spawn,
@@ -179,10 +184,9 @@ static const Key keys[] = {
     {MODKEY | Mod1Mask, XK_e, spawn, SHCMD("eww open eww")},
     {MODKEY, XK_e, spawn, SHCMD("kitty helix")},
     {MODKEY | ShiftMask, XK_e, spawn, SHCMD("code")},
-    {MODKEY | ControlMask, XK_e, spawn, SHCMD("pycharm-community-eap")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
     {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
-    {MODKEY, XK_Return, spawn, SHCMD("kitty")},
+    {MODKEY, XK_Return, spawn, SHCMD("tmux st")},
     {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("betterlockscreen -l")},
     {MODKEY | Mod1Mask, XK_x, spawn, SHCMD("powermenu")},
     {MODKEY | Mod1Mask, XK_s, spawn, SHCMD("dm-maim")},

@@ -129,10 +129,8 @@ static const int lockfullscreen =
 static const Layout layouts[] = {
     /* symbol     arrange function */
     {"[\\]", dwindle},
-    {"[]=", tile}, /* first entry is default */
-    {"[M]", monocle},
-    {"[@]", spiral},
     {"H[]", deck},
+    {"[]=", tile},       
     {"TTT", bstack},
     {"===", bstackhoriz},
     {"HHH", grid},
@@ -185,7 +183,7 @@ static const Key keys[] = {
     {MODKEY, XK_e, spawn, SHCMD("pcmanfm")},
     {MODKEY | ShiftMask, XK_e, spawn, SHCMD("code")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
-    {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
+    {MODKEY, XK_d, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
     {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("st tmux")},
     {MODKEY, XK_Return, spawn, SHCMD("st")},
     {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("betterlockscreen -l")},
@@ -200,7 +198,6 @@ static const Key keys[] = {
     {MODKEY, XK_j, focusstack, {.i = +1}},
     {MODKEY, XK_k, focusstack, {.i = -1}},
     {MODKEY, XK_i, incnmaster, {.i = +1}},
-    {MODKEY, XK_d, incnmaster, {.i = -1}},
 
     // shift view
     {MODKEY, XK_Left, shiftview, {.i = -1}},

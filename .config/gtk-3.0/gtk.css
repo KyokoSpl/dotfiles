@@ -1,0 +1,22 @@
+/*
+* GTK Colors
+*/
+
+@define-color accent_color #C5C0FF;
+@define-color accent_fg_color #2600A1;
+@define-color accent_bg_color #C5C0FF;
+@define-color window_bg_color #13121C;
+@define-color window_fg_color #E5E0EF;
+@define-color headerbar_bg_color #13121C;
+@define-color headerbar_fg_color #E5E0EF;
+@define-color popover_bg_color #13121C;
+@define-color popover_fg_color #E5E0EF;
+@define-color view_bg_color #13121C;
+@define-color view_fg_color #E5E0EF;
+@define-color card_bg_color #13121C;
+@define-color card_fg_color #E5E0EF;
+@define-color sidebar_bg_color @window_bg_color;
+@define-color sidebar_fg_color @window_fg_color;
+@define-color sidebar_border_color @window_bg_color;
+@define-color sidebar_backdrop_color @window_bg_color;
+@import 'colors.css';

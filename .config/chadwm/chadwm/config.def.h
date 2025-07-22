@@ -83,12 +83,6 @@ static const char *colors[][3] = {
 
 /* tagging */
 static char *tags[] = {"♥", "♥", "♥", "♥", "♥", "♥", "♥",};
-static const char *eww[] = {"eww", "open", "eww", NULL};
-
-static const Launcher launchers[] = {
-    /* command     name to display */
-    {eww, ""},
-};
 
 static const int tagschemes[] = {SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4,
                                  SchemeTag5, SchemeTag6, SchemeTag7};
@@ -111,7 +105,6 @@ static const Rule rules[] = {
        monitor */
     {"Gimp", NULL, NULL, 0, 0, 1, -1},
     {"Firefox", NULL, NULL, 1 << 8, 0, 0, -1},
-    {"eww", NULL, NULL, 0, 0, 1, -1},
 };
 
 /* layout(s) */
@@ -129,11 +122,10 @@ static const int lockfullscreen =
 static const Layout layouts[] = {
     /* symbol     arrange function */
     {"[\\]", dwindle},
-    {"H[]", deck},
+    {"HHH", grid},
     {"[]=", tile},       
     {"TTT", bstack},
     {"===", bstackhoriz},
-    {"HHH", grid},
     {"###", nrowgrid},
     {"---", horizgrid},
     {":::", gaplessgrid},
@@ -145,6 +137,7 @@ static const Layout layouts[] = {
 
 /* key definitions */
 #define MODKEY Mod4Mask
+#define ALTKEY Mod1Mask
 #define TAGKEYS(KEY, TAG)                                                      \
   {MODKEY, KEY, view, {.ui = 1 << TAG}},                                       \
       {MODKEY | ControlMask, KEY, toggleview, {.ui = 1 << TAG}},               \
@@ -183,11 +176,10 @@ static const Key keys[] = {
     {MODKEY, XK_e, spawn, SHCMD("pcmanfm")},
     {MODKEY | ShiftMask, XK_e, spawn, SHCMD("code")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
-    {MODKEY, XK_d, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
-    {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("st tmux")},
-    {MODKEY, XK_Return, spawn, SHCMD("st")},
-    {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("betterlockscreen -l")},
-    {MODKEY | Mod1Mask, XK_x, spawn, SHCMD("powermenu")},
+    {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
+    {MODKEY, XK_Return, spawn, SHCMD("kitty")},
+    {ALTKEY, XK_l, spawn, SHCMD("betterlockscreen -l")},
+    {ALTKEY, XK_x, spawn, SHCMD("powermenu")},
     {MODKEY | Mod1Mask, XK_s, spawn, SHCMD("dm-maim")},
     // toggle stuff
     {MODKEY | ControlMask, XK_t, togglegaps, {0}},

@@ -105,6 +105,8 @@ static const Rule rules[] = {
        monitor */
     {"Gimp", NULL, NULL, 0, 0, 1, -1},
     {"Firefox", NULL, NULL, 1 << 8, 0, 0, -1},
+    {"dwm-cheatsheet", NULL, NULL, 0, 1, 1, -1},
+    
 };
 
 /* layout(s) */
@@ -171,8 +173,8 @@ static const Key keys[] = {
     {MODKEY, XK_u, spawn,
      SHCMD("maim --select | xclip -selection clipboard -t image/png")},
 
+    {MODKEY, XK_slash, spawn, SHCMD("~/.config/chadwm/dwm-cheatsheet/target/debug/dwm-cheatsheet")},
     {MODKEY, XK_b, spawn, SHCMD("firefox")},
-    {MODKEY | Mod1Mask, XK_e, spawn, SHCMD("eww open eww")},
     {MODKEY, XK_e, spawn, SHCMD("pcmanfm")},
     {MODKEY | ShiftMask, XK_e, spawn, SHCMD("code")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},

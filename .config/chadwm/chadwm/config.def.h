@@ -182,6 +182,7 @@ static const Key keys[] = {
     {MODKEY, XK_Return, spawn, SHCMD("kitty")},
     {ALTKEY, XK_l, spawn, SHCMD("betterlockscreen -l")},
     {ALTKEY, XK_x, spawn, SHCMD("powermenu")},
+    {MODKEY | Mod1Mask, XK_n, spawn, SHCMD("dm-note")},
     {MODKEY | Mod1Mask, XK_s, spawn, SHCMD("dm-maim")},
     // toggle stuff
     {MODKEY | ControlMask, XK_t, togglegaps, {0}},

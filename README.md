@@ -102,7 +102,6 @@ sudo make install
 - install rust according to their [instructions](https://www.rust-lang.org/tools/install)
 
 ```sh
-git clone https://github.com/KyokoSpl/powermenu
 cd powermenu/
 git checkout KyokoSpl-patch-1
 cargo build
@@ -122,7 +121,6 @@ cp target/debug/powermenu ~/.cargo/bin/
 - dunst
 - blueman-applet (blueman)
 - caffeine-indicator (if distro has it)
-- tmux 
 - xclip
 - pcmanfm
 - firefox

@@ -10,6 +10,14 @@
 ``` sh
 git clone --recurse-submodules https://github.com/KyokoSpl/dotfiles
 cd dotfiles
+
+**Look into powermenu and dwm-cheatsheet as well as the chadwm directories and choos ur themes**
+- for chadwm look at the following:
+  - dwm and bar : in bar.sh (line 9) and config.def.h (line 61)
+- for powermenu and dwm-cheatsheet:
+  - rename the desired <theme>.css to main.css
+
+```sh
 chmod +x install.sh
 bash install.sh
 ```

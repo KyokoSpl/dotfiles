@@ -58,7 +58,7 @@ static const char *fonts[] = {
     "JetBrainsMono Nerd Font Mono:style:medium:size=19"};
 
 // theme
-#include "themes/everforest.h"
+#include "themes/catppuccin.h"
 
 static const char *colors[][3] = {
     /*                     fg       bg      border */
@@ -73,6 +73,8 @@ static const char *colors[][3] = {
     [SchemeTag3] = {orange, black, black},
     [SchemeTag4] = {green, black, black},
     [SchemeTag5] = {pink, black, black},
+    [SchemeTag6] = {teal, black, black},
+    [SchemeTag7] = {purple, black, black},
     [SchemeLayout] = {green, black, black},
     [SchemeBtnPrev] = {green, black, black},
     [SchemeBtnNext] = {yellow, black, black},
@@ -80,17 +82,10 @@ static const char *colors[][3] = {
 };
 
 /* tagging */
-static char *tags[] = {"♥", "♥", "♥", "♥", "♥"};
-
-static const char *eww[] = {"eww", "open", "eww", NULL};
-
-static const Launcher launchers[] = {
-    /* command     name to display */
-    {eww, ""},
-};
+static char *tags[] = {"♥", "♥", "♥", "♥", "♥", "♥", "♥",};
 
 static const int tagschemes[] = {SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4,
-                                 SchemeTag5};
+                                 SchemeTag5, SchemeTag6, SchemeTag7};
 
 static const unsigned int ulinepad =
     5; /* horizontal padding between the underline and tag */
@@ -110,7 +105,8 @@ static const Rule rules[] = {
        monitor */
     {"Gimp", NULL, NULL, 0, 0, 1, -1},
     {"Firefox", NULL, NULL, 1 << 8, 0, 0, -1},
-    {"eww", NULL, NULL, 0, 0, 1, -1},
+    {"dwm-cheatsheet", NULL, NULL, 0, 1, 1, -1},
+    
 };
 
 /* layout(s) */
@@ -127,14 +123,11 @@ static const int lockfullscreen =
 
 static const Layout layouts[] = {
     /* symbol     arrange function */
-    {"[]=", tile}, /* first entry is default */
-    {"[M]", monocle},
-    {"[@]", spiral},
     {"[\\]", dwindle},
-    {"H[]", deck},
+    {"HHH", grid},
+    {"[]=", tile},       
     {"TTT", bstack},
     {"===", bstackhoriz},
-    {"HHH", grid},
     {"###", nrowgrid},
     {"---", horizgrid},
     {":::", gaplessgrid},
@@ -146,6 +139,7 @@ static const Layout layouts[] = {
 
 /* key definitions */
 #define MODKEY Mod4Mask
+#define ALTKEY Mod1Mask
 #define TAGKEYS(KEY, TAG)                                                      \
   {MODKEY, KEY, view, {.ui = 1 << TAG}},                                       \
       {MODKEY | ControlMask, KEY, toggleview, {.ui = 1 << TAG}},               \
@@ -169,6 +163,9 @@ static const Key keys[] = {
     {0, XF86XK_AudioRaiseVolume, spawn, {.v = upvol}},
     {0, XF86XK_MonBrightnessUp, spawn, {.v = light_up}},
     {0, XF86XK_MonBrightnessDown, spawn, {.v = light_down}},
+    {0, XF86XK_AudioPlay, spawn, SHCMD("playerctl play-pause")},
+    {0, XF86XK_AudioNext, spawn, SHCMD("playerctl next")},
+    {0, XF86XK_AudioPrev, spawn, SHCMD("playerctl previous")},
 
     // screenshot fullscreen and cropped
     {MODKEY | ControlMask, XK_u, spawn,
@@ -176,16 +173,17 @@ static const Key keys[] = {
     {MODKEY, XK_u, spawn,
      SHCMD("maim --select | xclip -selection clipboard -t image/png")},
 
-    {MODKEY, XK_b, spawn, SHCMD("brave")},
-    {MODKEY | Mod1Mask, XK_e, spawn, SHCMD("eww open eww")},
-    {MODKEY, XK_e, spawn, SHCMD("kitty nvim")},
-    {MODKEY | ShiftMask, XK_e, spawn, SHCMD("zeditor")},
-    {MODKEY | ControlMask, XK_e, spawn, SHCMD("pycharm-community-eap")},
+    {MODKEY, XK_slash, spawn, SHCMD("dwm-cheatsheet")},
+    {MODKEY, XK_b, spawn, SHCMD("firefox")},
+    {MODKEY, XK_e, spawn, SHCMD("pcmanfm")},
+    {MODKEY | ShiftMask, XK_e, spawn, SHCMD("code")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
-    {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("rofi -show drun")},
+    {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
     {MODKEY, XK_Return, spawn, SHCMD("kitty")},
-    {MODKEY | Mod1Mask, XK_l, spawn, SHCMD("betterlockscreen -l")},
-
+    {ALTKEY, XK_l, spawn, SHCMD("betterlockscreen -l")},
+    {ALTKEY, XK_x, spawn, SHCMD("powermenu")},
+    {MODKEY | Mod1Mask, XK_n, spawn, SHCMD("dm-note")},
+    {MODKEY | Mod1Mask, XK_s, spawn, SHCMD("dm-maim")},
     // toggle stuff
     {MODKEY | ControlMask, XK_t, togglegaps, {0}},
     {MODKEY | ShiftMask, XK_space, togglefloating, {0}},
@@ -195,7 +193,6 @@ static const Key keys[] = {
     {MODKEY, XK_j, focusstack, {.i = +1}},
     {MODKEY, XK_k, focusstack, {.i = -1}},
     {MODKEY, XK_i, incnmaster, {.i = +1}},
-    {MODKEY, XK_d, incnmaster, {.i = -1}},
 
     // shift view
     {MODKEY, XK_Left, shiftview, {.i = -1}},

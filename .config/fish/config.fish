@@ -10,7 +10,7 @@
 # First line removes the path; second line sets it.  Without the first line,
 # your path gets massive and fish becomes very slow.
 set -e fish_user_paths
-set -U fish_user_paths $HOME/.bin $HOME/.local/bin /home/wynter/.cargo/bin $HOME/.config/emacs/bin $HOME/Applications /var/lib/flatpak/exports/bin/ $fish_user_paths
+set -U fish_user_paths $HOME/bin/flutter/bin/ $HOME/.bin $HOME/.local/bin /home/wynter/.cargo/bin $HOME/.config/emacs/bin $HOME/Applications /var/lib/flatpak/exports/bin/ $fish_user_paths $HOME/.config/zide/bin
 
 ### EXPORT ###
 set fish_greeting # Supresses fish's intro message
@@ -54,7 +54,7 @@ function __history_previous_command
     end
 end
 
-function __history_previous_command_arguments
+function __history_previous_command_argument
     switch (commandline -t)
         case "!"
             commandline -t ""
@@ -142,11 +142,11 @@ end
 
 ### ALIASES ###
 # navigation
-alias ..='z ..'
-alias ...='z ../..'
-alias .3='z ../../..'
-alias .4='z ../../../..'
-alias .5='z ../../../../..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
 
 # vim and emacs
 alias vim='nvim'
@@ -155,22 +155,44 @@ alias em='/usr/bin/emacs -nw'
 alias rem="killall emacs || echo 'Emacs server not running'; /usr/bin/emacs --daemon" # Kill Emacs and restart daemon..
 
 # Changing "ls" to "eza"
-alias ls='eza -al --color=always --group-directories-first' # my preferred listing
-alias la='eza -a --color=always --group-directories-first' # all files and dirs
-alias ll='eza -l --color=always --group-directories-first' # long format
-alias lt='eza -aT --color=always --group-directories-first' # tree listing
+alias ls='eza -al --color=always' # my preferred listing
+alias la='eza -a --color=always' # all files and dirs
+alias ll='eza -l --color=always' # long format
+alias lt='eza -aT --color=always' # tree listing
 alias l.='eza -a | egrep "^\."'
-alias l.='eza -al --color=always --group-directories-first ../' # ls on the PARENT directory
-alias l..='eza -al --color=always --group-directories-first ../../' # ls on directory 2 levels up
-alias l...='eza -al --color=always --group-directories-first ../../../' # ls on directory 3 levels up
+alias l.='eza -al --color=always ../' # ls on the PARENT directory
+alias l..='eza -al --color=always ../../' # ls on directory 2 levels up
+alias l...='eza -al --color=always ../../../' # ls on directory 3 levels up
 
-# pacman and yay
-alias pacsyu='sudo pacman -Syu' # update only standard pkgs
-alias pacsyyu='sudo pacman -Syyu' # Refresh pkglist & update standard pkgs
-alias parsua='paru -Sua --noconfirm' # update only AUR pkgs (paru)
-alias parsyu='paru -Syu --noconfirm' # update standard pkgs and AUR pkgs (paru)
-alias unlock='sudo rm /var/lib/pacman/db.lck' # remove pacman lock
-alias orphan='sudo pacman -Rns (pacman -Qtdq)' # remove orphaned packages (DANGEROUS!)
+# Arch pkg managment
+#alias pacsyu='sudo pacman -Syu' # update only standard pkgs
+#alias pacsyyu='sudo pacman -Syyu' # Refresh pkglist & update standard pkgs
+#alias parsua='paru -Sua --noconfirm' # update only AUR pkgs (paru)
+#alias parsyu='paru -Syu --noconfirm' # update standard pkgs and AUR pkgs (paru)
+#alias unlock='sudo rm /var/lib/pacman/db.lck' # remove pacman lock
+#alias orphan='sudo pacman -Rns (pacman -Qtdq)' # remove orphaned packages (DANGEROUS!)
+#
+# Fedora pkg managment
+alias dnfin='sudo dnf install'
+alias dnfup='sudo dnf update'
+alias dnfrm='sudo dnf remove'
+alias dnfcheckup='sudo dnf check-upgrade'
+alias dnfli='sudo dnf list'
+alias dnflistin='sudo dnf list --installed'
+
+# Debian/Ubuntu pkg managment
+alias aptin='sudo apt install'
+alias aptup='sudo apt update && sudo apt upgrade'
+alias aptfullup='sudo apt full-upgrade'
+alias aptrem='sudo apt remove'
+alias apts='apt search'
+alias aptlistin='apt list --installed'
+alias aptlist='apt list'
+alias aptautoremove='sudo apt autoremove'
+alias aptclean='sudo apt clean'
+
+
+
 
 # get fastest mirrors
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
@@ -233,12 +255,8 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 # Mocp must be launched with bash instead of Fish!
 alias mocp="bash -c mocp"
 
-alias swaykblayout="bash /home/wynter/.config/sway/kblayout.sh"
-alias lions_advent="python3 /home/kyoko/gitclone/lions-advent-query/check_advent.py"
+alias dwm-recomp="cd ~/.config/chadwm/chadwm && rm config.h && sudo make install"
 
-### RANDOM COLOR SCRIPT ###
-# Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
-# Or install it from the Arch User Repository: shell-color-scripts
 
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
@@ -247,6 +265,4 @@ starship init fish | source
 zoxide init fish | source
 
 
-# bun
-set --export BUN_INSTALL "$HOME/.bun"
-set --export PATH $BUN_INSTALL/bin $PATH
+

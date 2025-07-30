@@ -1,0 +1,41 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+mouse = true
+auto-completion = true
+path-completion = true
+auto-format = true
+auto-info = true
+bufferline = "always"
+popup-border = "popup"
+end-of-line-diagnostics = "hint"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+enable = true
+display-messages = true
+display-progress-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
+[editor.inline-diagnostics]
+cursor-line = "warning" # show warnings and errors on the cursorline inline
+
+

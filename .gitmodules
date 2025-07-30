@@ -1,0 +1,6 @@
+[submodule "powermenu"]
+	path = powermenu
+	url = git@github.com:KyokoSpl/powermenu.git
+[submodule "dwm-cheatsheet"]
+	path = dwm-cheatsheet
+	url = git@github.com:KyokoSpl/dwm-cheatsheet

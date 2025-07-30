@@ -3,11 +3,23 @@
 ### for system stuff use
 [Chris titus linutil](https://github.com/ChrisTitusTech/linutil)
 
+## Automatic Installation
+> [!WARNING]
+> This is experimental and needs testing. I WOULD NOT RECOMMEND to use it on a productive system
 
-## Installation
+``` sh
+git clone --recurse-submodules https://github.com/KyokoSpl/dotfiles
+cd dotfiles
+chmod +x install.sh
+bash install.sh
+```
+
+
+
+## Manual Installation
 
 ```sh
-git clone https://github.com/KyokoSpl/dotfiles
+git clone --recurse-submodules https://github.com/KyokoSpl/dotfiles
 cd dotfiles
 cp -rf .config/ ~/.config/
 cp -rf .themes ~/.themes/

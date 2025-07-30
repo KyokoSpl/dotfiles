@@ -10,6 +10,7 @@
 ``` sh
 git clone --recurse-submodules https://github.com/KyokoSpl/dotfiles
 cd dotfiles
+```
 
 **Look into powermenu and dwm-cheatsheet as well as the chadwm directories and choos ur themes**
 - for chadwm look at the following:

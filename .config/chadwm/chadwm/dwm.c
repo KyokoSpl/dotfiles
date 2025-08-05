@@ -641,6 +641,7 @@ void buttonpress(XEvent *e) {
 
 		x += TEXTW(selmon->ltsymbol);
 
+		/* Comment out launchers code - not defined
 		for(i = 0; i < LENGTH(launchers); i++) {
 			x += TEXTW(launchers[i].name);
 
@@ -650,7 +651,8 @@ void buttonpress(XEvent *e) {
 				spawn(&a);
 				return;
 			}
-	}
+		}
+		*/
 
   if (ev->x > selmon->ww - (int)TEXTW(stext))
          click = ClkStatusText;
@@ -1518,12 +1520,14 @@ void drawbar(Monitor *m) {
   drw_setscheme(drw, scheme[SchemeLayout]);
   x = drw_text(drw, x, 0, w, bh, lrpad / 2, m->ltsymbol, 0);
 
-  	for (i = 0; i < LENGTH(launchers); i++)
+  	/* Comment out launchers code - not defined
+	for (i = 0; i < LENGTH(launchers); i++)
 	{
 		w = TEXTW(launchers[i].name);
 		drw_text(drw, x, 0, w, bh, lrpad / 2, launchers[i].name, urg & 1 << i);
 		x += w;
 	}
+	*/
 
   w = floatbar?mw + m->gappov * 2 - sw - stw - x:mw - sw - stw - x;
   if (w > bh_n) {

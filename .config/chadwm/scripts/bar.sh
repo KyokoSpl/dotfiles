@@ -6,7 +6,7 @@
 interval=0
 
 # load colors
-. ~/.config/chadwm/scripts/bar_themes/catppuccin
+. ~/.config/chadwm/scripts/bar_themes/mountain
 
 cpu() {
   cpu_val=$(grep -o "^[^ ]*" /proc/loadavg)

@@ -4,3 +4,6 @@
 [submodule "dwm-cheatsheet"]
 	path = dwm-cheatsheet
 	url = git@github.com:KyokoSpl/dwm-cheatsheet
+[submodule "xscreen_switch"]
+	path = xscreen_switch
+	url = ../xscreen_switch/

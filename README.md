@@ -124,7 +124,7 @@ sudo make install
 
 ```sh
 cd powermenu/
-git checkout KyokoSpl-patch-1
+git checkout main
 cargo build
 cp target/debug/powermenu ~/.cargo/bin/
 ```
@@ -158,4 +158,5 @@ cp target/debug/powermenu ~/.cargo/bin/
 ## Credits
 
 - [chadwm](https://github.com/siduck/chadwm) - The amazing DWM configuration this dotfiles setup is based on
+
 

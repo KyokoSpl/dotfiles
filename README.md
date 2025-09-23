@@ -155,3 +155,7 @@ cp target/debug/powermenu ~/.cargo/bin/
 - playerctl
 - maim
 
+## Credits
+
+- [chadwm](https://github.com/siduck/chadwm) - The amazing DWM configuration this dotfiles setup is based on
+

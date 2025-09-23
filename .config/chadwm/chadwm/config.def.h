@@ -58,7 +58,7 @@ static const char *fonts[] = {
     "JetBrainsMono Nerd Font Mono:style:medium:size=19"};
 
 // theme
-    #include "themes/mountain.h"
+    #include "themes/catppuccin.h"
 
 static const char *colors[][3] = {
     /*                     fg       bg      border */
@@ -106,6 +106,7 @@ static const Rule rules[] = {
     {"Gimp", NULL, NULL, 0, 0, 1, -1},
     {"Firefox", NULL, NULL, 1 << 8, 0, 0, -1},
     {"dwm-cheatsheet", NULL, NULL, 0, 1, 1, -1},
+    {"xscreen_switch", NULL, NULL, 0, 1, 1, -1},
     
 };
 
@@ -178,12 +179,16 @@ static const Key keys[] = {
     {MODKEY, XK_e, spawn, SHCMD("pcmanfm")},
     {MODKEY | ShiftMask, XK_e, spawn, SHCMD("code")},
     {MODKEY, XK_m, spawn, SHCMD("sh ~/.config/chadwm/scripts/kblayout.sh")},
+    // {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("rofi -show drun")},
+    {MODKEY | Mod1Mask, XK_Return, spawn, SHCMD("rofi -show run")},
+    {ALTKEY, XK_Tab, spawn, SHCMD("rofi -show window")},
     {MODKEY | ShiftMask, XK_Return, spawn, SHCMD("bash ~/.config/rofi/scripts/launcher")},
     {MODKEY, XK_Return, spawn, SHCMD("kitty")},
     {ALTKEY, XK_l, spawn, SHCMD("betterlockscreen -l")},
     {ALTKEY, XK_x, spawn, SHCMD("powermenu")},
     {MODKEY | Mod1Mask, XK_n, spawn, SHCMD("dm-note")},
     {MODKEY | Mod1Mask, XK_s, spawn, SHCMD("dm-maim")},
+    {MODKEY, XK_p, spawn, SHCMD("xscreen_switch --launch")},
     // toggle stuff
     {MODKEY | ControlMask, XK_t, togglegaps, {0}},
     {MODKEY | ShiftMask, XK_space, togglefloating, {0}},

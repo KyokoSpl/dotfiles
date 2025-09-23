@@ -298,6 +298,18 @@ if [ "$INSTALL_DOTFILES" = true ]; then
         else
             print_warning "dwm-cheatsheet directory not found, skipping..."
         fi
+        
+        # Compile xscreen_switch
+        if [ -d "xscreen_switch" ]; then
+            print_info "Building xscreen_switch..."
+            cd xscreen_switch/
+            cargo build --release
+            cp target/release/xscreen_switch ~/.cargo/bin/ 2>/dev/null || cp target/debug/xscreen_switch ~/.cargo/bin/
+            cd ..
+            print_success "xscreen_switch compiled and installed"
+        else
+            print_warning "xscreen_switch directory not found, skipping..."
+        fi
     fi
 
     # Compile DWM components

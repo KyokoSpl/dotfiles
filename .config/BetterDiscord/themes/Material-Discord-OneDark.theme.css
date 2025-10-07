@@ -1,0 +1,102 @@
+/**
+ * @name Material Discord One Dark
+ * @version 3.0.5
+ * @description A theme based on Google's Material Design with One Dark color scheme
+ * @author CapnKitten (Modified for One Dark)
+ *
+ * @website http://github.com/CapnKitten
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Material-Discord/css/source.css
+ * @donate https://paypal.me/capnkitten
+ * @invite jzJkA6Z
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+
+/* Material You addon */
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css);
+
+/* MATERIAL YOU DARK THEME SETTINGS */
+.theme-dark {
+	--saturation-modifier: 0.31;
+	--lightness-modifier: 0.225;
+	--text-lightness-modifier: 1.0;
+	--ui-darkness-modifier: 1.0;
+}
+
+/* MATERIAL YOU LIGHT THEME SETTINGS */
+.theme-light {
+	--saturation-modifier: 0.74;
+	--lightness-modifier: 2.125;
+	--text-lightness-modifier: 1.0;
+}
+
+:root {
+	/* ACCENT HSL AND TEXT COLOR SETTINGS - One Dark Blue */
+	--accent-hue: 218;
+	--accent-saturation: 30%;
+	--accent-lightness: 65%;
+	--accent-text-color: hsl(0, 0%, 71%); /* Neutral grey foreground */
+	--accent-button-action: hsl(0, 0%, 71%);
+
+	/* ALERT HSL AND TEXT COLOR SETTINGS - One Dark Red */
+	--alert-hue: 355;
+	--alert-saturation: 65%;
+	--alert-lightness: 65%;
+	--alert-text-color: hsl(0, 0%, 71%); /* Neutral grey foreground */
+
+	/* WARNING HSL AND TEXT COLOR SETTINGS - One Dark Yellow */
+	--warning-hue: 39;
+	--warning-saturation: 67%;
+	--warning-lightness: 69%;
+	--warning-text-color: hsl(0, 0%, 71%); /* Neutral grey foreground */
+
+	/* MESSAGE SETTINGS */
+	--message-radius: 18px;
+	--message-padding-top: 8px;
+	--message-padding-side: 12px;
+
+	/* MESSAGE MEDIA SETTINGS */
+	--media-radius: 10px;
+
+	/* CARD SETTINGS */
+	--card-radius: 8px;
+	--card-radius-big: 18px;
+
+	/* BUTTON SETTINGS */
+	--button-height: 36px;
+	--button-padding: 0 24px;
+	--button-action-color: hsl(0, 0%, 71%);
+
+	/* INPUT SETTINGS */
+	--input-height: 36px;
+	--input-padding: 0 12px;
+
+	/* POPOUT AND MODAL SETTINGS */
+	--popout-radius: 8px;
+	--popout-radius-big: 18px;
+
+	/* TOOLTIP SETTINGS */
+	--tooltip-color: hsl(218, 17%, 21%, 0.9); /* Custom background #2c313c */
+	--tooltip-text-color: hsl(0, 0%, 71%); /* Neutral grey foreground */
+	--tooltip-font-size: 12px;
+	--tooltip-padding: 8px;
+	--tooltip-radius: 8px;
+
+	/* SCROLLBAR SETTINGS */
+	--scrollbar-width: 10px;
+	--scrollbar-thin-width: 6px;
+
+	/* CUSTOM BACKGROUND OVERRIDE - #2c313c */
+	--background-primary: #2c313c;
+	--background-secondary: #2c313c;
+	--background-secondary-alt: #2c313c;
+	--background-tertiary: #2c313c;
+	--background-accent: #2c313c;
+	--background-floating: #2c313c;
+	--background-mobile-primary: #2c313c;
+	--background-mobile-secondary: #2c313c;
+	--background-modifier-hover: rgba(44, 49, 60, 0.16);
+	--background-modifier-active: rgba(44, 49, 60, 0.24);
+	--background-modifier-selected: rgba(44, 49, 60, 0.32);
+	--background-modifier-accent: rgba(44, 49, 60, 0.48);
+}

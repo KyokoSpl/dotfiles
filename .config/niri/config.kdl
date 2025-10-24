@@ -19,7 +19,7 @@ input {
             // layout "us,ru"
             // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
             layout "us,de"
-            options "grp:alt_shift_toggle"
+            options "grp:win_space_toggle"
         }
     }
 
@@ -95,7 +95,7 @@ output "DP-1" {
 }
 
 output "DP-2" {
-    mode "1920x1080@240"
+    mode "1920x1080@239.964"
     position x=1680 y=0
 }
 
@@ -104,30 +104,30 @@ output "DP-2" {
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 16
+    gaps 8
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
     //   or right edge of the screen.
     // - "always", the focused column will always be centered.
-    // - "on-overflow", focusing a column will center it if it doesn't fit
+    // - "on-overflow", focusing a column will center it if it doesnt fit
     //   together with the previously focused column.
-    center-focused-column "on-overflow"
+    center-focused-column "never"
 
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
         // Proportion sets the width as a fraction of the output width, taking gaps into account.
         // Optimized for 3 windows on screen - perfect thirds and useful ratios
-        proportion 0.33333  // 1/3 - perfect for 3 equal columns
-        proportion 0.4      // 2/5 - slightly wider, good for main + 2 side windows  
-        proportion 0.6      // 3/5 - main window with 2 smaller sides
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
 
         // Fixed sets the width in logical pixels exactly.
         // fixed 1920
     }
 
     // You can change the default width of the new windows.
-    default-column-width { proportion 0.66667; }
+    default-column-width { proportion 0.5; }
     // If you leave the brackets empty, the windows themselves will decide their initial width.
     // default-column-width {}
 
@@ -135,7 +135,7 @@ layout {
     // behind windows. That is, they will show up through semitransparent windows.
     // This is because windows using client-side decorations can have an arbitrary shape.
     //
-    // If you don't like that, you should uncomment `prefer-no-csd` below.
+    // If you dont like that, you should uncomment `prefer-no-csd` below.
     // Niri will draw focus ring and border *around* windows that agree to omit their
     // client-side decorations.
     //
@@ -180,7 +180,7 @@ layout {
         inactive-gradient from="#3e4451" to="#4b5263" angle=45 relative-to="workspace-view"
     }
 
-    // You can also add a border. It's similar to the focus ring, but always visible.
+    // You can also add a border. Its similar to the focus ring, but always visible.
     border {
         // The settings are the same as for the focus ring.
         // If you enable the border, you probably want to disable the focus ring.
@@ -213,20 +213,24 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 // spawn-at-startup "alacritty" "-e" "fish"
-spawn-at-startup "dunst -conf ~/.config/dunst/dunstrc.d/50-theme.conf"
-spawn-at-startup "waybar"
+
 spawn-at-startup "discord"
+spawn-at-startup "musicpresence"
 spawn-at-startup "blueman-applet"
-spawn-at-startup "caffeine-indicator"
 spawn-at-startup "nm-applet"
-spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
+spawn-at-startup "dms" "run"
+spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
 // spawn-at-startup "mpvpaper" "-vp" "-o" "no-audio loop" "HDMI-A-1" "~/Videos/Hidamari/2016 Chevrolet Camaro SS - (GTA 5) - [Live Wallpaper].mp4"
 // spawn-at-startup "mpvpaper" "-vp" "-o" "no-audio loop" "HDMI-A-1" "/drvD/Profile/Videos/Hidamari/cool minty green wallpaper.mp4"
 // --panscan=1.0
 // spawn-at-startup "mpvpaper" "-vp" "-o" "no-audio loop" "HDMI-A-1" "/drvD/Profile/Videos/Hidamari/cat-in-the-swamp-moewalls-com-1080p.mp4"
- spawn-at-startup "swaybg" "-o" "DP-1" "-i" "/home/kiki/walls/1311975.jpg" "-m" "fill"
- spawn-at-startup "swaybg" "-o" "DP-2" "-i" "/home/kiki/walls/1311975.jpg" "-m" "fill"
-spawn-at-startup "wl-paste" "--watch" "clapboard" "store"
+spawn-at-startup "swaybg" "-o" "DP-1" "-i" "/home/kiki/walls/1311975.jpg" "-m" "fill"
+spawn-at-startup "swaybg" "-o" "DP-2" "-i" "/home/kiki/walls/1311975.jpg" "-m" "fill"
+
+config-notification {
+    disable-failed
+}
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -299,8 +303,11 @@ window-rule {
     min-height 400
     min-width 420
 }
-
-// Work around WezTerm's initial configure bug
+window-rule {
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+// Work around WezTerms initial configure bug
 // by setting an empty default-column-width.
 window-rule {
     // This regular expression is intentionally made as specific as possible,
@@ -311,8 +318,6 @@ window-rule {
 }
 
 window-rule {
-    match app-id="kitty"
-    default-column-width { proportion 0.5; }
 }
 
 window-rule {
@@ -429,27 +434,43 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+Return { spawn "kitty"; }
-    Mod+D { spawn "~/.config/niri/launch-drun.sh"; }
+    Mod+Return hotkey-overlay-title="Launch alacritty terminal"{ 
+      spawn "alacritty"; }
+    Mod+Shift+Return hotkey-overlay-title="Launch alacritty with tmux session"{
+      spawn "alacritty" "-e" "tmux"; }
+    Mod+D hotkey-overlay-title="Application Launcher" {
+      spawn "dms" "ipc" "call" "spotlight" "toggle";
+   }
     Mod+Shift+D { spawn "~/.config/niri/launch-run.sh"; }
     Mod+Alt+D { spawn "wmenu-run"; }
-    Mod+Alt+L { spawn "hyprlock"; }
+    Super+Alt+L { spawn "dms" "ipc" "call" "lock" "lock"; }
     Mod+Alt+X { spawn "wleave"; }
-    Mod+E { spawn "pcmanfm"; }
-    Mod+Shift+E { spawn "emacs"; }
+    Mod+E { spawn "alacritty" "-e" "nvim"; }
+    Mod+Shift+E { spawn "thunar"; }
     
     // Browser
     Mod+B { spawn "zen-browser"; }
     
     // File manager
-    Mod+Shift+Ctrl+E { spawn "pcmanfm"; }
-    
+
     // Dmenu scripts with emacs-style keychords
-    // Note: Niri doesn't support multi-key chords like dwm, so using alternatives
+    // Note: Niri doesnt support multi-key chords like dwm, so using alternatives
     
 
     
     // Keyboard layout switching dont no if neeed
+    // DMS (Desktop Management System) keybindings
+    Mod+V { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
+    Mod+M { spawn "dms" "ipc" "call" "processlist" "toggle"; }
+    Mod+N { spawn "dms" "ipc" "call" "notifications" "toggle"; }
+    Mod+Comma { spawn "dms" "ipc" "call" "settings" "toggle"; }
+    Mod+P { spawn "dms" "ipc" "call" "notepad" "toggle"; }
+    Mod+X { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Mod+Shift+C { spawn "dms" "ipc" "call" "control-center" "toggle"; }
+    
+    // Night mode toggle
+    Mod+Shift+N allow-when-locked=true { spawn "dms" "ipc" "call" "night" "toggle"; }
+
     //Mod+M { spawn "sh" "-c" "~/.config/scripts/kblayout.sh"; }
     
 
@@ -460,32 +481,31 @@ binds {
     // Note: the entire command goes as a single argument in the end.
     // Mod+T { spawn "bash" "-c" "notify-send hello && exec alacritty"; }
 
-    // Example volume keys mappings for PipeWire & WirePlumber.
-    // The allow-when-locked=true property makes them work even when the session is locked.
-    XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-    XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-    XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
-    XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
+    // DMS Audio controls
+    XF86AudioRaiseVolume allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "increment" "3"; }
+    XF86AudioLowerVolume allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "decrement" "3"; }
+    XF86AudioMute        allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "mute"; }
+    XF86AudioMicMute     allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "micmute"; }
     XF86AudioNext        allow-when-locked=true { spawn "playerctl" "next"; }
     XF86AudioPrev        allow-when-locked=true { spawn "playerctl" "previous"; }
     XF86AudioPlay        allow-when-locked=true { spawn "playerctl" "play-pause"; }
     
-    // Brightness controls (from dwm config)
-    XF86MonBrightnessUp   allow-when-locked=true { spawn "light" "-A" "5"; }
-    XF86MonBrightnessDown allow-when-locked=true { spawn "light" "-U" "5"; }
+    // DMS Brightness controls
+    XF86MonBrightnessUp   allow-when-locked=true { spawn "dms" "ipc" "call" "brightness" "increment" "5" ""; }
+    XF86MonBrightnessDown allow-when-locked=true { spawn "dms" "ipc" "call" "brightness" "decrement" "5" ""; }
     
     // Alternative volume controls (matching dwm pactl commands)
     Ctrl+XF86AudioRaiseVolume allow-when-locked=true { spawn "pactl" "set-sink-volume" "0" "+5%"; }
     Ctrl+XF86AudioLowerVolume allow-when-locked=true { spawn "pactl" "set-sink-volume" "0" "-5%"; }
     Ctrl+XF86AudioMute        allow-when-locked=true { spawn "pactl" "set-sink-mute" "0" "toggle"; }
 
-    Mod+C { close-window; }
+    Mod+C { close-window; }  // Moved from Mod+C (now used for Control Center)
 
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
     Mod+Ctrl+F { expand-column-to-available-width; }
     Mod+W { toggle-overview; }
-    Mod+V { toggle-column-tabbed-display; }
+    Mod+T { toggle-column-tabbed-display; }  // Moved from Mod+V (now used for Clipboard Manager)
     // Focus movements (matching dwm hjkl and arrows)
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
@@ -567,7 +587,7 @@ binds {
     //
     // To avoid scrolling through workspaces really fast, you can use
     // the cooldown-ms property. The bind will be rate-limited to this value.
-    // You can set a cooldown on any bind, but it's most useful for the wheel.
+    // You can set a cooldown on any bind, but its most useful for the wheel.
     Mod+WheelScrollDown      cooldown-ms=150 { focus-workspace-down; }
     Mod+WheelScrollUp        cooldown-ms=150 { focus-workspace-up; }
     Mod+Ctrl+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
@@ -588,7 +608,7 @@ binds {
     // Similarly, you can bind touchpad scroll "ticks".
     // Touchpad scrolling is continuous, so for these binds it is split into
     // discrete intervals.
-    // These binds are also affected by touchpad's natural-scroll, so these
+    // These binds are also affected by touchpads natural-scroll, so these
     // example binds are "inverted", since we have natural-scroll enabled for
     // touchpads by default.
     // Mod+TouchpadScrollDown { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.02+"; }
@@ -627,18 +647,17 @@ binds {
     // Switches focus between the current and the previous workspace.
     Mod+Tab { focus-workspace-previous; }
 
-    Mod+Comma  { consume-or-expel-window-left; }
-    Mod+Period { consume-or-expel-window-right; }
+    Mod+BracketLeft  { consume-or-expel-window-left; }   // Moved from Mod+Comma (now used for Settings)
+    Mod+BracketRight { consume-or-expel-window-right; } // Moved from Mod+Period
 
     // There are also commands that consume or expel a single window to the side.
-    Mod+BracketLeft  { consume-or-expel-window-left; }
-    Mod+BracketRight { consume-or-expel-window-right; }
+    // (Moved to replace Mod+Comma/Period above)
 
     Mod+R { switch-preset-column-width; }
     Mod+Ctrl+R { reset-window-height; }
-    Mod+Shift+C { center-column; }
+    Mod+Alt+C { center-column; }
 
-    // Finer width adjustments (matching dwm's mfact controls with h/l)
+    // Finer width adjustments (matching dwms mfact controls with h/l)
     // This command can also:
     // * set width in pixels: "1000"
     // * adjust width in pixels: "-5" or "+5"
@@ -690,13 +709,9 @@ binds {
     // Restart Niri (dwm Mod+Shift+R equivalent)
     Mod+Shift+Ctrl+R { spawn "niri" "msg" "action" "quit"; }
     
-    // Kill Niri (dwm Mod+Ctrl+Q equivalent) 
     Mod+Ctrl+Q { quit; }
     
-    // Hide/Show window (dwm extensions)
-    Mod+N { spawn "notify-send" "Niri" "Window hiding not available in Niri"; }
-    Mod+Shift+N { spawn "notify-send" "Niri" "Window restoration not available in Niri"; }
-    
+
     // Cheatsheet (from dwm config)
     Mod+Slash { spawn "niri-cheatsheet"; }
     

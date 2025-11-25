@@ -3,6 +3,13 @@
 ### for system stuff use
 [Chris titus linutil](https://github.com/ChrisTitusTech/linutil)
 
+
+## ToDo
+- [ ] add tmux installation to script
+- [ ] add hyprland plugin installation to script
+- [ ] review everything works
+
+
 ## Automatic Installation
 > [!WARNING]
 > This is experimental and needs testing. I WOULD NOT RECOMMEND to use it on a productive system

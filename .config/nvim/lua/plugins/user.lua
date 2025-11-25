@@ -46,4 +46,30 @@ return {
 
   -- You can disable default plugins as follows:
   { "max397574/better-escape.nvim", enabled = false },
+
+  -- Custom keybinding for documentation
+  {
+    "AstroNvim/astrocore",
+    ---@type AstroCoreOpts
+    opts = {
+      mappings = {
+        n = {
+          -- Map K to show documentation
+          ["K"] = {
+            function()
+              local filetype = vim.bo.filetype
+              if filetype == "vim" or filetype == "help" then
+                vim.cmd("help " .. vim.fn.expand("<cword>"))
+              elseif #vim.lsp.get_active_clients({ bufnr = 0 }) > 0 then
+                vim.lsp.buf.hover()
+              else
+                vim.cmd("!" .. vim.o.keywordprg .. " " .. vim.fn.expand("<cword>"))
+              end
+            end,
+            desc = "Show documentation",
+          },
+        },
+      },
+    },
+  },
 }

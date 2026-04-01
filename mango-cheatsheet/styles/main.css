@@ -1,0 +1,215 @@
+/* Mango Cheatsheet — Warm dark theme
+ * Colors derived from mango config.conf appearance values:
+ *   rootcolor=#201b14  bordercolor=#37474f  focuscolor=#80cbc4
+ *   border_radius=6 */
+
+/* ─── Base ──────────────────────────────────────────────────────────────── */
+
+.main-container {
+    background-color: #201b14;
+    color: #e0d6c8;
+    font-family: 'Iosevka', 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ─── Header ────────────────────────────────────────────────────────────── */
+
+.header {
+    background-color: #1a150f;
+    border-bottom: 1px solid #37474f;
+    padding: 18px 24px 14px 24px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e0d6c8;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #8a7e70;
+    margin-top: 2px;
+}
+
+/* ─── Search ────────────────────────────────────────────────────────────── */
+
+.search-field {
+    background-color: #29221a;
+    color: #e0d6c8;
+    border: 1px solid #37474f;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-family: 'Iosevka', 'JetBrains Mono', monospace;
+}
+
+.search-field:focus {
+    border-color: #80cbc4;
+}
+
+/* ─── Content area ──────────────────────────────────────────────────────── */
+
+.content-area {
+    background-color: #201b14;
+}
+
+/* ─── Category sections ─────────────────────────────────────────────────── */
+
+.category-section {
+    background-color: #29221a;
+    border-radius: 6px;
+    padding: 18px 20px;
+    border: 1px solid #37474f;
+}
+
+.category-header {
+    margin-bottom: 10px;
+}
+
+/* Accent bar (default, overridden per-category) */
+.category-accent {
+    border-radius: 2px;
+    background-color: #80cbc4;
+}
+
+.category-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #e0d6c8;
+}
+
+.category-badge {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 6px;
+    margin-left: 8px;
+    background-color: #37474f;
+    color: #80cbc4;
+}
+
+/* ─── Per-category accent colors ────────────────────────────────────────── */
+
+.category-accent.cat-media        { background-color: #f7768e; }
+.category-accent.cat-screenshot   { background-color: #ff9e64; }
+.category-accent.cat-applications { background-color: #e0af68; }
+.category-accent.cat-windowmgmt   { background-color: #89aa61; }
+.category-accent.cat-focus        { background-color: #80cbc4; }
+.category-accent.cat-movement     { background-color: #516c93; }
+.category-accent.cat-workspaces   { background-color: #b153a7; }
+.category-accent.cat-monitors     { background-color: #ad401f; }
+.category-accent.cat-layout       { background-color: #14a57c; }
+.category-accent.cat-system       { background-color: #ff9e64; }
+
+.category-section.cat-media        { border-left: 3px solid #f7768e; }
+.category-section.cat-screenshot   { border-left: 3px solid #ff9e64; }
+.category-section.cat-applications { border-left: 3px solid #e0af68; }
+.category-section.cat-windowmgmt   { border-left: 3px solid #89aa61; }
+.category-section.cat-focus        { border-left: 3px solid #80cbc4; }
+.category-section.cat-movement     { border-left: 3px solid #516c93; }
+.category-section.cat-workspaces   { border-left: 3px solid #b153a7; }
+.category-section.cat-monitors     { border-left: 3px solid #ad401f; }
+.category-section.cat-layout       { border-left: 3px solid #14a57c; }
+.category-section.cat-system       { border-left: 3px solid #ff9e64; }
+
+.category-badge.cat-media        { color: #f7768e; }
+.category-badge.cat-screenshot   { color: #ff9e64; }
+.category-badge.cat-applications { color: #e0af68; }
+.category-badge.cat-windowmgmt   { color: #89aa61; }
+.category-badge.cat-focus        { color: #80cbc4; }
+.category-badge.cat-movement     { color: #516c93; }
+.category-badge.cat-workspaces   { color: #b153a7; }
+.category-badge.cat-monitors     { color: #ad401f; }
+.category-badge.cat-layout       { color: #14a57c; }
+.category-badge.cat-system       { color: #ff9e64; }
+
+/* ─── Keybinding rows ──────────────────────────────────────────────────── */
+
+.keybindings-container {
+    background-color: #201b14;
+    border-radius: 6px;
+    padding: 6px 4px;
+}
+
+.keybinding-row {
+    padding: 10px 12px;
+    border-radius: 6px;
+    min-height: 32px;
+}
+
+.keybinding-row:hover {
+    background-color: #332b22;
+}
+
+/* ─── Key badges ────────────────────────────────────────────────────────── */
+
+.key-combination {
+    font-family: 'Iosevka', 'JetBrains Mono', monospace;
+}
+
+.key {
+    background-color: #37474f;
+    color: #e0d6c8;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #4a5c65;
+    min-width: 16px;
+}
+
+.key-separator {
+    color: #8a7e70;
+    font-weight: bold;
+}
+
+.function-name {
+    font-weight: 600;
+    color: #80cbc4;
+    font-size: 14px;
+}
+
+.description {
+    color: #b5a998;
+    font-size: 13px;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────────────────────── */
+
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: #37474f;
+    border-radius: 4px;
+    min-width: 6px;
+}
+
+scrollbar slider:hover {
+    background-color: #4a5c65;
+}
+
+/* ─── Entry (search) ────────────────────────────────────────────────────── */
+
+entry {
+    background-color: #29221a;
+    color: #e0d6c8;
+    border: 1px solid #37474f;
+    border-radius: 6px;
+    padding: 8px 14px;
+    caret-color: #80cbc4;
+}
+
+entry:focus {
+    border-color: #80cbc4;
+}
+
+entry selection {
+    background-color: #4a5c65;
+}
+
+/* GTK4 search entry icon */
+entry image {
+    color: #8a7e70;
+}

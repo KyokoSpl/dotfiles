@@ -1,136 +1,144 @@
 {
-    // Waybar Material 3 Configuration
-    "layer": "top",
-    "position": "top",
-    "height": 36,
-    "spacing": 8,
-    "margin-top": 8,
-    "margin-bottom": 0,
-    "margin-left": 12,
-    "margin-right": 12,
-    
-    // Left modules
-    "modules-left": [
-        "custom/anarchy",
-        "cffi/niri-taskbar"
+  // Waybar Material 3 Expressive Configuration for Hyprland
+  // Designed for split-monitor-workspaces plugin
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  "spacing": 8,
+  "margin-top": 8,
+  "margin-bottom": 0,
+  "margin-left": 12,
+  "margin-right": 12,
+  // Left modules
+  "modules-left": [
+    "custom/launcher",
+    "hyprland/workspaces"
+  ],
+  // Center modules
+  "modules-center": [
+    "hyprland/window"
+  ],
+  // Right modules
+  "modules-right": [
+    "tray",
+    "wireplumber",
+    "cpu",
+    "memory",
+    "clock"
+  ],
+  // Hyprland Workspaces (compatible with split-monitor-workspaces)
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "active": "󰮯",
+      "default": "󰊠",
+      "urgent": "󰀨",
+    },
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": false,
+    "show-special": true,
+    "sort-by-number": true,
+  },
+  // Active Window Title
+  "hyprland/window": {
+    "format": "{}",
+    "max-length": 50,
+    "separate-outputs": true,
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "󰈹 $1",
+      "(.*) - Visual Studio Code": "󰨞 $1",
+      "(.*) — Zen Browser": "󰰴 $1",
+      "alacritty": "󰄛 Terminal",
+      "": "󰟀 Desktop",
+    },
+  },
+  // Custom Launcher with Material icon
+  "custom/launcher": {
+    "format": "󰀻",
+    "tooltip": true,
+    "tooltip-format": "Application Launcher",
+    "on-click": "rofi -show drun",
+  },
+  // Clock with Material 3 style
+  "clock": {
+    "timezone": "Europe/Berlin",
+    "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+    "format": "󰥔  {:%I:%M %p}",
+    "format-alt": "󰸗  {:%A, %B %d}",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#cfbcff'><b>{}</b></span>",
+        "days": "<span color='#e6e1e6'>{}</span>",
+        "weeks": "<span color='#cbc2db'>W{}</span>",
+        "weekdays": "<span color='#efb8c8'>{}</span>",
+        "today": "<span color='#cfbcff'><b><u>{}</u></b></span>",
+      },
+    },
+  },
+  // Network (WiFi/Ethernet)
+  "network": {
+    "format-wifi": "󰤨  {essid}",
+    "format-ethernet": "󰈀  Connected",
+    "tooltip-format-wifi": "󰤨  {essid} ({signalStrength}%)\n󰩟  {ipaddr}/{cidr}\n󰕒  {bandwidthUpBytes} 󰇚  {bandwidthDownBytes}",
+    "tooltip-format-ethernet": "󰈀  {ifname}\n󰩟  {ipaddr}/{cidr}",
+    "format-linked": "󰈁  {ifname}",
+    "format-disconnected": "󰤭  Offline",
+    "format-alt": "󰩟  {ipaddr}",
+    "on-click-right": "nm-connection-editor",
+  },
+  // Bluetooth
+  "bluetooth": {
+    "format": "󰂯",
+    "format-disabled": "󰂲",
+    "format-off": "󰂲",
+    "format-connected": "󰂱 {num_connections}",
+    "format-connected-battery": "󰂱 {device_battery_percentage}%",
+    "tooltip-format": "{controller_alias}\t{controller_address}",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_battery_percentage}%",
+    "on-click": "blueman-manager",
+  },
+  // Volume (WirePlumber)
+  "wireplumber": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "󰖁  Muted",
+    "on-click": "pavucontrol",
+    "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-",
+    "format-icons": [
+      "󰕿",
+      "󰖀",
+      "󰕾"
     ],
-    
-    // Center modules  
-    "modules-center": [
-        "clock"
-    ],
-    
-    // Right modules
-    "modules-right": [
-        "network",
-        "bluetooth",
-        "wireplumber",
-        "cpu",
-        "memory",
-        "tray"
-    ],
-
-    // Niri taskbar configuration (CFFI module)
-    "cffi/niri-taskbar": {
-        "module_path": "/home/kiki/.config/waybar/libs/libniri_taskbar.so",
-        "notifications": true,
-        "show_all_outputs": true,
-        "apps": {
-            // VS Code highlighting - shows unsaved changes and notifications
-            "code": [
-                {
-                    "match": "●",
-                    "class": "unsaved"
-                },
-                {
-                    "match": "\\([0-9]+\\)",
-                    "class": "notifications"
-                }
-            ],
-            // Zen Browser highlighting - shows tab count and notifications
-            "zen-browser": [
-                {
-                    "match": "\\([0-9]+\\)",
-                    "class": "tab-count"
-                },
-                {
-                    "match": "🔔",
-                    "class": "notifications"
-                },
-                {
-                    "match": "●",
-                    "class": "downloading"
-                }
-            ]
-        }
-    },
-
-    // Custom Anarchy symbol with 109
-    "custom/anarchy": {
-        "format": "Ⓐ 109",
-        "tooltip": false,
-        "on-click": "notify-send 'ABYSS 109' 'FOR THE LORE!!!'",
-        "on-click": "rofi -show drun"
-    },
-
-    // Clock with date
-    "clock": {
-        "timezone": "Europe/Berlin",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "󰥔 {:%I:%M %p}",
-        "format-alt": "󰸗 {:%A, %B %d, %Y}"
-    },
-
-    // Network (WiFi/Ethernet)
-    "network": {
-        "format-wifi": "󰤨  {essid} ({signalStrength}%)",
-        "format-ethernet": "󰈀  {ifname}",
-        "tooltip-format": "{ifname} via {gwaddr}",
-        "format-linked": "{ifname} (No IP)",
-        "format-disconnected": "󰤭  Disconnected",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "on-click-right": "nm-connection-editor"
-    },
-
-    // Bluetooth
-    "bluetooth": {
-        "format": "󰂯 {status}",
-        "format-connected": "󰂱 {num_connections}",
-        "format-connected-battery": "󰂱 {device_alias} {device_battery_percentage}%",
-        "tooltip-format": "{controller_alias}\t{controller_address}",
-        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
-        "on-click": "blueman-manager"
-    },
-
-    // Volume (WirePlumber)
-    "wireplumber": {
-        "format": "{icon} {volume}%",
-        "format-muted": "󰖁 {volume}%",
-        "on-click": "pavucontrol",
-        "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-        "format-icons": ["󰕿", "󰖀", "󰕾"]
-    },
-
-    // CPU Usage
-    "cpu": {
-        "format": "󰘚 CPU {usage}%",
-        "tooltip": true,
-        "interval": 2,
-        "on-click": "kitty -e htop"
-    },
-
-    // Memory Usage
-    "memory": {
-        "format": "󰑭 RAM {percentage}%",
-        "tooltip-format": "Memory: {used:0.1f}G/{total:0.1f}G ({percentage}%)\nSwap: {swapUsed:0.1f}G/{swapTotal:0.1f}G ({swapPercentage}%)",
-        "on-click": "kitty -e htop"
-    },
-
-    // System tray
-    "tray": {
-        "icon-size": 18,
-        "spacing": 8
-    }
+    "max-volume": 150,
+  },
+  // CPU Usage
+  "cpu": {
+    "format": "󰘚  {usage}%",
+    "tooltip": true,
+    "tooltip-format": "CPU: {usage}%\n{avg_frequency} GHz",
+    "interval": 2,
+    "on-click": "alacritty -e btop",
+  },
+  // Memory Usage
+  "memory": {
+    "format": "RAM: {used:0.1f}G",
+    "tooltip-format": "RAM: {used:0.1f}G / {total:0.1f}G ({percentage}%)\nSwap: {swapUsed:0.1f}G / {swapTotal:0.1f}G ({swapPercentage}%)",
+    "interval": 5,
+    "on-click": "alacritty -e btop",
+  },
+  // System tray
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10,
+    "show-passive-items": true,
+  },
 }

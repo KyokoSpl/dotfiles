@@ -1,0 +1,7 @@
+/home/kyoko/gitclone/dotfiles/mango-cheatsheet/build/CMakeFiles/mango-cheatsheet.dir
+/home/kyoko/gitclone/dotfiles/mango-cheatsheet/build/CMakeFiles/edit_cache.dir
+/home/kyoko/gitclone/dotfiles/mango-cheatsheet/build/CMakeFiles/rebuild_cache.dir
+/home/kyoko/gitclone/dotfiles/mango-cheatsheet/build/CMakeFiles/list_install_components.dir
+/home/kyoko/gitclone/dotfiles/mango-cheatsheet/build/CMakeFiles/install.dir
+/home/kyoko/gitclone/dotfiles/mango-cheatsheet/build/CMakeFiles/install/local.dir
+/home/kyoko/gitclone/dotfiles/mango-cheatsheet/build/CMakeFiles/install/strip.dir
